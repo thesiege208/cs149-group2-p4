@@ -10,7 +10,7 @@
 #include <string>
 
 class Process {
-    const int sizes[] = {5, 11, 17, 31};
+    const int sizes[4] = {5, 11, 17, 31};
 
     int size; // in MB
     int arrival; // in secs
