@@ -17,9 +17,12 @@
 using namespace std;
 
 const int num_process = 150;
+const int num_free = 100;
 const int total_time = 60000; // in ms
 
 int timestamp = 0; // in ms
+forward_list<Page> free = forward_list(num_free); // linked list of free pages
+forward_list<Process> jobs = forward_list(num_process); // linked list of jobs to run
 
 /* least frequently used replacement algorithm. */
 void lfu() {
@@ -31,9 +34,20 @@ void mfu() {
  
 int main() {
     srand(time(NULL));
-    
     // 1. gen 150 random processes in job list + names. sort by arrival.
+    char c = 'A';
+    for (int i = 0; i < num_process; i++) {
+        Process p = process();
+        p.name = c;
+        jobs.emplace_front(p);
+        c++;
+    }
+    jobs.sort();
     // 2. gen 100 page free list, each 1MB.
+    for (int j = 0; j < num_free; j++) {
+        Page pg = page();
+        free.emplace_front(pg);
+    }
     // 3. work through job list, each job needs at least 4 pages from free list. each job has header + list (? each process gets own mini linked list?) of its pages in mem.
     // 4. for each memory reference, collect timestamp in s, process name, page ref'd, if page in mem, which process/page # evicted if nec. track hit/miss ratio of pages ref'd.
     // 5. run each alg 5x, calc avgs, print to output file.

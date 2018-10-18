@@ -17,7 +17,7 @@ class Process {
     int service; // in secs
     
     public:
-    std::string name;
+    char name;
 
     Process() {
         size = sizes[rand() % 4];
@@ -28,6 +28,13 @@ class Process {
     int getSize() { return size; }
     int getArrival() { return arrival; }
     int getService() { return service; }
+    
+    bool operator <=(Process & processObj) {
+        return arrival <= processObj.getArrival();
+    }
+};
+
+class Page {
 };
 
 /* helper function to calculate locality of reference. */
