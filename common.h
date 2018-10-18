@@ -25,9 +25,9 @@ class Process {
         service = rand() % 5 + 1;
     }
     
-    int size() { return size; }
-    int arrival() { return arrival; }
-    int service() { return service; }
+    int getSize() { return size; }
+    int getArrival() { return arrival; }
+    int getService() { return service; }
 };
 
 /* to use for linked lists. */
