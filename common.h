@@ -30,6 +30,6 @@ class Process {
     int getService() { return service; }
 };
 
-/* to use for linked lists. */
-class Node {
-};
+/* helper function to calculate locality of reference. */
+int locality() {
+}
