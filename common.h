@@ -7,7 +7,7 @@
  */
 
 #include <cstdlib>
-#include <string>
+#include <forward_list>
 
 class Process {
     const int sizes[4] = {5, 11, 17, 31};
@@ -17,17 +17,26 @@ class Process {
     int service; // in secs
     
     public:
-    std::string name;
+    int name;
+    forward_list<Page> memPages;
 
     Process() {
         size = sizes[rand() % 4];
         arrival = rand() % 60;
         service = rand() % 5 + 1;
+        memPages = forward_list(size);
     }
     
     int getSize() { return size; }
     int getArrival() { return arrival; }
     int getService() { return service; }
+    
+    bool operator <=(Process & processObj) {
+        return arrival <= processObj.getArrival();
+    }
+};
+
+class Page {
 };
 
 /* helper function to calculate locality of reference. */
