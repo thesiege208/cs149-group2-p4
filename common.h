@@ -17,6 +17,7 @@ class Process {
     int service; // in secs
     
     public:
+
     int name;
     forward_list<Page> memPages;
 

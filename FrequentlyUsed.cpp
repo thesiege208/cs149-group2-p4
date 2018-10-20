@@ -67,6 +67,7 @@ void *start(void *algType) {
  
 int main() {
     srand(time(NULL));
+
     pthread_t threads[num_threads];
 
     // gen 100 page free list, each 1MB.
