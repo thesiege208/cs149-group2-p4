@@ -8,6 +8,7 @@
  
 #include "common.h"
 #include <iostream>
+#include <fstream>
 #include <iomanip>
 #include <cstdlib>
 #include <ctime>
@@ -28,40 +29,159 @@ pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
 int ready = 0;
 
 int timestamp = 0; // in ms
-forward_list<Page> free = forward_list(num_free); // linked list of free pages
-forward_list<Process> jobs = forward_list(num_process); // linked list of jobs to run
-
-/* least frequently used replacement algorithm. */
-void lfu() {
-}
-
-/* most frequently used replacement algorithm. */
-void mfu() {
-}
+forward_list<Page> freePages = forward_list<Page>(num_free); // linked list of free pages
+int size = 0; // to track size of free list
+forward_list<Process> jobs = forward_list<Process>(num_process); // linked list of jobs to run
+forward_list<Process> done = forward_list<Process>(num_process); // linked list of completed jobs
 
 /* start routine which takes the algorithm type ('L' or 'M') as argument. */
 void *start(void *algType) {
+    char *type = static_cast<char*>(algType);
     ready++;
     // gen 150 random processes in job list + names. sort by arrival.
     for (int i = 0; i < num_process; i++) {
-        Process p = process();
+        Process p = Process();
         p.name = i;
         jobs.emplace_front(p);
     }
     jobs.sort();
-    
+    // checking all threads ready    
     if (ready == num_threads) { pthread_cond_broadcast(&cond); }
     else { pthread_cond_wait(&cond, &mutex); }
+    // choosing output file to write
+    ofstream file;
+    if (*type == 'L') {
+        file.open("lfu.txt", ofstream::app);
+        file << "USING LFU.\n\n";
+    }
+    else {
+        file.open("mfu.txt", ofstream::app);
+        file << "USING MFU.\n\n";
+    }
 
-    pthread_mutex_lock(&mutex);
-    // if algType == 'L' then lfu()
-    pthread_mutex_unlock(&mutex);
+    while (!jobs.empty() && timestamp < total_time) {
+        pthread_mutex_lock(&mutex);
+        // get next job in queue
+        Process curr = jobs.front();
+        jobs.pop_front();
+        if (timestamp < curr.getArrival()) { timestamp = curr.getArrival(); }
+        file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
+             << curr.name << " arrived. Total size " << curr.getSize()
+             << "MB. Duration " << curr.getService() / 1000 << "s.\n"
+             << "MEMORY MAP. MUST REPLACE!";
 
-    pthread_mutex_lock(&mutex);
-    // if algType == 'M' them mfu()
-    pthread_mutex_unlock(&mutex);
+        pthread_mutex_unlock(&mutex);
+        // reference page 0
+        int i = 0; // tracking page # for locality
+        Page f;
+        int pgNum, procNum;
+        bool flag = false; // check for eviction
+        if (size >= 4) {
+            pthread_mutex_lock(&mutex);
+            f = freePages.front();
+            freePages.pop_front();
+            if (f.getProcess() != -1) { // if page has old data
+                procNum = f.getProcess();
+                f.setProcess(curr.name);
+                pgNum = f.getPage();
+                f.setPage(i);
+                flag = true;
+            }
+            curr.memPages.emplace_front(f);
+            size--;
+            curr.miss++;
+            pthread_mutex_unlock(&mutex);
+            file << setfill('0') << setw(2) << timestamp / 1000
+                 << "s: Process " << curr.name << " referenced page " << i
+                 << ". Page not in memory. ";
+            if (flag) {
+                file << "Process " << procNum << ", page " << pgNum << " evicted."
+                     << endl;
+            } else {
+                file << "No page evicted." << endl;
+            }
+            flag = false; // reset
+            sleep(0.1);
+        }
+        // continue referencing pages, using free list as available
+        // and alg where applicable
+        int localTime = timestamp; // preserving start time
+        while (timestamp < localTime + curr.getService() && timestamp < total_time) {
+            bool ref = false; // if page has been referenced
+            i = locality(i, curr.getSize()); // get next ref page #
+            // check if page already loaded
+            for (auto it = curr.memPages.begin(); it != curr.memPages.end(); ++it) {
+                if (it->getPage() == i) {
+                    curr.hit++;
+                    it->addCount();
+                    file << setfill('0') << setw(2) << timestamp / 1000
+                               << "s: Process " << curr.name << " referenced page "
+                               << i << ". Page in memory. No page evicted."
+                               << endl;
+                    ref = true;
+                    break;
+                 }
+            }
+            if (!ref) {
+                if (!freePages.empty()) { // check if free pages available
+                    pthread_mutex_lock(&mutex);
+                    f = freePages.front();
+                    freePages.pop_front();
+                    if (f.getProcess() != -1) { // if page has old data
+                        procNum = f.getProcess();
+                        f.setProcess(curr.name);
+                        pgNum = f.getPage();
+                        f.setPage(i);
+                        flag = true;
+                    }
+                    curr.memPages.emplace_front(f);
+                    size--;
+                    curr.miss++;
+                    pthread_mutex_unlock(&mutex);
+                    file << setfill('0') << setw(2) << timestamp / 1000
+                         << "s: Process " << curr.name << " referenced page " << i
+                         << ". Page not in memory. ";
+                    if (flag) {
+                        file << "Process " << procNum << ", page " << pgNum
+                             << " evicted." << endl;
+                    } else {
+                        file << "No page evicted." << endl;
+                    }
+                    flag = false; // reset
+                } else { // use alg to replace page
+                    curr.memPages.sort(); // sort in ascending order by counters
+                    if (*type == 'M') { curr.memPages.reverse(); }
+                    Page m = curr.memPages.front();
+                    pgNum = m.getPage();
+                    procNum = curr.name;
+                    m.setPage(i);
+                    curr.miss++;
+                    file << setfill('0') << setw(2) << timestamp / 1000
+                         << "s: Process " << curr.name << " referenced page " << i
+                         << ". Page not in memory. Process " << procNum << ", page "
+                         << pgNum << " evicted." << endl;
+                }
+            }
+            timestamp += 100;
+            sleep(0.1);
+        }
+        // add job to done list and print job stats
+        done.emplace_front(curr);
+        // return pages to free list but don't clear
+        for (auto it = curr.memPages.begin(); it != curr.memPages.end();) {
+            f = *it;
+            ++it;
+            curr.memPages.pop_front();
+            freePages.emplace_front(f);
+        }
+        file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
+             << curr.name << " completed. Total size " << curr.getSize()
+             << "MB. Duration " << curr.getService() / 1000 << "s.\n"
+             << "MEMORY MAP. MUST REPLACE!\n\n\n";
+    }
     
     pthread_cancel(pthread_self());
+    file.close();
     return NULL;
 }
  
@@ -72,33 +192,76 @@ int main() {
 
     // gen 100 page free list, each 1MB.
     for (int j = 0; j < num_free; j++) {
-        Page pg = page();
-        free.emplace_front(pg);
+        Page pg = Page();
+        freePages.emplace_front(pg);
+        size++;
     }
     
     // run lfu 5x
+    int lfu_hits = 0, lfu_misses = 0;
     for (int cnt = 0; cnt < 5; cnt++) {
         for (int i = 0; i < num_threads; i++) {
             char type = 'L';
             pthread_create(&threads[i], NULL, start,  reinterpret_cast<void*>(type));
         }
+
+        for (int i = 0; i < num_threads; i++) {
+            pthread_join(threads[i], NULL);
+        }
+
+        // calc stats for 1 run
+        int hits = 0, misses = 0;
+        for (auto it = done.begin(); it != done.end(); ++it) {
+            Process p = *it;
+            hits += p.hit;
+            misses += p.miss;
+        }
+        lfu_hits += hits;
+        lfu_misses += misses;
+        ofstream lfu_output;
+        lfu_output.open("lfu.txt", ofstream::app);
+        lfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << endl;
+        lfu_output.close();
     }
+    lfu_hits /= 5;
+    lfu_misses /= 5;
+    ofstream lfu_output;
+    lfu_output.open("lfu.txt", ofstream::app);
+    lfu_output << "STATS AVERAGED OVER 5 RUNS:\n\tAVG HITS = " << lfu_hits << ", AVG MISSES = " << lfu_misses << endl;
+    lfu_output.close();
 
     // run mfu 5x
-    for (int cnt = 0; cnt < 5; c++) {
+    int mfu_hits = 0, mfu_misses = 0;
+    for (int cnt = 0; cnt < 5; cnt++) {
         for (int i = 0; i < num_threads; i++) {
             char type = 'M';
             pthread_create(&threads[i], NULL, start,  reinterpret_cast<void*>(type));
         }
-    }
 
-    // 3. work through job list, each job needs at least 4 pages from free list. each job has header (Process obj) + list (object var) of its pages in mem.
-    // 4. for each memory reference, collect timestamp in s, process name, page ref'd, if page in mem, which process/page # evicted if nec. track hit/miss ratio of pages ref'd.
-    // 5. run each alg 5x, calc avgs, print to output file.
-    
-    for (int i = 0; i < numberOfSellers; i++) {
-        pthread_join(threads[i], NULL);
-    }
+        for (int i = 0; i < num_threads; i++) {
+            pthread_join(threads[i], NULL);
+        }
 
-    exit(0);
+        // calc stats for 1 run
+        int hits = 0, misses = 0;
+        for (auto it = done.begin(); it != done.end(); ++it) {
+            Process p = *it;
+            hits += p.hit;
+            misses += p.miss;
+        }
+        mfu_hits += hits;
+        mfu_misses += misses;
+        ofstream mfu_output;
+        mfu_output.open("mfu.txt", ofstream::app);
+        mfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << endl;
+        mfu_output.close();
+    }
+    mfu_hits /= 5;
+    mfu_misses /= 5;
+    ofstream mfu_output;
+    mfu_output.open("mfu.txt", ofstream::app);
+    mfu_output << "STATS AVERAGED OVER 5 RUNS:\n\tAVG HITS = " << mfu_hits << ", AVG MISSES = " << mfu_misses << endl;
+    mfu_output.close();
+
+    return 0;
 }
