@@ -181,53 +181,6 @@ void *start(void *algType) {
              << curr.name << " completed. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
              << "MEMORY MAP. MUST REPLACE!\n\n\n";
-=======
-        int localTime = timeStamp; // preserving start time
-        while (timeStamp < localTime + curr.getService()) {
-            i = locality(i, curr.getSize()); // get next ref page #
-            // check if page already loaded
-            for (auto it = curr.memPages.begin(); it != curr.memPages.end(); ++it) {
-                if (*it.getPage() == i) {
-                    curr.hit++;
-                    *it.addCount();
-                    lfu_output << setfill('0') << setw(2) << timeStamp / 1000
-                               << "s: Process " << curr.name << " referenced page "
-                               << i << ". Page in memory. No process or page evicted."
-                               << endl;
-                 }
-            } else if (!free.empty()) { // check if free pages available
-                pthread_mutex_lock(&mutex);
-                f = free.pop_front();
-                f.setPage(i);
-                curr.memPages.insert_after(f);
-                size--;
-                curr.miss++;
-                pthread_mutex_unlock(&mutex);
-                file << setfill('0') << setw(2) << timeStamp / 1000
-                     << "s: Process " << curr.name << " referenced page " << i
-                     << ". Page not in memory. No process or page evicted." << endl;
-            } else { // use alg to replace page
-                curr.memPages.sort(); // sort in ascending order by counters
-                if (algType == 'M') { curr.memPages.reverse(); }
-                Page m = curr.memPages.pop_front();
-                int prev = m.getPage();
-                m.setPage(i);
-                curr.memPages.insert_after(m);
-                curr.miss++;
-                file << setfill('0') << setw(2) << timeStamp / 1000
-                     << "s: Process " << curr.name << " referenced page " << i
-                     << ". Page not in memory. Page " << prev << " evicted." << endl;
-            }
-            timeStamp += 100;
-            sleep(0.1);
-        }
-        // add job to done list and print job stats
-        done.insert_after(curr);
-        file << setfill('0') << setw(2) << timeStamp / 1000 << "s: Process "
-             << curr.name << " completed. Total size " << curr.getsize()
-             << "MB. Duration " << curr.getService() / 1000 << "s.\n"
-             << "MEMORY MAP. MUST REPLACE!";
->>>>>>> f85e8583026d77996d651dd73198b2e4a931a669
     }
     
     pthread_cancel(pthread_self());
