@@ -36,13 +36,24 @@ forward_list<Page> freePages = forward_list<Page>(num_free); // linked list of f
 int size = 0; // to track size of free list
 forward_list<Process> jobs = forward_list<Process>(num_process); // linked list of jobs to run
 forward_list<Process> done = forward_list<Process>(num_process); // linked list of completed jobs
+int mem_map[total_time / 1000] = { 0 };
+
+void printMap(ofstream &file) {
+    int len = total_time / 1000;
+    for (int i = 0; i < len; i++) {
+        if (i % 10 == 0) { file << "\n"; }
+        if (mem_map[i] == 0) { file << ". "; }
+        else { file << mem_map[i] << " "; }
+    }
+    file << "\n";
+}
 
 /* start routine which takes the algorithm type ('L' or 'M') as argument. */
 void *start(void *algType) {
     char *type = static_cast<char*>(algType);
     ready++;
     // gen 150 random processes in job list + names. sort by arrival.
-    for (int i = 0; i < num_process; i++) {
+    for (int i = 1; i <= num_process; i++) {
         Process p = Process();
         p.name = i;
         jobs.emplace_front(p);
@@ -71,7 +82,8 @@ void *start(void *algType) {
         file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
              << curr.name << " arrived. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
-             << "MEMORY MAP. MUST REPLACE!";
+             << "MEMORY MAP:\n";
+        printMap(file);
 
         pthread_mutex_unlock(&mutex);
         // reference page 0
@@ -166,6 +178,7 @@ void *start(void *algType) {
                 }
             }
             timestamp += 100;
+            if (timestamp % 1000 == 0) { mem_map[timestamp / 1000] = curr.name; }
             sleep(0.1);
         }
         // add job to done list and print job stats
@@ -180,54 +193,8 @@ void *start(void *algType) {
         file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
              << curr.name << " completed. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
-             << "MEMORY MAP. MUST REPLACE!\n\n\n";
-=======
-        int localTime = timeStamp; // preserving start time
-        while (timeStamp < localTime + curr.getService()) {
-            i = locality(i, curr.getSize()); // get next ref page #
-            // check if page already loaded
-            for (auto it = curr.memPages.begin(); it != curr.memPages.end(); ++it) {
-                if (*it.getPage() == i) {
-                    curr.hit++;
-                    *it.addCount();
-                    lfu_output << setfill('0') << setw(2) << timeStamp / 1000
-                               << "s: Process " << curr.name << " referenced page "
-                               << i << ". Page in memory. No process or page evicted."
-                               << endl;
-                 }
-            } else if (!free.empty()) { // check if free pages available
-                pthread_mutex_lock(&mutex);
-                f = free.pop_front();
-                f.setPage(i);
-                curr.memPages.insert_after(f);
-                size--;
-                curr.miss++;
-                pthread_mutex_unlock(&mutex);
-                file << setfill('0') << setw(2) << timeStamp / 1000
-                     << "s: Process " << curr.name << " referenced page " << i
-                     << ". Page not in memory. No process or page evicted." << endl;
-            } else { // use alg to replace page
-                curr.memPages.sort(); // sort in ascending order by counters
-                if (algType == 'M') { curr.memPages.reverse(); }
-                Page m = curr.memPages.pop_front();
-                int prev = m.getPage();
-                m.setPage(i);
-                curr.memPages.insert_after(m);
-                curr.miss++;
-                file << setfill('0') << setw(2) << timeStamp / 1000
-                     << "s: Process " << curr.name << " referenced page " << i
-                     << ". Page not in memory. Page " << prev << " evicted." << endl;
-            }
-            timeStamp += 100;
-            sleep(0.1);
-        }
-        // add job to done list and print job stats
-        done.insert_after(curr);
-        file << setfill('0') << setw(2) << timeStamp / 1000 << "s: Process "
-             << curr.name << " completed. Total size " << curr.getsize()
-             << "MB. Duration " << curr.getService() / 1000 << "s.\n"
-             << "MEMORY MAP. MUST REPLACE!";
->>>>>>> f85e8583026d77996d651dd73198b2e4a931a669
+             << "MEMORY MAP:\n";
+        printMap(file);
     }
     
     pthread_cancel(pthread_self());
@@ -273,7 +240,7 @@ int main() {
         lfu_misses += misses;
         ofstream lfu_output;
         lfu_output.open("lfu.txt", ofstream::app);
-        lfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << endl;
+        lfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
         lfu_output.close();
     }
     lfu_hits /= 5;
@@ -306,7 +273,7 @@ int main() {
         mfu_misses += misses;
         ofstream mfu_output;
         mfu_output.open("mfu.txt", ofstream::app);
-        mfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << endl;
+        mfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
         mfu_output.close();
     }
     mfu_hits /= 5;
