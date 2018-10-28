@@ -1,0 +1,3970 @@
+debug A: 0
+debug A1: mutex1 lock
+00s. Process 12 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+00s. Process 12 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+00s. Process 12 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 0
+debug A: 100
+debug A1: mutex1 lock
+00s. Process 74 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+00s. Process 74 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+00s. Process 74 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 100
+debug A: 200
+debug A1: mutex1 lock
+01s. Process 63 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+01s. Process 63 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+01s. Process 63 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 1000
+debug A: 1100
+debug A1: mutex1 lock
+01s. Process 79 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+01s. Process 79 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+01s. Process 79 referenced page -1. Page in memory. No Eviction.
+debug L: 4900 1100
+debug A: 1200
+debug A1: mutex1 lock
+01s. Process 132 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+01s. Process 132 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+01s. Process 132 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 1200
+debug A: 1300
+debug A1: mutex1 lock
+02s. Process 7 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 7 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+02s. Process 7 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 2000
+debug A: 2100
+debug A1: mutex1 lock
+02s. Process 44 arrived. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 44 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+02s. Process 44 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 2100
+debug A: 2200
+debug A1: mutex1 lock
+02s. Process 49 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 49 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+02s. Process 49 referenced page 25. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 2200
+debug A: 2300
+debug A1: mutex1 lock
+02s. Process 50 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 50 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+02s. Process 50 referenced page -1. Page in memory. No Eviction.
+debug L: 900 2300
+debug A: 2400
+debug A1: mutex1 lock
+02s. Process 83 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 83 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+02s. Process 83 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 2400
+debug A: 2500
+debug A1: mutex1 lock
+02s. Process 124 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 124 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+02s. Process 124 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 2500
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+02s. Process 74 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 2600
+debug A1: mutex1 lock
+02s. Process 141 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+02s. Process 141 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+02s. Process 141 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 2600
+debug A: 2700
+debug A1: mutex1 lock
+03s. Process 3 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 3 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+03s. Process 3 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 3000
+debug A: 3100
+debug A1: mutex1 lock
+03s. Process 27 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 27 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 27 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 3100
+debug A: 3200
+debug A1: mutex1 lock
+03s. Process 87 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 87 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 87 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 3200
+debug A: 3300
+debug A1: mutex1 lock
+03s. Process 90 arrived. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 90 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 90 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 3300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+03s. Process 12 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 3400
+debug A1: mutex1 lock
+03s. Process 113 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 113 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 113 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 900 3400
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 132 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 3500
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 7 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 3600
+debug M: 2
+debug D: iteration
+debug F: 
+debug H: 
+03s. Process 44 referenced page -1. Page in memory. No Eviction.
+debug L: 2800 3700
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+03s. Process 50 Completed. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A: 3800
+debug A1: mutex1 lock
+03s. Process 129 arrived. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+03s. Process 129 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+03s. Process 129 referenced page 16. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 3800
+debug M: 2
+debug D: iteration
+debug F: 
+debug H: 
+03s. Process 83 referenced page -1. Page in memory. No Eviction.
+debug L: 1800 3900
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 3 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 4000
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 124 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 1800 4100
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 49 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 4200
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 27 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1800 4300
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 141 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1800 4400
+debug M: 2
+debug D: iteration
+debug F: 
+debug H: 
+04s. Process 79 referenced page -1. Page in memory. No Eviction.
+debug L: 4800 4500
+debug A: 4600
+debug A1: mutex1 lock
+04s. Process 28 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+04s. Process 28 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 28 referenced page 24. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 4600
+debug L: 4900 4600
+erencedebug D: iteration
+debug F: 
+debug I: 
+04s. Process 63 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 4700
+debug M: 3
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 44 referenced page -2. Page not in memory. No eviction.
+debug K: 
+debug L: 2700 4800
+debug M: 3
+debug D: iteration
+debug F: 
+debug I: 
+04s. Process 132 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4700 4900
+debug M: 3
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 7 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4700 5000
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+05s. Process 83 Completed. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A: 5100
+debug A1: mutex1 lock
+05s. Process 30 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+05s. Process 30 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 30 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 900 5100
+debug M: 3
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 3 referenced page 24. Page not in memory. No eviction.
+debug K: 
+debug L: 3700 5200
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+05s. Process 124 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 5300
+debug A1: mutex1 lock
+05s. Process 32 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+05s. Process 32 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 32 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 5300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+05s. Process 113 Completed. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A: 5400
+debug A1: mutex1 lock
+05s. Process 133 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+05s. Process 133 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+05s. Process 133 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 5400
+debug M: 3
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 49 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3700 5500
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+05s. Process 90 referenced page 15. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 5600
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+05s. Process 27 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 5700
+debug A1: mutex1 lock
+06s. Process 5 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+06s. Process 5 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+06s. Process 5 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 6000
+debug M: 4
+debug D: iteration
+debug F: 
+debug I: 
+06s. Process 132 referenced page 10. Page not in memory. No eviction.
+debug K: 
+debug L: 4600 6100
+debug M: 4
+debug D: iteration
+debug F: 
+debug I: 
+06s. Process 7 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4600 6200
+debug M: 4
+debug N: 
+debug O: 
+debug P: 
+06s. Process 44 Completed. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A: 6300
+debug A1: mutex1 lock
+07s. Process 9 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+07s. Process 9 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+07s. Process 9 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 7000
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+07s. Process 141 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 7100
+debug A1: mutex1 lock
+07s. Process 17 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+07s. Process 17 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+07s. Process 17 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 7100
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+07s. Process 87 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 7200
+debug M: 4
+debug N: 
+debug O: 
+debug P: 
+07s. Process 3 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 7300
+debug A1: mutex1 lock
+07s. Process 65 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+07s. Process 65 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+07s. Process 65 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 7300
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+07s. Process 90 Completed. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A: 7400
+debug A1: mutex1 lock
+07s. Process 76 arrived. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+07s. Process 76 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+07s. Process 76 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 7400
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+07s. Process 79 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 7500
+debug A1: mutex1 lock
+07s. Process 143 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+07s. Process 143 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+07s. Process 143 referenced page -1. Page in memory. No Eviction.
+debug L: 900 7500
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+07s. Process 129 referenced page 10. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 7600
+debug M: 4
+debug N: 
+debug O: 
+debug P: 
+07s. Process 49 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 7700
+debug A1: mutex1 lock
+08s. Process 36 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+08s. Process 36 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+08s. Process 36 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 8000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+08s. Process 30 Completed. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A: 8100
+debug A1: mutex1 lock
+09s. Process 127 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+09s. Process 127 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+09s. Process 127 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 9000
+debug M: 5
+debug N: 
+debug O: 
+debug P: 
+09s. Process 132 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 9100
+debug A1: mutex1 lock
+09s. Process 148 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+09s. Process 148 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+09s. Process 148 referenced page -1. Page in memory. No Eviction.
+debug L: 900 9100
+debug M: 5
+debug N: 
+debug O: 
+debug P: 
+09s. Process 7 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 9200
+debug A1: mutex1 lock
+10s. Process 51 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+10s. Process 51 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+10s. Process 51 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 10000
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+10s. Process 87 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 10100
+debug A1: mutex1 lock
+10s. Process 93 arrived. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+10s. Process 93 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+10s. Process 93 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 10100
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+10s. Process 129 Completed. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A: 10200
+debug A1: mutex1 lock
+10s. Process 108 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+10s. Process 108 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+10s. Process 108 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 10200
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+10s. Process 63 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 10300
+debug A1: mutex1 lock
+10s. Process 137 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+10s. Process 137 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+10s. Process 137 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 900 10300
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+10s. Process 9 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 10400
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+10s. Process 32 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 10500
+debug A1: mutex1 lock
+11s. Process 1 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+11s. Process 1 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+11s. Process 1 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 11000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+11s. Process 17 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 11100
+debug A1: mutex1 lock
+12s. Process 16 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+12s. Process 16 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+12s. Process 16 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 12000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+12s. Process 133 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 12100
+debug A1: mutex1 lock
+12s. Process 73 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+12s. Process 73 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+12s. Process 73 referenced page 28. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 12100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+12s. Process 148 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 12200
+debug A1: mutex1 lock
+13s. Process 68 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+13s. Process 68 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+13s. Process 68 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 13000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+13s. Process 143 Completed. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A: 13100
+debug A1: mutex1 lock
+13s. Process 81 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+13s. Process 81 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+13s. Process 81 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 13100
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+13s. Process 9 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 13200
+debug A1: mutex1 lock
+13s. Process 92 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+13s. Process 92 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+13s. Process 92 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 13200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+13s. Process 76 Completed. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A: 13300
+debug A1: mutex1 lock
+14s. Process 59 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+14s. Process 59 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+14s. Process 59 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 14000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+14s. Process 65 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 14100
+debug A1: mutex1 lock
+14s. Process 115 arrived. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+14s. Process 115 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+14s. Process 115 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 14100
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+14s. Process 51 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 14200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+14s. Process 93 Completed. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A: 14300
+debug A1: mutex1 lock
+14s. Process 139 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+14s. Process 139 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+14s. Process 139 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 14300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+14s. Process 36 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 14400
+debug A1: mutex1 lock
+15s. Process 48 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+15s. Process 48 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+15s. Process 48 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 15000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+15s. Process 28 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 15100
+debug A1: mutex1 lock
+15s. Process 72 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+15s. Process 72 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+15s. Process 72 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 15100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+15s. Process 137 Completed. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A: 15200
+debug A1: mutex1 lock
+15s. Process 125 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+15s. Process 125 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+15s. Process 125 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 15200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+15s. Process 108 Completed. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A: 15300
+debug A1: mutex1 lock
+16s. Process 22 arrived. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+16s. Process 22 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+16s. Process 22 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 16000
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+16s. Process 51 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 16100
+debug A1: mutex1 lock
+16s. Process 23 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+16s. Process 23 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+16s. Process 23 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 16100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+16s. Process 5 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 16200
+debug A1: mutex1 lock
+17s. Process 15 arrived. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+17s. Process 15 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+17s. Process 15 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 17000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+17s. Process 16 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 17100
+debug A1: mutex1 lock
+17s. Process 134 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+17s. Process 134 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+17s. Process 134 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 17100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+17s. Process 92 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 17200
+debug A1: mutex1 lock
+18s. Process 18 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+18s. Process 18 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+18s. Process 18 referenced page 4. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 18000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+18s. Process 1 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 18100
+debug A1: mutex1 lock
+18s. Process 21 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+18s. Process 21 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+18s. Process 21 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 900 18100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+18s. Process 81 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 18200
+debug A1: mutex1 lock
+18s. Process 128 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+18s. Process 128 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+18s. Process 128 referenced page 6. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 18200
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+18s. Process 59 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 18300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+18s. Process 68 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 18400
+debug A1: mutex1 lock
+18s. Process 150 arrived. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+18s. Process 150 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+18s. Process 150 referenced page 15. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 18400
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+18s. Process 139 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 18500
+debug A1: mutex1 lock
+19s. Process 19 arrived. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+19s. Process 19 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+19s. Process 19 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 19000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+19s. Process 115 Completed. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A: 19100
+debug A1: mutex1 lock
+19s. Process 41 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+19s. Process 41 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+19s. Process 41 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 19100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+19s. Process 127 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 19200
+debug A1: mutex1 lock
+19s. Process 91 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+19s. Process 91 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+19s. Process 91 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 19200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+19s. Process 48 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 19300
+debug A1: mutex1 lock
+19s. Process 142 arrived. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+19s. Process 142 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+19s. Process 142 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 19300
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+19s. Process 59 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 19400
+debug A1: mutex1 lock
+20s. Process 10 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+20s. Process 10 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 10 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 20000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+20s. Process 125 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 20100
+debug A1: mutex1 lock
+20s. Process 94 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+20s. Process 94 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 94 referenced page 28. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 20100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+20s. Process 73 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 20200
+debug A1: mutex1 lock
+20s. Process 97 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+20s. Process 97 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 97 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 20200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+20s. Process 22 Completed. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A: 20300
+debug A1: mutex1 lock
+20s. Process 110 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+20s. Process 110 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 110 referenced page 9. Page not in memory. No eviction.
+debug K: 
+debug L: 900 20300
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 23 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 20400
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+20s. Process 15 Completed. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A: 20500
+debug A1: mutex1 lock
+20s. Process 126 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+20s. Process 126 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+20s. Process 126 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 20500
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+20s. Process 134 Completed. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A: 20600
+debug A1: mutex1 lock
+21s. Process 33 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+21s. Process 33 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+21s. Process 33 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 900 21000
+debug A: 21100
+debug A1: mutex1 lock
+21s. Process 69 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+21s. Process 69 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+21s. Process 69 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 21100
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+21s. Process 18 referenced page 4. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 21200
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+21s. Process 128 referenced page 4. Page not in memory. No eviction.
+debug K: 
+debug L: 3800 21300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+21s. Process 72 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 21400
+debug A1: mutex1 lock
+21s. Process 149 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+21s. Process 149 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+21s. Process 149 referenced page 10. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 21400
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+21s. Process 21 Completed. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A: 21500
+debug A1: mutex1 lock
+22s. Process 64 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+22s. Process 64 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+22s. Process 64 referenced page 6. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 22000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+22s. Process 19 Completed. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A: 22100
+debug A1: mutex1 lock
+22s. Process 71 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+22s. Process 71 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+22s. Process 71 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 22100
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+22s. Process 41 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 22200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+22s. Process 91 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 22300
+debug A1: mutex1 lock
+22s. Process 100 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+22s. Process 100 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+22s. Process 100 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 22300
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+22s. Process 100 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 22400
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+22s. Process 23 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 22500
+debug A1: mutex1 lock
+24s. Process 25 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+24s. Process 25 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+24s. Process 25 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 24000
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+24s. Process 18 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 24100
+debug A1: mutex1 lock
+24s. Process 75 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+24s. Process 75 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+24s. Process 75 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 24100
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+24s. Process 128 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 24200
+debug A1: mutex1 lock
+25s. Process 29 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+25s. Process 29 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+25s. Process 29 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 25000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+25s. Process 142 Completed. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A: 25100
+debug A1: mutex1 lock
+25s. Process 135 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+25s. Process 135 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+25s. Process 135 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 25100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+25s. Process 10 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 25200
+debug A1: mutex1 lock
+25s. Process 140 arrived. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+25s. Process 140 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+25s. Process 140 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 25200
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+25s. Process 41 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 25300
+debug A1: mutex1 lock
+26s. Process 130 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+26s. Process 130 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+26s. Process 130 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 26000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+26s. Process 97 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 26100
+debug A1: mutex1 lock
+27s. Process 82 arrived. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+27s. Process 82 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+27s. Process 82 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 27000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+27s. Process 94 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 27100
+debug A1: mutex1 lock
+27s. Process 118 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+27s. Process 118 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+27s. Process 118 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 27100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+27s. Process 150 Completed. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A: 27200
+debug A1: mutex1 lock
+28s. Process 144 arrived. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+28s. Process 144 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+28s. Process 144 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 28000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+28s. Process 33 Completed. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A: 28100
+debug A1: mutex1 lock
+29s. Process 35 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+29s. Process 35 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+29s. Process 35 referenced page 8. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 29000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+29s. Process 71 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 29100
+debug A1: mutex1 lock
+29s. Process 116 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+29s. Process 116 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+29s. Process 116 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 29100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+29s. Process 126 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 29200
+debug A1: mutex1 lock
+30s. Process 103 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+30s. Process 103 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+30s. Process 103 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 30000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+30s. Process 149 Completed. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A: 30100
+debug A1: mutex1 lock
+30s. Process 111 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+30s. Process 111 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+30s. Process 111 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 30100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+30s. Process 64 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 30200
+debug A1: mutex1 lock
+31s. Process 13 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+31s. Process 13 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+31s. Process 13 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 31000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+31s. Process 29 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 31100
+debug A1: mutex1 lock
+31s. Process 54 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+31s. Process 54 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+31s. Process 54 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 900 31100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+31s. Process 75 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 31200
+debug A1: mutex1 lock
+31s. Process 106 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+31s. Process 106 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+31s. Process 106 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 31200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+31s. Process 110 Completed. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A: 31300
+debug A1: mutex1 lock
+31s. Process 109 arrived. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+31s. Process 109 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+31s. Process 109 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 31300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+31s. Process 25 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 31400
+debug A1: mutex1 lock
+32s. Process 6 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+32s. Process 6 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+32s. Process 6 referenced page -1. Page in memory. No Eviction.
+debug L: 900 32000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+32s. Process 69 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 32100
+debug A1: mutex1 lock
+32s. Process 57 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+32s. Process 57 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+32s. Process 57 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 32100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+32s. Process 135 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 32200
+debug A1: mutex1 lock
+32s. Process 107 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+32s. Process 107 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+32s. Process 107 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 32200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+32s. Process 140 Completed. Size: 11MB. Duration: 3s.
+Memory Map: 
+debug A: 32300
+debug A1: mutex1 lock
+33s. Process 62 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+33s. Process 62 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+33s. Process 62 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 33000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+33s. Process 82 Completed. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A: 33100
+debug A1: mutex1 lock
+33s. Process 67 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+33s. Process 67 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+33s. Process 67 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 33100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+33s. Process 116 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 33200
+debug A1: mutex1 lock
+34s. Process 122 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+34s. Process 122 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+34s. Process 122 referenced page 14. Page not in memory. No eviction.
+debug K: 
+debug L: 900 34000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+34s. Process 130 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 34100
+debug A1: mutex1 lock
+35s. Process 60 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+35s. Process 60 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+35s. Process 60 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 35000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+35s. Process 35 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 35100
+debug A1: mutex1 lock
+37s. Process 117 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+37s. Process 117 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+37s. Process 117 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 37000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+37s. Process 103 Completed. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A: 37100
+debug A1: mutex1 lock
+38s. Process 34 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+38s. Process 34 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+38s. Process 34 referenced page 26. Page not in memory. No eviction.
+debug K: 
+debug L: 900 38000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+38s. Process 111 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 38100
+debug A1: mutex1 lock
+38s. Process 47 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+38s. Process 47 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+38s. Process 47 referenced page 20. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 38100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+38s. Process 144 Completed. Size: 31MB. Duration: 3s.
+Memory Map: 
+debug A: 38200
+debug A1: mutex1 lock
+39s. Process 43 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+39s. Process 43 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+39s. Process 43 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 39000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+39s. Process 54 Completed. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A: 39100
+debug A1: mutex1 lock
+39s. Process 58 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+39s. Process 58 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+39s. Process 58 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 39100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+39s. Process 118 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 39200
+debug A1: mutex1 lock
+39s. Process 105 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+39s. Process 105 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+39s. Process 105 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 39200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+39s. Process 13 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 39300
+debug A1: mutex1 lock
+40s. Process 4 arrived. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+40s. Process 4 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+40s. Process 4 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 40000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+40s. Process 106 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 40100
+debug A1: mutex1 lock
+40s. Process 84 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+40s. Process 84 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+40s. Process 84 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 40100
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+40s. Process 100 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 40200
+debug A1: mutex1 lock
+41s. Process 45 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+41s. Process 45 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+41s. Process 45 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 41000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+41s. Process 67 Completed. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A: 41100
+debug A1: mutex1 lock
+41s. Process 98 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+41s. Process 98 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+41s. Process 98 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 41100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+41s. Process 117 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 41200
+debug A1: mutex1 lock
+41s. Process 104 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+41s. Process 104 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+41s. Process 104 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 41200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+41s. Process 122 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 41300
+debug A1: mutex1 lock
+42s. Process 26 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+42s. Process 26 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+42s. Process 26 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 42000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+42s. Process 6 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 42100
+debug A1: mutex1 lock
+42s. Process 53 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+42s. Process 53 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+42s. Process 53 referenced page -1. Page in memory. No Eviction.
+debug L: 900 42100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+42s. Process 34 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 42200
+debug A1: mutex1 lock
+43s. Process 52 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+43s. Process 52 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+43s. Process 52 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 43000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+43s. Process 4 Completed. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A: 43100
+debug A1: mutex1 lock
+43s. Process 77 arrived. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+43s. Process 77 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+43s. Process 77 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 43100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+43s. Process 107 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 43200
+debug A1: mutex1 lock
+44s. Process 85 arrived. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+44s. Process 85 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+44s. Process 85 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 2900 44000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+44s. Process 60 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 44100
+debug A1: mutex1 lock
+45s. Process 2 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+45s. Process 2 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+45s. Process 2 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 45000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+45s. Process 57 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 45100
+debug A1: mutex1 lock
+45s. Process 38 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+45s. Process 38 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+45s. Process 38 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 45100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+45s. Process 105 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 45200
+debug A1: mutex1 lock
+45s. Process 80 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+45s. Process 80 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+45s. Process 80 referenced page -1. Page in memory. No Eviction.
+debug L: 4900 45200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+45s. Process 58 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 45300
+debug A1: mutex1 lock
+45s. Process 120 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+45s. Process 120 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+45s. Process 120 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 45300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+45s. Process 84 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 45400
+debug A1: mutex1 lock
+46s. Process 39 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+46s. Process 39 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+46s. Process 39 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 46000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+46s. Process 47 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 46100
+debug A1: mutex1 lock
+46s. Process 61 arrived. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+46s. Process 61 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+46s. Process 61 referenced page 10. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 46100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+46s. Process 62 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 46200
+debug A1: mutex1 lock
+46s. Process 89 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+46s. Process 89 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+46s. Process 89 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 46200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+46s. Process 45 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 46300
+debug A1: mutex1 lock
+47s. Process 24 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+47s. Process 24 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+47s. Process 24 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 47000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+47s. Process 98 Completed. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A: 47100
+debug A1: mutex1 lock
+48s. Process 121 arrived. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+48s. Process 121 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+48s. Process 121 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 48000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+48s. Process 104 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 48100
+debug A1: mutex1 lock
+49s. Process 131 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+49s. Process 131 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+49s. Process 131 referenced page 4. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 49000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+49s. Process 43 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 49100
+debug A1: mutex1 lock
+50s. Process 40 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+50s. Process 40 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+50s. Process 40 referenced page 2. Page not in memory. No eviction.
+debug K: 
+debug L: 900 50000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+50s. Process 85 Completed. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A: 50100
+debug A1: mutex1 lock
+50s. Process 86 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+50s. Process 86 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+50s. Process 86 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 50100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+50s. Process 77 Completed. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A: 50200
+debug A1: mutex1 lock
+50s. Process 112 arrived. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+50s. Process 112 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+50s. Process 112 referenced page 10. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 50200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+50s. Process 53 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 50300
+debug A1: mutex1 lock
+50s. Process 147 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+50s. Process 147 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+50s. Process 147 referenced page 22. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 50300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+50s. Process 38 Completed. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A: 50400
+debug A1: mutex1 lock
+51s. Process 11 arrived. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+51s. Process 11 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+51s. Process 11 referenced page -1. Page in memory. No Eviction.
+debug L: 1900 51000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+51s. Process 52 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 51100
+debug A1: mutex1 lock
+51s. Process 14 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+51s. Process 14 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+51s. Process 14 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 51100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+51s. Process 80 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 51200
+debug A1: mutex1 lock
+51s. Process 46 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+51s. Process 46 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+51s. Process 46 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 51200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+51s. Process 2 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 51300
+debug A1: mutex1 lock
+51s. Process 55 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+51s. Process 55 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+51s. Process 55 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 51300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+51s. Process 61 Completed. Size: 11MB. Duration: 5s.
+Memory Map: 
+debug A: 51400
+debug A1: mutex1 lock
+52s. Process 99 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+52s. Process 99 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+52s. Process 99 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 52000
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+52s. Process 99 referenced page 4. Page not in memory. No eviction.
+debug K: 
+debug L: 1800 52100
+debug L: 1800 52100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+52s. Process 120 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 52200
+debug A1: mutex1 lock
+52s. Process 123 arrived. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+52s. Process 123 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+52s. Process 123 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 52200
+debug L: 1900 52200
+erenced page 0. Page ndebug N: 
+debug O: 
+debug P: 
+52s. Process 26 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 52300
+debug A1: mutex1 lock
+52s. Process 136 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+52s. Process 136 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+52s. Process 136 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 52300
+debug L: 900 52300
+ferenced page 0. Page not in memordebug N: 
+debug O: 
+debug P: 
+52s. Process 109 Completed. Size: 5MB. Duration: 3s.
+Memory Map: 
+debug A: 52400
+debug A1: mutex1 lock
+53s. Process 66 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+53s. Process 66 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+53s. Process 66 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 53000
+debug L: 1900 53000
+renced page 7. Page not in memory. No evictidebug N: 
+debug O: 
+debug P: 
+53s. Process 24 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 53100
+debug A1: mutex1 lock
+53s. Process 70 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+53s. Process 70 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+53s. Process 70 referenced page -1. Page in memory. No Eviction.
+debug L: 4900 53100
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mudebug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mudebug A: 53200
+debug A1: mutex1 lock
+54s. Process 20 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+54s. Process 20 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+54s. Process 20 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 54000
+debug N: 
+debug O: 
+debug P: 
+54s. Process 89 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 54100
+debug A1: mutex1 lock
+54s. Process 31 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+54s. Process 31 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+54s. Process 31 referenced page 3. Page not in memory. No eviction.
+debug K: 
+debug L: 900 54100
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mudebug A: 54200
+debug A1: mutex1 lock
+54s. Process 88 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+54s. Process 88 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+54s. Process 88 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 54200
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlockdebug N: 
+debug O: 
+debug P: 
+54s. Process 131 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 54300
+debug A1: mutex1 lock
+55s. Process 42 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+55s. Process 42 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+55s. Process 42 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 900 55000
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug N: 
+debug O: 
+debug P: 
+55s. Process 121 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 55100
+debug A1: mutex1 lock
+55s. Process 114 arrived. Size: 11MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+55s. Process 114 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+55s. Process 114 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 1900 55100
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+55s. Process 40 Completed. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A: 55200
+debug A1: mutex1 lock
+55s. Process 145 arrived. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+55s. Process 145 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+55s. Process 145 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 55200
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+55s. Process 86 Completed. Size: 17MB. Duration: 5s.
+Memory Map: 
+debug A: 55300
+debug A1: mutex1 lock
+56s. Process 101 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+56s. Process 101 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+56s. Process 101 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 900 56000
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+56s. Process 39 Completed. Size: 31MB. Duration: 4s.
+Memory Map: 
+debug A: 56100
+debug A1: mutex1 lock
+56s. Process 102 arrived. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+56s. Process 102 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+56s. Process 102 referenced page 1. Page not in memory. No eviction.
+debug K: 
+debug L: 900 56100
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+56s. Process 11 Completed. Size: 31MB. Duration: 2s.
+Memory Map: 
+debug A: 56200
+debug A1: mutex1 lock
+57s. Process 56 arrived. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+57s. Process 56 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+57s. Process 56 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug K: 
+debug M: 2
+debug D: iteration
+debug F: 
+debug I: 
+57s. Process 20 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4800 57000
+debug L: 1900 57100
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+57s. Process 55 Completed. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A: 57200
+debug A1: mutex1 lock
+57s. Process 95 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+57s. Process 95 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+57s. Process 95 referenced page -1. Page in memory. No Eviction.
+debug L: 3900 57200
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+57s. Process 14 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 57300
+debug A1: mutex1 lock
+58s. Process 37 arrived. Size: 17MB. Duration: 3s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+58s. Process 37 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+58s. Process 37 referenced page -1. Page in memory. No Eviction.
+debug L: 2900 58000
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+58s. Process 147 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A: 58100
+debug A1: mutex1 lock
+58s. Process 78 arrived. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+58s. Process 78 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+58s. Process 78 referenced page 23. Page not in memory. No eviction.
+debug K: 
+debug L: 900 58100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+58s. Process 70 Completed. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A: 58200
+debug A1: mutex1 lock
+58s. Process 146 arrived. Size: 5MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+58s. Process 146 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+58s. Process 146 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 58200
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+58s. Process 112 Completed. Size: 17MB. Duration: 4s.
+Memory Map: 
+debug A: 58300
+debug A1: mutex1 lock
+59s. Process 0 arrived. Size: 11MB. Duration: 4s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+59s. Process 0 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+59s. Process 0 referenced page 6. Page not in memory. No eviction.
+debug K: 
+debug L: 3900 59000
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+59s. Process 66 Completed. Size: 17MB. Duration: 2s.
+Memory Map: 
+debug A: 59100
+debug A1: mutex1 lock
+59s. Process 8 arrived. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+59s. Process 8 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+59s. Process 8 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug L: 4900 59100
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+59s. Process 31 Completed. Size: 5MB. Duration: 1s.
+Memory Map: 
+debug A: 59200
+debug A1: mutex1 lock
+59s. Process 96 arrived. Size: 5MB. Duration: 5s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+59s. Process 96 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug H: 
+59s. Process 96 referenced page -1. Page in memory. No Eviction.
+debug L: 4900 59200
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+59s. Process 123 Completed. Size: 5MB. Duration: 2s.
+Memory Map: 
+debug A: 59300
+debug A1: mutex1 lock
+59s. Process 119 arrived. Size: 11MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+59s. Process 119 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+59s. Process 119 referenced page 7. Page not in memory. No eviction.
+debug K: 
+debug L: 900 59300
+debug M: 2
+debug N: 
+debug O: 
+debug P: 
+59s. Process 136 Completed. Size: 31MB. Duration: 1s.
+Memory Map: 
+debug A: 59400
+debug A1: mutex1 lock
+59s. Process 138 arrived. Size: 17MB. Duration: 1s.
+Memory Map: 
+debug A2: mutex1 unlock
+debug B1: mutex2 lock
+debug B3: mutex2 unlock
+debug Start: 
+debug D: iteration
+debug I: 
+59s. Process 138 referenced page 0. Page not in memory. No eviction.
+debug K: 
+debug M: 1
+debug D: iteration
+debug F: 
+debug I: 
+59s. Process 138 referenced page 11. Page not in memory. No eviction.
+debug K: 
+debug L: 900 59400
+debug M: 3
+debug N: 
+debug O: 
+debug P: 
+59s. Process 20 Completed. Size: 31MB. Duration: 5s.
+Memory Map: 
+debug Q: 
+debug L: 4900 53100
+renced page -1. Page in memory. No Eviction.
+n.
+ A2: mutex1 unlock
+
+
+ug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug M: 2
+debug Q: 
+Hits: 35	Miss: 303
