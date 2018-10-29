@@ -1,3 +1,5 @@
+
+
 #include <iostream>
 #include <map>
 #include <list>
@@ -17,20 +19,21 @@ typedef struct Page {
 } page;
 
 typedef struct Prcoess {
-    string name;      //随便取
-    int size;         //5, 11, 17, or 31 MB
-    int arrivalTime;  //小于6000的随机
-    int serviceTime;  //1, 2, 3, 4, or 5 seconds.
-    map<int, page> pageList;     //长度 跟Size一毛一样哟 类型page
-    int hitCounts;    //start with 0
+    string name;
+    int size;
+    int arrivalTime;
+    int serviceTime;
+    map<int, page> pageList;
+    int hitCounts;
     int missingCount;
 } process;
 
 int TotalTime = 6000;
 int CurrentTime = 0;
-list<page> memoryFreePage(100);    //size 100  类型Page
-list<Prcoess> JobList(150);        //size 150, 类型Process
-int arrSize[4] = {5, 11, 17, 31};  //random for 5, 11, 17, or 31 MB
+list<page> memoryFreePage(100);
+list<Prcoess> JobList(150);
+int arrSize[4] = {5, 11, 17, 31};
+
 
 int64_t getCurrentTime() {
     struct timeval time;
@@ -39,10 +42,12 @@ int64_t getCurrentTime() {
 }
 
 void Reset(page *page) {
+
     ofile.open("page.txt");
     ofile << "Process " << page->bindProcessName << ", page " <<
           page->pageNumber << " evicted."<<endl;
     ofile.close();
+
     cout << "Process " << page->bindProcessName << ", page " <<
          page->pageNumber << " evicted." << endl;
 
@@ -137,6 +142,7 @@ void Run() {
     while (JobList.size() != 0) {
         int currentReferenceNumber = 0;
         Prcoess job = JobList.front();
+        JobList.pop_front();
         ofile.open("Run.txt");
         ofile << setfill('0') << setw(2) << getCurrentTime() / 1000
               << "s: Process " << job.pageList[0].bindProcessName << " referenced page "
