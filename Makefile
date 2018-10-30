@@ -4,7 +4,7 @@ SRC = FrequentlyUsed.cpp
 OBJ = $(SRC:.cpp = .o)
 
 FrequentlyUsed: $(OBJ)
-	$(CC) $(CFLAGS) -o FrequentlyUsed $(OBJ) -lpthread
+	$(CC) -g -o FrequentlyUsed $(OBJ) -lpthread
 
 clean:
 	rm -f core *.o
