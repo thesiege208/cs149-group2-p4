@@ -93,9 +93,9 @@ void *start(void *algType) {
                 procNum = f.getProcess();
                 f.setProcess(curr.name);
                 pgNum = f.getPage();
-                f.setPage(i);
                 flag = true;
             }
+            f.setPage(i);
             curr.memPages.emplace_front(f);
             size--;
             curr.miss++;
@@ -145,9 +145,9 @@ void *start(void *algType) {
                         procNum = f.getProcess();
                         f.setProcess(curr.name);
                         pgNum = f.getPage();
-                        f.setPage(i);
                         flag = true;
                     }
+                    f.setPage(i);
                     curr.memPages.emplace_front(f);
                     curr.miss++;
                     file << setfill('0') << setw(2) << timestamp / 1000
@@ -235,7 +235,7 @@ int main() {
     jobs.sort();
 
     // comment out lfu section when running mfu
-    /*lfu_output.open("lfu.txt", ofstream::app);
+    lfu_output.open("lfu.txt", ofstream::app);
     lfu_output << "USING LFU.\n\n";
     lfu_output.close();
     for (int i = 0; i < num_threads; i++) {
@@ -257,10 +257,11 @@ int main() {
     }
     lfu_output.open("lfu.txt", ofstream::app);
     lfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
-    lfu_output.close();*/
+    lfu_output.close();
+    // end lfu comment here
 
     // comment out mfu section when running lfu
-    mfu_output.open("mfu.txt", ofstream::app);
+    /*mfu_output.open("mfu.txt", ofstream::app);
     mfu_output << "USING MFU.\n\n";
     mfu_output.close();
     for (int i = 0; i < num_threads; i++) {
@@ -282,7 +283,8 @@ int main() {
     }
     mfu_output.open("mfu.txt", ofstream::app);
     mfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
-    mfu_output.close();
+    mfu_output.close();*/
+    // end mfu comment here
 
     return 0;
 }

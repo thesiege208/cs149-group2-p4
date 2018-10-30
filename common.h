@@ -77,7 +77,6 @@ int locality(int i, int totalPages) {
     else {
         delta = rand() % (totalPages - 2) + 2;
     }
-    j = (i + delta) % totalPages;
-    //std::cout<<"i="<<i<<"j="<<j<<"r="<<r<<"delta="<<delta<<std::endl;
+    j = (((i + delta) % totalPages) + totalPages) % totalPages; // c++ % keeps sign
     return j;
 }
