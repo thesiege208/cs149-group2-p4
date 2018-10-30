@@ -3,7 +3,7 @@
  * Sijing Xie (013829478), Group 2
  * Project 4
  *
- * Running LFU/MFU page allocation sims.
+ * Running LFU/MFU page replacement sims.
  */
  
 #include "common.h"
@@ -58,7 +58,7 @@ void *start(void *algType) {
     if (type == 0) {
         file.open("lfu.txt", ofstream::app);
     }
-    else {
+    else if (type == 1) {
         file.open("mfu.txt", ofstream::app);
     }
 
@@ -66,20 +66,19 @@ void *start(void *algType) {
         pthread_mutex_lock(&mutex);
 
         // checking all threads ready    
-        if (ready == num_threads) { pthread_cond_broadcast(&cond); }
-        else { pthread_cond_wait(&cond, &mutex); }
+        if (ready != num_threads) { pthread_cond_wait(&cond, &mutex); }
+        else { pthread_cond_broadcast(&cond); }
 
         // get next job in queue
         Process curr = jobs.front();
         jobs.pop_front();
-        pthread_mutex_unlock(&mutex);
         if (timestamp < curr.getArrival()) { timestamp = curr.getArrival(); }
-        pthread_mutex_lock(&mutex);
         file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
              << curr.name << " arrived. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
              << "MEMORY MAP:" << endl;
         printMap(file, mem_map);
+        pthread_mutex_unlock(&mutex);
  
         // reference page 0
         int i = 0; // tracking page # for locality
@@ -164,12 +163,13 @@ void *start(void *algType) {
                     flag = false; // reset
                 } else if (!curr.memPages.empty()) { // use alg to replace page
                     curr.memPages.sort(); // sort in ascending order by counters
-                    if (type == 1) { curr.memPages.reverse(); }
+                    if (type == 1) { curr.memPages.reverse(); } // reverse if mfu
                     Page m = curr.memPages.front();
                     curr.memPages.pop_front();
                     pgNum = m.getPage();
                     procNum = curr.name;
                     m.setPage(i);
+                    m.resetCount();
                     curr.memPages.emplace_front(m);
                     curr.miss++;
                     pthread_mutex_lock(&mutex);
@@ -182,7 +182,7 @@ void *start(void *algType) {
                     continue;
                 }
             }
-            sleep(0.1);
+            // sleep(100); // stalled threads + returned to main/join, for some reason
         }
         // print job stats
         pthread_mutex_lock(&mutex);
@@ -234,7 +234,8 @@ int main() {
     }
     jobs.sort();
 
-    lfu_output.open("lfu.txt", ofstream::app);
+    // comment out lfu section when running mfu
+    /*lfu_output.open("lfu.txt", ofstream::app);
     lfu_output << "USING LFU.\n\n";
     lfu_output.close();
     for (int i = 0; i < num_threads; i++) {
@@ -256,13 +257,14 @@ int main() {
     }
     lfu_output.open("lfu.txt", ofstream::app);
     lfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
-    lfu_output.close();
+    lfu_output.close();*/
 
-    /*for (int i = 0; i < num_threads; i++) {
+    // comment out mfu section when running lfu
+    mfu_output.open("mfu.txt", ofstream::app);
+    mfu_output << "USING MFU.\n\n";
+    mfu_output.close();
+    for (int i = 0; i < num_threads; i++) {
         int type = 1;
-        mfu_output.open("mfu.txt", ofstream::app);
-        mfu_output << "USING MFU.\n\n";
-        mfu_output.close();
         pthread_create(&threads[i], NULL, start,  reinterpret_cast<void*>(type));
     }
     
@@ -280,7 +282,7 @@ int main() {
     }
     mfu_output.open("mfu.txt", ofstream::app);
     mfu_output << "STATS:\n\tHITS = " << hits << ", MISSES = " << misses << "\n\n";
-    mfu_output.close();*/
+    mfu_output.close();
 
     return 0;
 }
