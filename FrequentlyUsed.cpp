@@ -80,7 +80,6 @@ void *start(void *algType) {
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
              << "MEMORY MAP:" << endl;
         printMap(file, mem_map);
-        pthread_mutex_unlock(&mutex);
  
         // reference page 0
         int i = 0; // tracking page # for locality
