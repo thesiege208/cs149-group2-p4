@@ -1,14 +1,7 @@
-
 Hits: 3180	Miss: 1441
-
 Hits: 3150	Miss: 1381
-
-
 Hits: 3189	Miss: 1402
-
 Hits: 2980	Miss: 1461
-
-
 Hits: 3099	Miss: 1452
 
 Total Hits: 15598
