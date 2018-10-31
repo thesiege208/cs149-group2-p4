@@ -1,0 +1,335 @@
+USING LFU.
+
+00s: Process 116 arrived. Total size 5MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 116 referenced page 0. Page not in memory. No page evicted.
+00s: Process 108 arrived. Total size 17MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 108 referenced page 0. Page not in memory. No page evicted.
+00s: Process 104 arrived. Total size 11MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 104 referenced page 0. Page not in memory. No page evicted.
+00s: Process 32 arrived. Total size 11MB. Duration 5s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 32 referenced page 0. Page not in memory. No page evicted.
+00s: Process 1 arrived. Total size 11MB. Duration 5s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 1 referenced page 0. Page not in memory. No page evicted.
+01s: Process 79 arrived. Total size 5MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+01s: Process 79 referenced page 0. Page not in memory. No page evicted.
+01s: Process 68 arrived. Total size 5MB. Duration 5s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+01s: Process 68 referenced page 0. Page not in memory. No page evicted.
+02s: Process 143 arrived. Total size 31MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+02s: Process 143 referenced page 0. Page not in memory. No page evicted.
+02s: Process 57 arrived. Total size 11MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+02s: Process 57 referenced page 0. Page not in memory. No page evicted.
+02s: Process 15 arrived. Total size 11MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+02s: Process 15 referenced page 0. Page not in memory. No page evicted.
+03s: Process 99 arrived. Total size 5MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+03s: Process 99 referenced page 0. Page not in memory. No page evicted.
+03s: Process 46 arrived. Total size 31MB. Duration 1s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+03s: Process 46 referenced page 0. Page not in memory. No page evicted.
+03s: Process 22 arrived. Total size 11MB. Duration 4s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+03s: Process 22 referenced page 0. Page not in memory. No page evicted.
+04s: Process 115 arrived. Total size 17MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+04s: Process 115 referenced page 0. Page not in memory. No page evicted.
+05s: Process 117 arrived. Total size 11MB. Duration 1s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+05s: Process 117 referenced page 0. Page not in memory. No page evicted.
+05s: Process 53 arrived. Total size 11MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+05s: Process 53 referenced page 0. Page not in memory. No page evicted.
+06s: Process 50 arrived. Total size 11MB. Duration 4s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+06s: Process 50 referenced page 0. Page not in memory. No page evicted.
+07s: Process 142 arrived. Total size 17MB. Duration 5s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+07s: Process 142 referenced page 0. Page not in memory. No page evicted.
+00s: Process 116 referenced page 0. Page not in memory. No page evicted.
+07s: Process 80 arrived. Total size 31MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+07s: Process 80 referenced page 0. Page not in memory. No page evicted.
+07s: Process 4 arrived. Total size 11MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+07s: Process 4 referenced page 0. Page not in memory. No page evicted.
+10s: Process 123 arrived. Total size 5MB. Duration 2s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+10s: Process 123 referenced page 0. Page not in memory. No page evicted.
+10s: Process 43 arrived. Total size 17MB. Duration 4s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+10s: Process 43 referenced page 0. Page not in memory. No page evicted.
+10s: Process 28 arrived. Total size 31MB. Duration 1s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+10s: Process 28 referenced page 0. Page not in memory. No page evicted.
+10s: Process 9 arrived. Total size 17MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+10s: Process 9 referenced page 0. Page not in memory. No page evicted.
+05s: Process 117 referenced page 4. Page not in memory. No page evicted.
+03s: Process 46 referenced page 0. Page not in memory. No page evicted.
+02s: Process 15 referenced page -1. Page in memory. No page evicted.
+03s: Process 22 referenced page 0. Page not in memory. No page evicted.
+03s: Process 99 referenced page -1. Page in memory. No page evicted.
+07s: Process 142 referenced page 1. Page not in memory. No page evicted.
+10s: Process 28 referenced page 0. Page not in memory. No page evicted.
+10s: Process 43 referenced page 1. Page not in memory. No page evicted.
+10s: Process 123 referenced page 0. Page not in memory. No page evicted.
+07s: Process 4 referenced page -1. Page in memory. No page evicted.
+02s: Process 143 referenced page 6. Page not in memory. No page evicted.
+02s: Process 57 referenced page 8. Page not in memory. No page evicted.
+04s: Process 115 referenced page -1. Page in memory. No page evicted.
+00s: Process 1 referenced page 1. Page not in memory. No page evicted.
+00s: Process 32 referenced page -1. Page in memory. No page evicted.
+01s: Process 79 referenced page 3. Page not in memory. No page evicted.
+01s: Process 68 referenced page 1. Page not in memory. No page evicted.
+00s: Process 104 referenced page 2. Page not in memory. No page evicted.
+10s: Process 9 referenced page -1. Page in memory. No page evicted.
+02s: Process 15 referenced page 4. Page not in memory. No page evicted.
+03s: Process 22 referenced page 0. Page not in memory. No page evicted.
+03s: Process 46 referenced page 0. Page not in memory. No page evicted.
+06s: Process 50 referenced page 1. Page not in memory. No page evicted.
+05s: Process 117 referenced page 3. Page not in memory. No page evicted.
+00s: Process 108 referenced page 1. Page not in memory. No page evicted.
+05s: Process 53 referenced page 0. Page not in memory. No page evicted.
+00s: Process 116 referenced page 0. Page not in memory. No page evicted.
+07s: Process 80 referenced page 10. Page not in memory. No page evicted.
+00s: Process 131 arrived. Total size 31MB. Duration 3s.
+MEMORY MAP:
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+.	.	.	.	.	.	.	.	.	.	
+
+00s: Process 131 referenced page 0. Page not in memory. No page evicted.
+10s: Process 28 referenced page 1. Page not in memory. No page evicted.
+10s: Process 43 referenced page 0. Page not in memory. No page evicted.
+07s: Process 4 referenced page 1. Page not in memory. No page evicted.
+10s: Process 123 referenced page 2. Page not in memory. No page evicted.
+07s: Process 142 referenced page 1. Page not in memory. No page evicted.
+00s: Process 32 referenced page -2. Page not in memory. No page evicted.
+00s: Process 1 referenced page 0. Page not in memory. No page evicted.
+01s: Process 79 referenced page 4. Page not in memory. No page evicted.
+02s: Process 57 referenced page 7. Page not in memory. No page evicted.
+02s: Process 143 referenced page 6. Page not in memory. No page evicted.
+01s: Process 68 referenced page 1. Page not in memory. No page evicted.
+10s: Process 9 referenced page -2. Page not in memory. No page evicted.
+00s: Process 104 referenced page 3. Page not in memory. No page evicted.
+04s: Process 115 referenced page -2. Page not in memory. No page evicted.
+02s: Process 15 referenced page 4. Page not in memory. No page evicted.
+03s: Process 22 referenced page 0. Page not in memory. No page evicted.
+03s: Process 46 referenced page 1. Page not in memory. No page evicted.
+06s: Process 50 referenced page 0. Page not in memory. No page evicted.
+05s: Process 117 referenced page 7. Page not in memory. No page evicted.
+00s: Process 108 referenced page 7. Page not in memory. No page evicted.
+03s: Process 99 referenced page -2. Page not in memory. No page evicted.
+05s: Process 53 referenced page 0. Page not in memory. No page evicted.
+00s: Process 116 referenced page 0. Page not in memory. No page evicted.
+07s: Process 80 referenced page 9. Page not in memory. No page evicted.
+00s: Process 131 referenced page 0. Page not in memory. No page evicted.
+07s: Process 4 referenced page 0. Page not in memory. No page evicted.
+10s: Process 123 referenced page 1. Page not in memory. No page evicted.
+07s: Process 142 referenced page 9. Page not in memory. No page evicted.
+10s: Process 43 referenced page -1. Page in memory. No page evicted.
+00s: Process 32 referenced page 2. Page not in memory. No page evicted.
+01s: Process 79 referenced page 3. Page not in memory. No page evicted.
+00s: Process 1 referenced page 5. Page not in memory. No page evicted.
+02s: Process 57 referenced page 6. Page not in memory. No page evicted.
+02s: Process 143 referenced page 6. Page not in memory. No page evicted.
+10s: Process 9 referenced page 11. Page not in memory. No page evicted.
+01s: Process 68 referenced page 2. Page not in memory. No page evicted.
+00s: Process 104 referenced page 7. Page not in memory. No page evicted.
+10s: Process 28 referenced page 2. Page not in memory. No page evicted.
+04s: Process 115 referenced page 7. Page not in memory. No page evicted.
+02s: Process 15 referenced page 4. Page not in memory. No page evicted.
+03s: Process 22 referenced page 0. Page not in memory. No page evicted.
+03s: Process 46 referenced page 27. Page not in memory. No page evicted.
+06s: Process 50 referenced page 1. Page not in memory. No page evicted.
+05s: Process 117 referenced page 9. Page not in memory. No page evicted.
+00s: Process 108 referenced page 8. Page not in memory. No page evicted.
+03s: Process 99 referenced page -1. Page in memory. No page evicted.
+05s: Process 53 referenced page 1. Page not in memory. No page evicted.
+00s: Process 116 referenced page 3. Page not in memory. No page evicted.
+07s: Process 80 referenced page 9. Page not in memory. No page evicted.
+00s: Process 131 referenced page 0. Page not in memory. No page evicted.
+10s: Process 43 referenced page -2. Page not in memory. No page evicted.
+07s: Process 142 referenced page 2. Page not in memory. No page evicted.
+10s: Process 123 referenced page 0. Page not in memory. No page evicted.
+00s: Process 1 referenced page 7. Page not in memory. No page evicted.

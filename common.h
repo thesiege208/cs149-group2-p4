@@ -8,6 +8,7 @@
 
 #include <cstdlib>
 #include <forward_list>
+#include <iostream> // for debugging
 
 class Page {
     int counter; // track # references
@@ -53,7 +54,6 @@ class Process {
         size = sizes[rand() % 4];
         arrival = (rand() % 60) * 1000;
         service = (rand() % 5 + 1) * 1000;
-        memPages = std::forward_list<Page>(size);
     }
     
     int getSize() { return size; }
@@ -71,13 +71,13 @@ class Process {
 int locality(int i, int totalPages) {
     int delta, j;
     int r = rand() % 10;
-    if (r >= 0 && r < 7) {
+    if (r < 7) {
         delta = rand() % 3 - 1;
-        j = i + delta;
     }
     else {
-        delta = rand() % (totalPages - 2);
-        j = rand() % delta;
+        delta = rand() % (totalPages - 2) + 2;
     }
+    j = (i + delta) % totalPages;
+    //std::cout<<"i="<<i<<"j="<<j<<"r="<<r<<"delta="<<delta<<std::endl;
     return j;
 }
