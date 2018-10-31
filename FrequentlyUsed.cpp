@@ -13,6 +13,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+#include <map>
 #include <forward_list>
 #include <pthread.h>
 #include <unistd.h>
@@ -35,23 +36,37 @@ forward_list<Page> freePages; // linked list of free pages
 int size = 0; // to track size of free list
 forward_list<Process> jobs; // linked list of jobs to run
 forward_list<Process> done; // linked list of completed jobs
+map<int, int> memory; // tracking use of free pages; key-value = process-#pgs
 
-void printMap(ofstream &file, int map[]) {
-    int len = total_time / 1000;
-    for (int i = 0; i < len; i++) {
-        if (i > 0 && i % 10 == 0) { file << "\n"; }
-        if (map[i] == 0) { file << ".\t"; }
-        else { file << map[i] << "\t"; }
+/* prints memory map to file. */
+void printMap(ofstream &file) {
+    int i = 0;
+    for (auto it = memory.begin(); it != memory.end(); ++it) {
+        if (i % 10 == 0) { file << "\n"; }
+        int j = 0;
+        if (it->second == 0) { file << ".\t"; }
+        else {
+            while (j < it->second) {
+                file << it->first << "\t";
+                i++;
+            }
+        }
+    }
+    for (int i = memory.size(); i < 100; i++) {
+        if (i % 10 == 0) { file << "\n"; }
+        file << ".\t";
     }
     file << "\n\n";
 }
 
-/* start routine which takes the algorithm type ('L' or 'M') as argument. */
+/* start routine which takes the algorithm type (0 or 1) as argument. */
 void *start(void *algType) {
     int type = (long) algType;
     int timestamp = 0;
-    int mem_map[total_time / 1000] = { 0 };
     ready++;
+    pthread_mutex_lock(&mutex);
+    auto iter = memory.begin(); // memory map iterator
+    pthread_mutex_unlock(&mutex);
 
     // choosing output file to write
     ofstream file;
@@ -77,7 +92,8 @@ void *start(void *algType) {
              << curr.name << " arrived. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
              << "MEMORY MAP:" << endl;
-        printMap(file, mem_map);
+        printMap(file);
+        memory[curr.name] = 0; // add to map, 0 refs
         pthread_mutex_unlock(&mutex);
  
         // reference page 0
@@ -99,6 +115,11 @@ void *start(void *algType) {
             curr.memPages.emplace_front(f);
             size--;
             curr.miss++;
+
+            // add to memory map
+            iter = memory.find(curr.name);
+            iter->second++;
+
             file << setfill('0') << setw(2) << timestamp / 1000
                  << "s: Process " << curr.name << " referenced page " << i
                  << ". Page not in memory. ";
@@ -110,13 +131,12 @@ void *start(void *algType) {
             }
             pthread_mutex_unlock(&mutex);
             flag = false; // reset
-            sleep(0.1);
+            // sleep(100);
         }
         // continue referencing pages, using free list as available
         // and alg where applicable
         int localTime = timestamp; // preserving start time
         while (timestamp < localTime + curr.getService() && timestamp < total_time) {
-            if (timestamp % 1000 == 0) { mem_map[timestamp / 1000] = curr.name; }
             timestamp += 100;
             bool ref = false; // if page has been referenced
             i = locality(i, curr.getSize()); // get next ref page #
@@ -150,6 +170,11 @@ void *start(void *algType) {
                     f.setPage(i);
                     curr.memPages.emplace_front(f);
                     curr.miss++;
+
+                    // add to memory map
+                    iter = memory.find(curr.name);
+                    iter->second++;
+
                     file << setfill('0') << setw(2) << timestamp / 1000
                          << "s: Process " << curr.name << " referenced page " << i
                          << ". Page not in memory. ";
@@ -190,7 +215,7 @@ void *start(void *algType) {
              << curr.name << " completed. Total size " << curr.getSize()
              << "MB. Duration " << curr.getService() / 1000 << "s.\n"
              << "MEMORY MAP:" << endl;
-        printMap(file, mem_map);
+        printMap(file);
 
         // add job to done list
         done.emplace_front(curr);
@@ -203,6 +228,7 @@ void *start(void *algType) {
             freePages.emplace_front(f);
             size++;
         }
+        memory.erase(curr.name);
         pthread_mutex_unlock(&mutex);
     }
     file.close();
