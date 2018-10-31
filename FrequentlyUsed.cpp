@@ -203,7 +203,14 @@ void *start(void *algType) {
             freePages.emplace_front(f);
             size++;
         }
+<<<<<<< HEAD
+        file << setfill('0') << setw(2) << timestamp / 1000 << "s: Process "
+             << curr.name << " completed. Total size " << curr.getSize()
+             << "MB. Duration " << curr.getService() / 1000 << "s.\n"
+             << "MEMORY MAP. MUST REPLACE!\n\n\n";
+=======
         pthread_mutex_unlock(&mutex);
+>>>>>>> 4c08237051533793ed12375ff5766bdb1aea3420
     }
     file.close();
     cout << "RIGHT BEFORE CANCEL" << endl;
