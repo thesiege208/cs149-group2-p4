@@ -119,6 +119,7 @@ void *start(void *algType) {
             // add to memory map
             iter = memory.find(curr.name);
             iter->second++;
+            iter = memory.begin();
 
             file << setfill('0') << setw(2) << timestamp / 1000
                  << "s: Process " << curr.name << " referenced page " << i
@@ -174,6 +175,7 @@ void *start(void *algType) {
                     // add to memory map
                     iter = memory.find(curr.name);
                     iter->second++;
+                    iter = memory.begin();
 
                     file << setfill('0') << setw(2) << timestamp / 1000
                          << "s: Process " << curr.name << " referenced page " << i

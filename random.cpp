@@ -34,7 +34,7 @@ list <process> JobList;
 list <process> DoneJob;
 
 int arrSize[4] = {5, 11, 17, 31};
-mutex mut;
+pthread_mutex_t mut;
 
 int64_t getCurrentTime() {
     struct timeval time;
@@ -57,10 +57,14 @@ bool IsUsed(const string name) {
     return str.compare(name) == 0 ? false : true;
 }
 
-page *GetPage(page pa) {
-    pa = memoryFreePage.front();
+Page *GetPage(page pa) {
+    //pa = memoryFreePage.front();
+    //memoryFreePage.pop_front();
+    //return &pa;
+    Page *pg = new Page;
+    pg = &memoryFreePage.front();
     memoryFreePage.pop_front();
-    return &pa;
+    return pg;
 }
 
 bool sortArrTime(const process &m1, const process &m2) {
@@ -149,7 +153,7 @@ int locality(int i, int totalPages) {
     } else {
         delta = rand() % (totalPages - 2) + 2;
     }
-    j = (i + delta) % totalPages;
+    j = (((i + delta) % totalPages) + totalPages) % totalPages;
     return j;
 
 }
@@ -159,9 +163,9 @@ void RandomRepalce(process *prc, int pageNumber) {
     int oldKey = rand() % 100 + 1;
     string value;
     page *pag;
-    list<page>::iterator findRan;
-    list<page>::iterator deleteRan;
-    for (findRan = memoryFreePage.begin(); findRan != memoryFreePage.end(); findRan++) {
+    //list<page>::iterator findRan;
+    //list<page>::iterator deleteRan;
+    for (auto findRan = memoryFreePage.begin(); findRan != memoryFreePage.end(); findRan++) {
         if (findRan->pageNumber == oldKey) {
             value = findRan->bindProcessName;
             break;
@@ -169,7 +173,7 @@ void RandomRepalce(process *prc, int pageNumber) {
     }
 
     // delete
-    for (deleteRan = memoryFreePage.begin(); deleteRan != memoryFreePage.end(); deleteRan++) {
+    for (auto deleteRan = memoryFreePage.begin(); deleteRan != memoryFreePage.end(); deleteRan++) {
         if (deleteRan->bindProcessName == value) {
             memoryFreePage.erase(deleteRan);
         }
@@ -188,7 +192,7 @@ void RandomRepalce(process *prc, int pageNumber) {
 
 
 static void *Run(void *arg) {
-    mut.lock();
+    pthread_mutex_lock(&mut);
     CurrentTime = 0;
     int test = 0;
     while (JobList.size() != 0) {
@@ -259,7 +263,7 @@ static void *Run(void *arg) {
 
         DoneJob.push_back(job);
     }
-    mut.unlock();
+    pthread_mutex_unlock(&mut);
 }
 
 int main() {
@@ -270,6 +274,7 @@ int main() {
      pthread_t t[25];
      initVariable();
      cout << "Init finish!" << endl;
+     pthread_mutex_init(&mut, NULL);
 
      for (int i = 0; i < 25; ++i) {
         pthread_create(&t[i], NULL, Run, NULL);
