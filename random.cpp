@@ -31,6 +31,8 @@ int TotalTime = 60000;
 int CurrentTime = 0;
 list <page> memoryFreePage;
 list <process> JobList;
+list <process> DoneJob;
+
 int arrSize[4] = {5, 11, 17, 31};
 mutex mut;
 
@@ -45,8 +47,7 @@ void Reset(page *page) {
     ofile << "Process " << page->bindProcessName << ", page " <<
           page->pageNumber << " evicted." << endl;
     ofile.close();
-    cout << "Process " << page->bindProcessName << ", page " <<
-         page->pageNumber << " evicted." << endl;
+
     page->bindProcessName = "";
     page->pageNumber = 0;
 }
@@ -67,7 +68,10 @@ bool sortArrTime(const process &m1, const process &m2) {
 }
 
 void initVariable() {
-
+     TotalTime = 60000;
+     CurrentTime = 0;
+     JobList.clear();
+     DoneJob.clear();
     for (int i = 0; i < 150; ++i) {
         process proInit;
         int size = (rand() % 4);
@@ -115,8 +119,12 @@ void initVariable() {
 void AssignPage(process *prc, int number) {
     auto pag = GetPage(prc->pageList[number]);
     if (IsUsed(pag->bindProcessName)) {
+        prc->hitCounts++;
         Reset(pag);
+    }else{
+        prc->missingCount++;
     }
+
 
 
     pag->bindProcessName = prc->name;
@@ -129,11 +137,10 @@ void AssignPage(process *prc, int number) {
           << ". Page not in memory.\n";
     ofile << "--------------------------------------------\n";
     ofile.close();
-    prc->missingCount++;
+   // prc->missingCount++;
 }
 
 int locality(int i, int totalPages) {
-    cout << "Job total: " << totalPages << endl;
 
     int delta, j = 0;
     int r = rand() % 10;
@@ -143,23 +150,17 @@ int locality(int i, int totalPages) {
         delta = rand() % (totalPages - 2) + 2;
     }
     j = (i + delta) % totalPages;
-    cout << "Job J: " << j << endl;
     return j;
 
 }
 
 
-
-
-
 void RandomRepalce(process *prc, int pageNumber) {
-    cout << "replace" << endl;
     int oldKey = rand() % 100 + 1;
     string value;
     page *pag;
     list<page>::iterator findRan;
     list<page>::iterator deleteRan;
-    cout << "oldKey" << oldKey << endl;
     for (findRan = memoryFreePage.begin(); findRan != memoryFreePage.end(); findRan++) {
         if (findRan->pageNumber == oldKey) {
             value = findRan->bindProcessName;
@@ -173,8 +174,6 @@ void RandomRepalce(process *prc, int pageNumber) {
             memoryFreePage.erase(deleteRan);
         }
     }
-
-
     pag->pageNumber = pageNumber;
     prc->pageList[pageNumber] = *pag;
 
@@ -184,7 +183,6 @@ void RandomRepalce(process *prc, int pageNumber) {
           << ". Page not in memory. Process " << prc->pageList[pageNumber].pageNumber << ", page "
           << oldKey << " evicted.\n";
     ofile << "--------------------------------------------\n";
-
     ofile.close();
 }
 
@@ -194,7 +192,6 @@ static void *Run(void *arg) {
     CurrentTime = 0;
     int test = 0;
     while (JobList.size() != 0) {
-        cout << "test" << JobList.size() << endl;
         int currentReferenceNumber = 0;
         process job = JobList.front();
         ofile.open("run.txt", ios::app);
@@ -211,12 +208,11 @@ static void *Run(void *arg) {
             usleep(100);
         }
         auto localTime = CurrentTime;
-        cout << "test2 " << JobList.size() << endl;
 
         while (CurrentTime < localTime + job.serviceTime && CurrentTime < TotalTime) {
             auto nextReferenceNumber = locality(currentReferenceNumber, job.size);
             if (job.pageList[nextReferenceNumber].bindProcessName != "") {
-                job.hitCounts++;
+
                 ofile.open("run.txt", ios::app);
                 ofile << setfill('0') << setw(2) << CurrentTime / 1000
                       << "s: Process " << job.name << " referenced page "
@@ -242,25 +238,16 @@ static void *Run(void *arg) {
         map<int, page>::iterator eraseIt;
         it = job.pageList.begin();
 
-        cout << "size " << job.pageList.size() << endl;
         while (it != job.pageList.end()) {
-            cout << "test4" << "it" << endl;
-            //eraseIt=it;
             if (it->second.pageNumber != 0) {
                 job.pageList.erase(it++);
             } else {
                 it++;
             }
-            cout << "test4 mid" << " it" << endl;
-            cout << "=====" << it->second.pageNumber << endl;
-            cout << "test4 end" << " it" << endl;
-
-
 
             //memoryFreePage.push_back(job.pageList[it]);
 
         }
-        cout << "test5 " << endl;
 
 
         ofile.open("run.txt", ios::app);
@@ -269,21 +256,58 @@ static void *Run(void *arg) {
               << job.size << "MB. Duration " << job.serviceTime << "s.\n";
         ofile << "--------------------------------------------\n";
         ofile.close();
+
+        DoneJob.push_back(job);
     }
     mut.unlock();
 }
 
 int main() {
-    pthread_t t[25];
-    initVariable();
-    cout << "Init finish!" << endl;
-    for (int i = 0; i < 25; ++i) {
+    int totalHits=0;
+    int totalMiss = 0;
+    int totalComplete=0;
+    for(int i=0;i<5;i++){
+     pthread_t t[25];
+     initVariable();
+     cout << "Init finish!" << endl;
+
+     for (int i = 0; i < 25; ++i) {
         pthread_create(&t[i], NULL, Run, NULL);
     }
+
+
     for (int i = 0; i < 25; ++i) {
         pthread_join(t[i], NULL);
     }
+
+
+    int hits = 0, misses = 0, complete = 0;
+    for (auto it = DoneJob.begin(); it != DoneJob.end(); ++it) {
+        process p = *it;
+        hits += p.hitCounts;
+        misses += p.missingCount;
+        complete++;
+    }
+
+
+    ofile.open("run.txt", ios::app);
+    ofile << " total Rum:  " << complete << " Hits: "<< hits
+          << " miss " << misses << " miss%: "<< float(misses)/float(complete) <<" Hit%: "<< float(hits)/float(complete)<<"\n";
+    ofile << "--------------------------------------------\n";
+    ofile.close();
+        totalHits += hits;
+        totalMiss += misses;
+        totalComplete += complete;
+
+
     //pthread_exit(NULL);
     cout << "end!" << endl;
+    }
+
+    ofile.open("run.txt", ios::app);
+    ofile << " total Rum:  " << totalComplete << " Hits: "<< totalHits
+          << " miss " << totalMiss << " miss%: "<< float(totalMiss)/float(totalComplete) <<" Hit%: "<< float(totalHits)/float(totalComplete)<<"\n";
+    ofile << "--------------------------------------------\n";
+    ofile.close();
     return 0;
 }
