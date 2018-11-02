@@ -18,19 +18,19 @@ typedef struct Page {
 } page;
 
 typedef struct Prcoess {
-    string name;      //随便取
-    int size;         //5, 11, 17, or 31 MB
-    int arrivalTime;  //小于6000的随机
-    int serviceTime;  //1, 2, 3, 4, or 5 seconds.
-    map<int, page> pageList;     //长度 跟Size一毛一样哟 类型page
-    int hitCounts;    //start with 0
+    string name;
+    int size;
+    int arrivalTime;
+    int serviceTime;
+    map<int, page> pageList;
+    int hitCounts;
     int missingCount;
 } process;
 
 int TotalTime = 60000;
 int CurrentTime = 0;
-list<page> memoryFreePage;
-list<process> JobList;
+list <page> memoryFreePage;
+list <process> JobList;
 int arrSize[4] = {5, 11, 17, 31};
 mutex mut;
 
@@ -62,12 +62,12 @@ page *GetPage(page pa) {
     return &pa;
 }
 
-//根据arrivalTime排序
 bool sortArrTime(const process &m1, const process &m2) {
     return m1.arrivalTime < m2.arrivalTime;
 }
 
 void initVariable() {
+
     for (int i = 0; i < 150; ++i) {
         process proInit;
         int size = (rand() % 4);
@@ -81,6 +81,7 @@ void initVariable() {
         JobList.push_back(proInit);
     }
 
+
     JobList.sort(sortArrTime);
 
     int j = 1;
@@ -89,9 +90,9 @@ void initVariable() {
 
     list<process>::iterator job;
     job = JobList.begin();
-    int y =job->size;
-    while (k<5) {
-        while (y>0) {
+    int y = job->size;
+    while (k < 5) {
+        while (y > 0) {
             pagInit.pageNumber = j;
             pagInit.bindProcessName = job->name;
             memoryFreePage.push_back(pagInit);
@@ -116,6 +117,8 @@ void AssignPage(process *prc, int number) {
     if (IsUsed(pag->bindProcessName)) {
         Reset(pag);
     }
+
+
     pag->bindProcessName = prc->name;
     pag->pageNumber = number;
     prc->pageList[number] = *pag;
@@ -130,9 +133,9 @@ void AssignPage(process *prc, int number) {
 }
 
 int locality(int i, int totalPages) {
-    cout << "Job total: "<< totalPages <<endl;
+    cout << "Job total: " << totalPages << endl;
 
-    int delta, j=0;
+    int delta, j = 0;
     int r = rand() % 10;
     if (r < 7) {
         delta = rand() % 3 - 1;
@@ -140,19 +143,23 @@ int locality(int i, int totalPages) {
         delta = rand() % (totalPages - 2) + 2;
     }
     j = (i + delta) % totalPages;
-    cout << "Job J: " <<j <<endl;
+    cout << "Job J: " << j << endl;
     return j;
 
 }
 
+
+
+
+
 void RandomRepalce(process *prc, int pageNumber) {
-    cout <<"replace"<<endl;
+    cout << "replace" << endl;
     int oldKey = rand() % 100 + 1;
     string value;
     page *pag;
     list<page>::iterator findRan;
     list<page>::iterator deleteRan;
-    cout<<"oldKey"<<oldKey<<endl;
+    cout << "oldKey" << oldKey << endl;
     for (findRan = memoryFreePage.begin(); findRan != memoryFreePage.end(); findRan++) {
         if (findRan->pageNumber == oldKey) {
             value = findRan->bindProcessName;
@@ -172,7 +179,7 @@ void RandomRepalce(process *prc, int pageNumber) {
     prc->pageList[pageNumber] = *pag;
 
     ofile.open("run.txt", ios::app);
-    ofile << setfill('0') << setw(2) <<CurrentTime / 1000
+    ofile << setfill('0') << setw(2) << CurrentTime / 1000
           << "s: Process " << prc->name << " referenced page " << pageNumber
           << ". Page not in memory. Process " << prc->pageList[pageNumber].pageNumber << ", page "
           << oldKey << " evicted.\n";
@@ -182,12 +189,12 @@ void RandomRepalce(process *prc, int pageNumber) {
 }
 
 
-static void * Run(void *arg){
+static void *Run(void *arg) {
     mut.lock();
     CurrentTime = 0;
-    int test =0;
+    int test = 0;
     while (JobList.size() != 0) {
-        cout <<"test"<< JobList.size() << endl;
+        cout << "test" << JobList.size() << endl;
         int currentReferenceNumber = 0;
         process job = JobList.front();
         ofile.open("run.txt", ios::app);
@@ -204,7 +211,7 @@ static void * Run(void *arg){
             usleep(100);
         }
         auto localTime = CurrentTime;
-        cout <<"test2 "<< JobList.size() << endl;
+        cout << "test2 " << JobList.size() << endl;
 
         while (CurrentTime < localTime + job.serviceTime && CurrentTime < TotalTime) {
             auto nextReferenceNumber = locality(currentReferenceNumber, job.size);
@@ -234,28 +241,32 @@ static void * Run(void *arg){
         map<int, page>::iterator it;
         map<int, page>::iterator eraseIt;
         it = job.pageList.begin();
-        cout<<"size "<<job.pageList.size()<<endl;
+
+        cout << "size " << job.pageList.size() << endl;
         while (it != job.pageList.end()) {
-            cout <<"test4"<<  "it" << endl;
+            cout << "test4" << "it" << endl;
             //eraseIt=it;
             if (it->second.pageNumber != 0) {
                 job.pageList.erase(it++);
-            }else{
+            } else {
                 it++;
             }
-            cout <<"test4 mid"<< " it" << endl;
-            cout<<"====="<<it->second.pageNumber<<endl;
-            cout <<"test4 end"<< " it" << endl;
+            cout << "test4 mid" << " it" << endl;
+            cout << "=====" << it->second.pageNumber << endl;
+            cout << "test4 end" << " it" << endl;
+
+
+
             //memoryFreePage.push_back(job.pageList[it]);
 
         }
-        cout <<"test5 " << endl;
+        cout << "test5 " << endl;
+
 
         ofile.open("run.txt", ios::app);
         ofile << setfill('0') << setw(2) << CurrentTime / 1000
               << "s: Process " << job.name << " completed. Total size "
-              << job.size << "MB. Duration " << job.serviceTime  << "s.\n"
-              << "MEMORY MAP. MUST REPLACE!\n";
+              << job.size << "MB. Duration " << job.serviceTime << "s.\n";
         ofile << "--------------------------------------------\n";
         ofile.close();
     }
@@ -273,6 +284,6 @@ int main() {
         pthread_join(t[i], NULL);
     }
     //pthread_exit(NULL);
-    cout<< "end!"<<endl;
+    cout << "end!" << endl;
     return 0;
 }
