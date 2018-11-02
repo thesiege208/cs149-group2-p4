@@ -1,0 +1,1399 @@
+process id is 1; arrival time is 0; service time is 1; num of pages is 10
+process id is 2; arrival time is 1; service time is 3; num of pages is 30
+process id is 3; arrival time is 2; service time is 1; num of pages is 10
+process id is 4; arrival time is 2; service time is 4; num of pages is 40
+process id is 5; arrival time is 4; service time is 2; num of pages is 20
+process id is 6; arrival time is 5; service time is 2; num of pages is 20
+process id is 7; arrival time is 6; service time is 2; num of pages is 20
+process id is 8; arrival time is 6; service time is 2; num of pages is 20
+process id is 9; arrival time is 7; service time is 4; num of pages is 40
+process id is 10; arrival time is 7; service time is 5; num of pages is 50
+process id is 11; arrival time is 7; service time is 2; num of pages is 20
+process id is 12; arrival time is 7; service time is 3; num of pages is 30
+process id is 13; arrival time is 9; service time is 3; num of pages is 30
+process id is 14; arrival time is 9; service time is 4; num of pages is 40
+process id is 15; arrival time is 9; service time is 3; num of pages is 30
+process id is 16; arrival time is 9; service time is 2; num of pages is 20
+process id is 17; arrival time is 10; service time is 1; num of pages is 10
+process id is 18; arrival time is 11; service time is 3; num of pages is 30
+process id is 19; arrival time is 11; service time is 5; num of pages is 50
+process id is 20; arrival time is 11; service time is 3; num of pages is 30
+process id is 21; arrival time is 11; service time is 1; num of pages is 10
+process id is 22; arrival time is 12; service time is 3; num of pages is 30
+process id is 23; arrival time is 12; service time is 5; num of pages is 50
+process id is 24; arrival time is 12; service time is 5; num of pages is 50
+process id is 25; arrival time is 13; service time is 5; num of pages is 50
+process id is 26; arrival time is 13; service time is 1; num of pages is 10
+process id is 27; arrival time is 13; service time is 3; num of pages is 30
+process id is 28; arrival time is 14; service time is 5; num of pages is 50
+process id is 29; arrival time is 14; service time is 3; num of pages is 30
+process id is 30; arrival time is 14; service time is 5; num of pages is 50
+process id is 31; arrival time is 16; service time is 1; num of pages is 10
+process id is 32; arrival time is 17; service time is 1; num of pages is 10
+process id is 33; arrival time is 17; service time is 5; num of pages is 50
+process id is 34; arrival time is 18; service time is 5; num of pages is 50
+process id is 35; arrival time is 18; service time is 5; num of pages is 50
+process id is 36; arrival time is 18; service time is 1; num of pages is 10
+process id is 37; arrival time is 18; service time is 3; num of pages is 30
+process id is 38; arrival time is 18; service time is 4; num of pages is 40
+process id is 39; arrival time is 18; service time is 2; num of pages is 20
+process id is 40; arrival time is 18; service time is 2; num of pages is 20
+process id is 41; arrival time is 19; service time is 1; num of pages is 10
+process id is 42; arrival time is 20; service time is 5; num of pages is 50
+process id is 43; arrival time is 21; service time is 5; num of pages is 50
+process id is 44; arrival time is 22; service time is 3; num of pages is 30
+process id is 45; arrival time is 22; service time is 3; num of pages is 30
+process id is 46; arrival time is 24; service time is 3; num of pages is 30
+process id is 47; arrival time is 24; service time is 3; num of pages is 30
+process id is 48; arrival time is 24; service time is 3; num of pages is 30
+process id is 49; arrival time is 24; service time is 1; num of pages is 10
+process id is 50; arrival time is 25; service time is 5; num of pages is 50
+process id is 51; arrival time is 25; service time is 4; num of pages is 40
+process id is 52; arrival time is 25; service time is 5; num of pages is 50
+process id is 53; arrival time is 25; service time is 5; num of pages is 50
+process id is 54; arrival time is 25; service time is 5; num of pages is 50
+process id is 55; arrival time is 26; service time is 3; num of pages is 30
+process id is 56; arrival time is 27; service time is 3; num of pages is 30
+process id is 57; arrival time is 27; service time is 5; num of pages is 50
+process id is 58; arrival time is 28; service time is 1; num of pages is 10
+process id is 59; arrival time is 28; service time is 1; num of pages is 10
+process id is 60; arrival time is 28; service time is 3; num of pages is 30
+process id is 61; arrival time is 29; service time is 1; num of pages is 10
+process id is 62; arrival time is 29; service time is 5; num of pages is 50
+process id is 63; arrival time is 30; service time is 3; num of pages is 30
+process id is 64; arrival time is 31; service time is 4; num of pages is 40
+process id is 65; arrival time is 32; service time is 4; num of pages is 40
+process id is 66; arrival time is 32; service time is 4; num of pages is 40
+process id is 67; arrival time is 32; service time is 2; num of pages is 20
+process id is 68; arrival time is 33; service time is 5; num of pages is 50
+process id is 69; arrival time is 33; service time is 1; num of pages is 10
+process id is 70; arrival time is 33; service time is 4; num of pages is 40
+process id is 71; arrival time is 34; service time is 5; num of pages is 50
+process id is 72; arrival time is 34; service time is 3; num of pages is 30
+process id is 73; arrival time is 34; service time is 3; num of pages is 30
+process id is 74; arrival time is 34; service time is 5; num of pages is 50
+process id is 75; arrival time is 34; service time is 5; num of pages is 50
+process id is 76; arrival time is 35; service time is 2; num of pages is 20
+process id is 77; arrival time is 35; service time is 3; num of pages is 30
+process id is 78; arrival time is 35; service time is 5; num of pages is 50
+process id is 79; arrival time is 35; service time is 4; num of pages is 40
+process id is 80; arrival time is 37; service time is 1; num of pages is 10
+process id is 81; arrival time is 37; service time is 2; num of pages is 20
+process id is 82; arrival time is 37; service time is 1; num of pages is 10
+process id is 83; arrival time is 38; service time is 2; num of pages is 20
+process id is 84; arrival time is 38; service time is 1; num of pages is 10
+process id is 85; arrival time is 38; service time is 3; num of pages is 30
+process id is 86; arrival time is 38; service time is 3; num of pages is 30
+process id is 87; arrival time is 38; service time is 5; num of pages is 50
+process id is 88; arrival time is 39; service time is 4; num of pages is 40
+process id is 89; arrival time is 39; service time is 2; num of pages is 20
+process id is 90; arrival time is 40; service time is 3; num of pages is 30
+process id is 91; arrival time is 40; service time is 5; num of pages is 50
+process id is 92; arrival time is 40; service time is 3; num of pages is 30
+process id is 93; arrival time is 40; service time is 5; num of pages is 50
+process id is 94; arrival time is 40; service time is 3; num of pages is 30
+process id is 95; arrival time is 40; service time is 1; num of pages is 10
+process id is 96; arrival time is 41; service time is 4; num of pages is 40
+process id is 97; arrival time is 41; service time is 2; num of pages is 20
+process id is 98; arrival time is 41; service time is 5; num of pages is 50
+process id is 99; arrival time is 42; service time is 4; num of pages is 40
+process id is 100; arrival time is 43; service time is 3; num of pages is 30
+process id is 101; arrival time is 43; service time is 2; num of pages is 20
+process id is 102; arrival time is 43; service time is 3; num of pages is 30
+process id is 103; arrival time is 44; service time is 5; num of pages is 50
+process id is 104; arrival time is 44; service time is 2; num of pages is 20
+process id is 105; arrival time is 44; service time is 1; num of pages is 10
+process id is 106; arrival time is 44; service time is 5; num of pages is 50
+process id is 107; arrival time is 44; service time is 4; num of pages is 40
+process id is 108; arrival time is 45; service time is 3; num of pages is 30
+process id is 109; arrival time is 45; service time is 1; num of pages is 10
+process id is 110; arrival time is 46; service time is 5; num of pages is 50
+process id is 111; arrival time is 46; service time is 5; num of pages is 50
+process id is 112; arrival time is 46; service time is 5; num of pages is 50
+process id is 113; arrival time is 46; service time is 1; num of pages is 10
+process id is 114; arrival time is 46; service time is 1; num of pages is 10
+process id is 115; arrival time is 47; service time is 2; num of pages is 20
+process id is 116; arrival time is 48; service time is 3; num of pages is 30
+process id is 117; arrival time is 48; service time is 2; num of pages is 20
+process id is 118; arrival time is 49; service time is 1; num of pages is 10
+process id is 119; arrival time is 49; service time is 3; num of pages is 30
+process id is 120; arrival time is 50; service time is 2; num of pages is 20
+process id is 121; arrival time is 50; service time is 5; num of pages is 50
+process id is 122; arrival time is 50; service time is 3; num of pages is 30
+process id is 123; arrival time is 51; service time is 1; num of pages is 10
+process id is 124; arrival time is 51; service time is 5; num of pages is 50
+process id is 125; arrival time is 51; service time is 3; num of pages is 30
+process id is 126; arrival time is 51; service time is 3; num of pages is 30
+process id is 127; arrival time is 51; service time is 2; num of pages is 20
+process id is 128; arrival time is 52; service time is 2; num of pages is 20
+process id is 129; arrival time is 52; service time is 1; num of pages is 10
+process id is 130; arrival time is 52; service time is 1; num of pages is 10
+process id is 131; arrival time is 53; service time is 5; num of pages is 50
+process id is 132; arrival time is 53; service time is 3; num of pages is 30
+process id is 133; arrival time is 53; service time is 3; num of pages is 30
+process id is 134; arrival time is 54; service time is 5; num of pages is 50
+process id is 135; arrival time is 54; service time is 1; num of pages is 10
+process id is 136; arrival time is 54; service time is 1; num of pages is 10
+process id is 137; arrival time is 54; service time is 1; num of pages is 10
+process id is 138; arrival time is 55; service time is 4; num of pages is 40
+process id is 139; arrival time is 55; service time is 5; num of pages is 50
+process id is 140; arrival time is 56; service time is 3; num of pages is 30
+process id is 141; arrival time is 56; service time is 3; num of pages is 30
+process id is 142; arrival time is 57; service time is 4; num of pages is 40
+process id is 143; arrival time is 57; service time is 4; num of pages is 40
+process id is 144; arrival time is 57; service time is 4; num of pages is 40
+process id is 145; arrival time is 58; service time is 1; num of pages is 10
+process id is 146; arrival time is 58; service time is 3; num of pages is 30
+process id is 147; arrival time is 58; service time is 2; num of pages is 20
+process id is 148; arrival time is 58; service time is 1; num of pages is 10
+process id is 149; arrival time is 59; service time is 5; num of pages is 50
+process id is 150; arrival time is 59; service time is 5; num of pages is 50
+
+Start the simulation
+= Time Stamp 0:00 - Process Name: 1 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:00
+  Process 1's virtual page 0 will be evicted if needed.
+  Process 1 is under service, its reference page (virtual_page:physical_page) is: (0:0), (6:1), (1:2), (3:3), (12:4), (5:5), (16:6), (15:7), 
+
+= Memory Map: =
+1 1 1 1 1 1 1 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:01 - Process Name: 1 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:01 - Process Name: 2 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:01
+  Process 2's virtual page 0 will be evicted if needed.
+  Process 2 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:1), (2:2), (3:3), (4:4), (12:5), (13:6), (14:7), (10:8), 
+
+= Memory Map: =
+2 2 2 2 2 2 2 2 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:02 - Process Name: 3 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:02 - Process Name: 4 - Enter - Size in Pages: 5 - Service Duration: 4 = 
+
+= Time Stamp 0:02
+  Process 2's virtual page 0 will be evicted if needed.
+  Process 2 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:1), (2:2), (3:3), (4:4), (12:5), (13:6), (14:7), (10:8), (6:12), (9:16), (8:18), (27:21), (20:22), (21:24), 
+  Process 3 is under service, its reference page (virtual_page:physical_page) is: (0:9), (17:11), (18:13), (19:15), (30:19), (29:23), (28:25), 
+  Process 4 is under service, its reference page (virtual_page:physical_page) is: (0:10), (1:14), (3:17), (4:20), 
+
+= Memory Map: =
+2 2 2 2 2 2 2 2 2 3 4 3 2 3 4 3 2 4 2 3 4 2 2 3 2 3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:03 - Process Name: 3 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+
+= Time Stamp 0:03
+  Process 2's virtual page 0 will be evicted if needed.
+  Process 2 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:1), (2:2), (3:3), (4:4), (12:5), (13:6), (14:7), (10:8), (6:12), (9:16), (8:18), (27:21), (20:22), (21:24), (22:9), (30:11), (29:15), (28:19), (18:23), 
+  Process 4 is under service, its reference page (virtual_page:physical_page) is: (0:10), (1:14), (3:17), (4:20), (2:13), 
+
+= Memory Map: =
+2 2 2 2 2 2 2 2 2 2 4 2 2 4 4 2 2 4 2 2 4 2 2 2 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:04 - Process Name: 2 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:04 - Process Name: 5 - Enter - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:04
+  Process 4's virtual page 0 will be evicted if needed.
+  Process 4 is under service, its reference page (virtual_page:physical_page) is: (0:10), (1:14), (3:17), (4:20), (2:13), 
+  Process 5 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:1), (3:2), (10:3), (9:4), 
+
+= Memory Map: =
+5 5 5 5 5 . . . . . 4 . . 4 4 . . 4 . . 4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:05 - Process Name: 6 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:05
+  Process 4's virtual page 0 will be evicted if needed.
+  Process 4 is under service, its reference page (virtual_page:physical_page) is: (0:10), (1:14), (3:17), (4:20), (2:13), 
+  Process 5 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:1), (3:2), (10:3), (9:4), (8:7), 
+  Process 6 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:6), (2:8), (13:9), (12:11), (11:12), (10:15), 
+
+= Memory Map: =
+5 5 5 5 5 6 6 5 6 6 4 6 6 4 4 6 . 4 . . 4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:06 - Process Name: 4 - Exit - Size in Pages: 5 - Service Duration: 4 = 
+
+= Time Stamp 0:06 - Process Name: 5 - Exit - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:06 - Process Name: 7 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+= Time Stamp 0:06 - Process Name: 8 - Enter - Size in Pages: 31 - Service Duration: 2 = 
+
+= Time Stamp 0:06
+  Process 6's virtual page 0 will be evicted if needed.
+  Process 6 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:6), (2:8), (13:9), (12:11), (11:12), (10:15), (9:0), (8:3), (16:7), 
+  Process 7 is under service, its reference page (virtual_page:physical_page) is: (0:1), (11:4), (16:10), (15:16), 
+  Process 8 is under service, its reference page (virtual_page:physical_page) is: (0:2), (13:13), (30:14), (5:17), (3:18), (10:19), 
+
+= Memory Map: =
+6 7 8 6 7 6 6 6 6 6 7 6 6 8 8 6 7 8 8 8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:07 - Process Name: 6 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:07 - Process Name: 9 - Enter - Size in Pages: 5 - Service Duration: 4 = 
+= Time Stamp 0:07 - Process Name: 10 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:07 - Process Name: 11 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+= Time Stamp 0:07 - Process Name: 12 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:07
+  Process 7's virtual page 0 will be evicted if needed.
+  Process 7 is under service, its reference page (virtual_page:physical_page) is: (0:1), (11:4), (16:10), (15:16), 
+  Process 8 is under service, its reference page (virtual_page:physical_page) is: (0:2), (13:13), (30:14), (5:17), (3:18), (10:19), (25:7), (21:21), (23:24), 
+  Process 9 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:8), (4:12), 
+  Process 10 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:15), (2:20), 
+  Process 11 is under service, its reference page (virtual_page:physical_page) is: (0:5), (4:9), (3:22), (1:23), 
+  Process 12 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:11), 
+
+= Memory Map: =
+9 7 8 10 7 11 12 8 9 11 7 12 9 8 8 10 7 8 8 8 10 8 11 11 8 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:08 - Process Name: 7 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:08 - Process Name: 8 - Exit - Size in Pages: 31 - Service Duration: 2 = 
+
+
+= Time Stamp 0:08
+  Process 9's virtual page 0 will be evicted if needed.
+  Process 9 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:8), (4:12), (2:17), 
+  Process 10 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:15), (2:20), (7:2), (8:7), (16:13), (15:16), (5:18), (10:21), 
+  Process 11 is under service, its reference page (virtual_page:physical_page) is: (0:5), (4:9), (3:22), (1:23), (2:14), 
+  Process 12 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:11), (2:1), (3:4), (4:10), (7:19), 
+
+= Memory Map: =
+9 12 10 10 12 11 12 10 9 11 12 12 9 10 11 10 10 9 10 12 10 10 11 11 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:09 - Process Name: 11 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:09 - Process Name: 13 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:09 - Process Name: 14 - Enter - Size in Pages: 31 - Service Duration: 4 = 
+= Time Stamp 0:09 - Process Name: 15 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:09 - Process Name: 16 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:09
+  Process 9's virtual page 0 will be evicted if needed.
+  Process 9 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:8), (4:12), (2:17), (3:5), 
+  Process 10 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:15), (2:20), (7:2), (8:7), (16:13), (15:16), (5:18), (10:21), (3:9), (6:29), (9:41), 
+  Process 12 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:11), (2:1), (3:4), (4:10), (7:19), (8:30), (5:40), (6:42), 
+  Process 13 is under service, its reference page (virtual_page:physical_page) is: (0:14), (1:25), (10:33), (9:35), (4:43), (3:44), 
+  Process 14 is under service, its reference page (virtual_page:physical_page) is: (0:22), (19:26), (30:36), (29:37), (22:45), 
+  Process 15 is under service, its reference page (virtual_page:physical_page) is: (0:23), (2:27), (10:31), (9:34), (6:38), (1:39), (5:46), 
+  Process 16 is under service, its reference page (virtual_page:physical_page) is: (0:24), (16:28), (15:32), 
+
+= Memory Map: =
+9 12 10 10 12 9 12 10 9 10 12 12 9 10 13 10 10 9 10 12 10 10 14 15 16 13 14 15 16 10 12 15 16 13 15 13 14 14 15 15 12 10 12 13 13 14 15 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:10 - Process Name: 12 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:10 - Process Name: 17 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:10
+  Process 9's virtual page 0 will be evicted if needed.
+  Process 9 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:8), (4:12), (2:17), (3:5), 
+  Process 10 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:15), (2:20), (7:2), (8:7), (16:13), (15:16), (5:18), (10:21), (3:9), (6:29), (9:41), (12:40), (13:49), 
+  Process 13 is under service, its reference page (virtual_page:physical_page) is: (0:14), (1:25), (10:33), (9:35), (4:43), (3:44), (7:11), (8:42), 
+  Process 14 is under service, its reference page (virtual_page:physical_page) is: (0:22), (19:26), (30:36), (29:37), (22:45), (21:1), (23:19), (24:47), (10:55), 
+  Process 15 is under service, its reference page (virtual_page:physical_page) is: (0:23), (2:27), (10:31), (9:34), (6:38), (1:39), (5:46), (4:4), (3:53), 
+  Process 16 is under service, its reference page (virtual_page:physical_page) is: (0:24), (16:28), (15:32), (14:30), (13:48), (12:50), (11:54), 
+  Process 17 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:10), (18:51), (19:52), 
+
+= Memory Map: =
+9 14 10 10 15 9 17 10 9 10 17 13 9 10 13 10 10 9 10 14 10 10 14 15 16 13 14 15 16 10 16 15 16 13 15 13 14 14 15 15 10 10 13 13 13 14 15 14 16 10 16 17 17 15 16 14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:11 - Process Name: 9 - Exit - Size in Pages: 5 - Service Duration: 4 = 
+
+= Time Stamp 0:11 - Process Name: 16 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:11 - Process Name: 17 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:11 - Process Name: 18 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:11 - Process Name: 19 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:11 - Process Name: 20 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:11 - Process Name: 21 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:11
+  Process 10's virtual page 0 will be evicted if needed.
+  Process 10 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:15), (2:20), (7:2), (8:7), (16:13), (15:16), (5:18), (10:21), (3:9), (6:29), (9:41), (12:40), (13:49), (11:52), 
+  Process 13 is under service, its reference page (virtual_page:physical_page) is: (0:14), (1:25), (10:33), (9:35), (4:43), (3:44), (7:11), (8:42), (2:12), (6:30), (5:57), 
+  Process 14 is under service, its reference page (virtual_page:physical_page) is: (0:22), (19:26), (30:36), (29:37), (22:45), (21:1), (23:19), (24:47), (10:55), (9:0), (1:32), (4:59), (5:61), (28:63), 
+  Process 15 is under service, its reference page (virtual_page:physical_page) is: (0:23), (2:27), (10:31), (9:34), (6:38), (1:39), (5:46), (4:4), (3:53), 
+  Process 18 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:17), (4:48), (3:54), 
+  Process 19 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:50), (4:60), 
+  Process 20 is under service, its reference page (virtual_page:physical_page) is: (0:8), (10:24), (9:51), (7:56), 
+  Process 21 is under service, its reference page (virtual_page:physical_page) is: (0:10), (16:28), (15:58), (1:62), (2:64), 
+
+= Memory Map: =
+14 14 10 10 15 18 19 10 20 10 21 13 13 10 13 10 10 18 10 14 10 10 14 15 20 13 14 15 21 10 13 15 14 13 15 13 14 14 15 15 10 10 13 13 13 14 15 14 18 10 19 20 10 15 18 14 20 13 21 14 19 14 21 14 21 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:12 - Process Name: 10 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:12 - Process Name: 13 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:12 - Process Name: 15 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:12 - Process Name: 21 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:12 - Process Name: 22 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:12 - Process Name: 23 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+= Time Stamp 0:12 - Process Name: 24 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:12
+  Process 14's virtual page 0 will be evicted if needed.
+  Process 14 is under service, its reference page (virtual_page:physical_page) is: (0:22), (19:26), (30:36), (29:37), (22:45), (21:1), (23:19), (24:47), (10:55), (9:0), (1:32), (4:59), (5:61), (28:63), (17:15), 
+  Process 18 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:17), (4:48), (3:54), 
+  Process 19 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:50), (4:60), (3:20), (2:23), 
+  Process 20 is under service, its reference page (virtual_page:physical_page) is: (0:8), (10:24), (9:51), (7:56), (8:11), 
+  Process 22 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:16), (1:25), 
+  Process 23 is under service, its reference page (virtual_page:physical_page) is: (0:3), (11:9), (10:13), (6:14), (4:18), (3:21), (2:27), 
+  Process 24 is under service, its reference page (virtual_page:physical_page) is: (0:4), (3:10), (1:12), 
+
+= Memory Map: =
+14 14 22 23 24 18 19 22 20 23 24 20 24 23 23 14 22 18 23 14 19 23 14 19 20 22 14 23 . . . . 14 . . . 14 14 . . . . . . . 14 . 14 18 . 19 20 . . 18 14 20 . . 14 19 14 . 14 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:13 - Process Name: 14 - Exit - Size in Pages: 31 - Service Duration: 4 = 
+
+= Time Stamp 0:13 - Process Name: 25 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:13 - Process Name: 26 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:13 - Process Name: 27 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:13
+  Process 18's virtual page 0 will be evicted if needed.
+  Process 18 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:17), (4:48), (3:54), (2:0), 
+  Process 19 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:50), (4:60), (3:20), (2:23), 
+  Process 20 is under service, its reference page (virtual_page:physical_page) is: (0:8), (10:24), (9:51), (7:56), (8:11), (1:30), 
+  Process 22 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:16), (1:25), (9:22), (14:40), (5:47), 
+  Process 23 is under service, its reference page (virtual_page:physical_page) is: (0:3), (11:9), (10:13), (6:14), (4:18), (3:21), (2:27), (1:33), (13:37), (12:41), 
+  Process 24 is under service, its reference page (virtual_page:physical_page) is: (0:4), (3:10), (1:12), (4:42), 
+  Process 25 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:26), (1:34), (2:43), 
+  Process 26 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:28), (2:31), (3:35), (28:36), (27:38), (26:45), (30:49), 
+  Process 27 is under service, its reference page (virtual_page:physical_page) is: (0:19), (7:29), (16:32), (11:39), (12:44), (1:46), (2:52), 
+
+= Memory Map: =
+18 25 22 23 24 18 19 22 20 23 24 20 24 23 23 26 22 18 23 27 19 23 22 19 20 22 25 23 26 27 20 26 27 23 25 26 26 23 26 27 22 23 24 25 27 26 27 22 18 26 19 20 27 . 18 . 20 . . . 19 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:14 - Process Name: 18 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:14 - Process Name: 20 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:14 - Process Name: 26 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:14 - Process Name: 28 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:14 - Process Name: 29 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:14 - Process Name: 30 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:14
+  Process 19's virtual page 0 will be evicted if needed.
+  Process 19 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:50), (4:60), (3:20), (2:23), 
+  Process 22 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:16), (1:25), (9:22), (14:40), (5:47), 
+  Process 23 is under service, its reference page (virtual_page:physical_page) is: (0:3), (11:9), (10:13), (6:14), (4:18), (3:21), (2:27), (1:33), (13:37), (12:41), (30:17), (24:35), (25:36), (29:48), 
+  Process 24 is under service, its reference page (virtual_page:physical_page) is: (0:4), (3:10), (1:12), (4:42), (2:31), 
+  Process 25 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:26), (1:34), (2:43), 
+  Process 27 is under service, its reference page (virtual_page:physical_page) is: (0:19), (7:29), (16:32), (11:39), (12:44), (1:46), (2:52), (3:0), (4:38), 
+  Process 28 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:24), (2:45), 
+  Process 29 is under service, its reference page (virtual_page:physical_page) is: (0:8), (9:15), (10:28), 
+  Process 30 is under service, its reference page (virtual_page:physical_page) is: (0:11), (1:30), 
+
+= Memory Map: =
+27 25 22 23 24 28 19 22 29 23 24 30 24 23 23 29 22 23 23 27 19 23 22 19 28 22 25 23 29 27 30 24 27 23 25 23 23 23 27 27 22 23 24 25 27 28 27 22 23 . 19 . 27 . . . . . . . 19 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:15 - Process Name: 22 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+
+= Time Stamp 0:15
+  Process 19's virtual page 0 will be evicted if needed.
+  Process 19 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:50), (4:60), (3:20), (2:23), 
+  Process 23 is under service, its reference page (virtual_page:physical_page) is: (0:3), (11:9), (10:13), (6:14), (4:18), (3:21), (2:27), (1:33), (13:37), (12:41), (30:17), (24:35), (25:36), (29:48), (26:2), (18:25), (27:51), 
+  Process 24 is under service, its reference page (virtual_page:physical_page) is: (0:4), (3:10), (1:12), (4:42), (2:31), 
+  Process 25 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:26), (1:34), (2:43), 
+  Process 27 is under service, its reference page (virtual_page:physical_page) is: (0:19), (7:29), (16:32), (11:39), (12:44), (1:46), (2:52), (3:0), (4:38), (5:7), 
+  Process 28 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:24), (2:45), (13:40), (16:47), (14:53), 
+  Process 29 is under service, its reference page (virtual_page:physical_page) is: (0:8), (9:15), (10:28), (8:16), 
+  Process 30 is under service, its reference page (virtual_page:physical_page) is: (0:11), (1:30), (2:22), (3:49), (4:54), 
+
+= Memory Map: =
+27 25 23 23 24 28 19 27 29 23 24 30 24 23 23 29 29 23 23 27 19 23 30 19 28 23 25 23 29 27 30 24 27 23 25 23 23 23 27 27 28 23 24 25 27 28 27 28 23 30 19 23 27 28 30 . . . . . 19 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:16 - Process Name: 19 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:16 - Process Name: 27 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:16 - Process Name: 31 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:16
+  Process 23's virtual page 0 will be evicted if needed.
+  Process 23 is under service, its reference page (virtual_page:physical_page) is: (0:3), (11:9), (10:13), (6:14), (4:18), (3:21), (2:27), (1:33), (13:37), (12:41), (30:17), (24:35), (25:36), (29:48), (26:2), (18:25), (27:51), (28:0), (23:19), (22:29), (21:38), 
+  Process 24 is under service, its reference page (virtual_page:physical_page) is: (0:4), (3:10), (1:12), (4:42), (2:31), 
+  Process 25 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:26), (1:34), (2:43), (4:20), 
+  Process 28 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:24), (2:45), (13:40), (16:47), (14:53), (15:39), (7:46), (8:55), 
+  Process 29 is under service, its reference page (virtual_page:physical_page) is: (0:8), (9:15), (10:28), (8:16), (3:6), (2:23), (1:32), (4:50), 
+  Process 30 is under service, its reference page (virtual_page:physical_page) is: (0:11), (1:30), (2:22), (3:49), (4:54), 
+  Process 31 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:44), (2:52), (3:56), 
+
+= Memory Map: =
+23 25 23 23 24 28 29 31 29 23 24 30 24 23 23 29 29 23 23 23 25 23 30 29 28 23 25 23 29 23 30 24 29 23 25 23 23 23 23 28 28 23 24 25 31 28 28 28 23 30 29 23 31 28 30 28 31 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:17 - Process Name: 23 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:17 - Process Name: 24 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:17 - Process Name: 29 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:17 - Process Name: 31 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:17 - Process Name: 32 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+= Time Stamp 0:17 - Process Name: 33 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:17
+  Process 25's virtual page 0 will be evicted if needed.
+  Process 25 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:26), (1:34), (2:43), (4:20), 
+  Process 28 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:24), (2:45), (13:40), (16:47), (14:53), (15:39), (7:46), (8:55), (11:9), (3:16), 
+  Process 30 is under service, its reference page (virtual_page:physical_page) is: (0:11), (1:30), (2:22), (3:49), (4:54), 
+  Process 32 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:3), (9:7), (8:10), (10:12), 
+  Process 33 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:4), (2:6), (3:8), (27:13), (26:14), (30:15), (29:17), 
+
+= Memory Map: =
+32 25 33 32 33 28 33 32 33 28 32 30 32 33 33 33 28 33 . . 25 . 30 . 28 . 25 . . . 30 . . . 25 . . . . 28 28 . . 25 . 28 28 28 . 30 . . . 28 30 28 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:18 - Process Name: 25 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:18 - Process Name: 32 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:18 - Process Name: 34 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:18 - Process Name: 35 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+= Time Stamp 0:18 - Process Name: 36 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:18 - Process Name: 37 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+= Time Stamp 0:18 - Process Name: 38 - Enter - Size in Pages: 11 - Service Duration: 4 = 
+= Time Stamp 0:18 - Process Name: 39 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+= Time Stamp 0:18 - Process Name: 40 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:18
+  Process 28's virtual page 0 will be evicted if needed.
+  Process 28 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:24), (2:45), (13:40), (16:47), (14:53), (15:39), (7:46), (8:55), (11:9), (3:16), (4:23), 
+  Process 30 is under service, its reference page (virtual_page:physical_page) is: (0:11), (1:30), (2:22), (3:49), (4:54), 
+  Process 33 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:4), (2:6), (3:8), (27:13), (26:14), (30:15), (29:17), (25:25), (24:31), (16:61), 
+  Process 34 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:26), (13:32), (16:35), (15:51), (14:56), 
+  Process 35 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:42), (27:59), 
+  Process 36 is under service, its reference page (virtual_page:physical_page) is: (0:3), (21:19), (1:57), 
+  Process 37 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:27), (5:36), (4:43), (3:52), (2:58), 
+  Process 38 is under service, its reference page (virtual_page:physical_page) is: (0:10), (2:20), (1:33), (10:37), (9:44), 
+  Process 39 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:28), (2:34), (3:38), (4:48), 
+  Process 40 is under service, its reference page (virtual_page:physical_page) is: (0:18), (9:21), (8:29), (10:41), (11:50), (2:60), (1:62), 
+
+= Memory Map: =
+34 35 33 36 33 28 33 37 33 28 38 30 39 33 33 33 28 33 40 36 38 40 30 28 28 33 34 37 39 40 30 33 34 38 39 34 37 38 39 28 28 40 35 37 38 28 28 28 39 30 40 34 37 28 30 28 34 36 37 35 40 33 40 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:19 - Process Name: 28 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:19 - Process Name: 30 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:19 - Process Name: 36 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:19 - Process Name: 41 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:19
+  Process 33's virtual page 0 will be evicted if needed.
+  Process 33 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:4), (2:6), (3:8), (27:13), (26:14), (30:15), (29:17), (25:25), (24:31), (16:61), (15:3), (14:19), 
+  Process 34 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:26), (13:32), (16:35), (15:51), (14:56), (6:55), 
+  Process 35 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:42), (27:59), (29:11), (28:24), (30:40), 
+  Process 37 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:27), (5:36), (4:43), (3:52), (2:58), (22:22), (9:39), (10:45), (8:53), 
+  Process 38 is under service, its reference page (virtual_page:physical_page) is: (0:10), (2:20), (1:33), (10:37), (9:44), (6:16), (4:46), 
+  Process 39 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:28), (2:34), (3:38), (4:48), 
+  Process 40 is under service, its reference page (virtual_page:physical_page) is: (0:18), (9:21), (8:29), (10:41), (11:50), (2:60), (1:62), (16:5), (15:30), (14:54), 
+  Process 41 is under service, its reference page (virtual_page:physical_page) is: (0:9), (1:23), (2:47), (3:49), 
+
+= Memory Map: =
+34 35 33 33 33 40 33 37 33 41 38 35 39 33 33 33 38 33 40 33 38 40 37 41 35 33 34 37 39 40 40 33 34 38 39 34 37 38 39 37 35 40 35 37 38 37 38 41 39 41 40 34 37 37 40 34 34 . 37 35 40 33 40 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:20 - Process Name: 39 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:20 - Process Name: 40 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:20 - Process Name: 41 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:20 - Process Name: 42 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:20
+  Process 33's virtual page 0 will be evicted if needed.
+  Process 33 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:4), (2:6), (3:8), (27:13), (26:14), (30:15), (29:17), (25:25), (24:31), (16:61), (15:3), (14:19), (4:34), (11:48), (12:60), 
+  Process 34 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:26), (13:32), (16:35), (15:51), (14:56), (6:55), (7:5), (2:38), 
+  Process 35 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:42), (27:59), (29:11), (28:24), (30:40), (8:29), (22:41), 
+  Process 37 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:27), (5:36), (4:43), (3:52), (2:58), (22:22), (9:39), (10:45), (8:53), (18:9), (17:18), (16:21), (20:47), (30:49), (29:50), 
+  Process 38 is under service, its reference page (virtual_page:physical_page) is: (0:10), (2:20), (1:33), (10:37), (9:44), (6:16), (4:46), (3:23), (5:54), 
+  Process 42 is under service, its reference page (virtual_page:physical_page) is: (0:12), (7:28), (6:30), (10:57), (9:62), 
+
+= Memory Map: =
+34 35 33 33 33 34 33 37 33 37 38 35 42 33 33 33 38 33 37 33 38 37 37 38 35 33 34 37 42 35 42 33 34 38 33 34 37 38 34 37 35 35 35 37 38 37 38 37 33 37 37 34 37 37 38 34 34 42 37 35 33 33 42 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:21 - Process Name: 37 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:21 - Process Name: 43 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:21
+  Process 33's virtual page 0 will be evicted if needed.
+  Process 33 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:4), (2:6), (3:8), (27:13), (26:14), (30:15), (29:17), (25:25), (24:31), (16:61), (15:3), (14:19), (4:34), (11:48), (12:60), (7:49), 
+  Process 34 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:26), (13:32), (16:35), (15:51), (14:56), (6:55), (7:5), (2:38), (4:21), (3:27), (5:45), 
+  Process 35 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:42), (27:59), (29:11), (28:24), (30:40), (8:29), (22:41), (21:7), (15:36), 
+  Process 38 is under service, its reference page (virtual_page:physical_page) is: (0:10), (2:20), (1:33), (10:37), (9:44), (6:16), (4:46), (3:23), (5:54), 
+  Process 42 is under service, its reference page (virtual_page:physical_page) is: (0:12), (7:28), (6:30), (10:57), (9:62), (8:9), (1:58), 
+  Process 43 is under service, its reference page (virtual_page:physical_page) is: (0:18), (1:22), (2:39), (8:43), (9:47), (10:50), (12:52), (5:53), 
+
+= Memory Map: =
+34 35 33 33 33 34 33 35 33 42 38 35 42 33 33 33 38 33 43 33 38 34 43 38 35 33 34 34 42 35 42 33 34 38 33 34 35 38 34 43 35 35 35 43 38 34 38 43 33 33 43 34 43 43 38 34 34 42 42 35 33 33 42 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:22 - Process Name: 33 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:22 - Process Name: 38 - Exit - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:22 - Process Name: 44 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:22 - Process Name: 45 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:22
+  Process 34's virtual page 0 will be evicted if needed.
+  Process 34 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:26), (13:32), (16:35), (15:51), (14:56), (6:55), (7:5), (2:38), (4:21), (3:27), (5:45), 
+  Process 35 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:42), (27:59), (29:11), (28:24), (30:40), (8:29), (22:41), (21:7), (15:36), (17:13), 
+  Process 42 is under service, its reference page (virtual_page:physical_page) is: (0:12), (7:28), (6:30), (10:57), (9:62), (8:9), (1:58), (2:2), 
+  Process 43 is under service, its reference page (virtual_page:physical_page) is: (0:18), (1:22), (2:39), (8:43), (9:47), (10:50), (12:52), (5:53), (3:6), 
+  Process 44 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:8), (7:14), (4:16), (5:19), (6:23), (9:25), 
+  Process 45 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:10), (7:15), (10:17), (9:20), 
+
+= Memory Map: =
+34 35 42 44 45 34 43 35 44 42 45 35 42 35 44 45 44 45 43 44 45 34 43 44 35 44 34 34 42 35 42 . 34 . . 34 35 . 34 43 35 35 35 43 . 34 . 43 . . 43 34 43 43 . 34 34 42 42 35 . . 42 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:23 - Process Name: 34 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:23 - Process Name: 35 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+
+= Time Stamp 0:23
+  Process 42's virtual page 0 will be evicted if needed.
+  Process 42 is under service, its reference page (virtual_page:physical_page) is: (0:12), (7:28), (6:30), (10:57), (9:62), (8:9), (1:58), (2:2), 
+  Process 43 is under service, its reference page (virtual_page:physical_page) is: (0:18), (1:22), (2:39), (8:43), (9:47), (10:50), (12:52), (5:53), (3:6), (6:1), (11:5), (13:7), 
+  Process 44 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:8), (7:14), (4:16), (5:19), (6:23), (9:25), (10:0), (8:11), 
+  Process 45 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:10), (7:15), (10:17), (9:20), 
+
+= Memory Map: =
+44 43 42 44 45 43 43 43 44 42 45 44 42 . 44 45 44 45 43 44 45 . 43 44 . 44 . . 42 . 42 . . . . . . . . 43 . . . 43 . . . 43 . . 43 . 43 43 . . . 42 42 . . . 42 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:24 - Process Name: 46 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:24 - Process Name: 47 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:24 - Process Name: 48 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:24 - Process Name: 49 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:24
+  Process 42's virtual page 0 will be evicted if needed.
+  Process 42 is under service, its reference page (virtual_page:physical_page) is: (0:12), (7:28), (6:30), (10:57), (9:62), (8:9), (1:58), (2:2), (5:33), 
+  Process 43 is under service, its reference page (virtual_page:physical_page) is: (0:18), (1:22), (2:39), (8:43), (9:47), (10:50), (12:52), (5:53), (3:6), (6:1), (11:5), (13:7), (7:27), (16:44), (15:49), 
+  Process 44 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:8), (7:14), (4:16), (5:19), (6:23), (9:25), (10:0), (8:11), 
+  Process 45 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:10), (7:15), (10:17), (9:20), (8:34), (6:45), (5:46), 
+  Process 46 is under service, its reference page (virtual_page:physical_page) is: (0:13), (3:29), (5:35), (4:41), (1:55), 
+  Process 47 is under service, its reference page (virtual_page:physical_page) is: (0:21), (1:31), (2:36), (4:48), (3:51), 
+  Process 48 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:37), (2:40), (3:42), (4:56), (5:59), 
+  Process 49 is under service, its reference page (virtual_page:physical_page) is: (0:26), (29:32), (30:38), (26:54), (27:60), 
+
+= Memory Map: =
+44 43 42 44 45 43 43 43 44 42 45 44 42 46 44 45 44 45 43 44 45 47 43 44 48 44 49 43 42 46 42 47 49 42 45 46 47 48 49 43 48 46 48 43 43 45 45 43 47 43 43 47 43 43 49 46 48 42 42 48 49 . 42 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:25 - Process Name: 42 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:25 - Process Name: 44 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:25 - Process Name: 45 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:25 - Process Name: 49 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:25 - Process Name: 50 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+= Time Stamp 0:25 - Process Name: 51 - Enter - Size in Pages: 17 - Service Duration: 4 = 
+= Time Stamp 0:25 - Process Name: 52 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:25 - Process Name: 53 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:25 - Process Name: 54 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:25
+  Process 43's virtual page 0 will be evicted if needed.
+  Process 43 is under service, its reference page (virtual_page:physical_page) is: (0:18), (1:22), (2:39), (8:43), (9:47), (10:50), (12:52), (5:53), (3:6), (6:1), (11:5), (13:7), (7:27), (16:44), (15:49), (14:15), 
+  Process 46 is under service, its reference page (virtual_page:physical_page) is: (0:13), (3:29), (5:35), (4:41), (1:55), (2:10), (8:38), (7:57), (6:62), (10:64), 
+  Process 47 is under service, its reference page (virtual_page:physical_page) is: (0:21), (1:31), (2:36), (4:48), (3:51), 
+  Process 48 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:37), (2:40), (3:42), (4:56), (5:59), (10:0), (9:11), (8:16), (7:67), 
+  Process 50 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:25), (7:32), (1:45), (10:58), 
+  Process 51 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:17), (2:26), (11:68), 
+  Process 52 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:19), (2:28), (16:33), (15:65), 
+  Process 53 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:12), (1:20), (16:30), (15:46), (14:60), (13:63), 
+  Process 54 is under service, its reference page (virtual_page:physical_page) is: (0:9), (2:14), (7:23), (8:34), (9:54), (30:61), (25:66), 
+
+= Memory Map: =
+48 43 50 51 52 43 43 43 53 54 46 48 53 46 54 43 48 51 43 52 53 47 43 54 48 50 51 43 52 46 53 47 50 52 54 46 47 48 46 43 48 46 48 43 43 50 53 43 47 43 43 47 43 43 54 46 48 46 50 48 53 54 46 53 46 52 54 48 51 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:26 - Process Name: 43 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:26 - Process Name: 55 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:26
+  Process 46's virtual page 0 will be evicted if needed.
+  Process 46 is under service, its reference page (virtual_page:physical_page) is: (0:13), (3:29), (5:35), (4:41), (1:55), (2:10), (8:38), (7:57), (6:62), (10:64), 
+  Process 47 is under service, its reference page (virtual_page:physical_page) is: (0:21), (1:31), (2:36), (4:48), (3:51), 
+  Process 48 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:37), (2:40), (3:42), (4:56), (5:59), (10:0), (9:11), (8:16), (7:67), 
+  Process 50 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:25), (7:32), (1:45), (10:58), (9:1), 
+  Process 51 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:17), (2:26), (11:68), (16:5), (7:15), (6:22), 
+  Process 52 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:19), (2:28), (16:33), (15:65), (6:44), 
+  Process 53 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:12), (1:20), (16:30), (15:46), (14:60), (13:63), 
+  Process 54 is under service, its reference page (virtual_page:physical_page) is: (0:9), (2:14), (7:23), (8:34), (9:54), (30:61), (25:66), (24:6), (29:39), 
+  Process 55 is under service, its reference page (virtual_page:physical_page) is: (0:7), (16:18), (15:27), (14:43), (1:47), 
+
+= Memory Map: =
+48 50 50 51 52 51 54 55 53 54 46 48 53 46 54 51 48 51 55 52 53 47 51 54 48 50 51 55 52 46 53 47 50 52 54 46 47 48 46 54 48 46 48 55 52 50 53 55 47 . . 47 . . 54 46 48 46 50 48 53 54 46 53 46 52 54 48 51 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:27 - Process Name: 46 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:27 - Process Name: 47 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:27 - Process Name: 48 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:27 - Process Name: 56 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:27 - Process Name: 57 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:27
+  Process 50's virtual page 0 will be evicted if needed.
+  Process 50 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:25), (7:32), (1:45), (10:58), (9:1), (2:35), (4:40), 
+  Process 51 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:17), (2:26), (11:68), (16:5), (7:15), (6:22), (9:42), 
+  Process 52 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:19), (2:28), (16:33), (15:65), (6:44), (7:0), (8:48), 
+  Process 53 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:12), (1:20), (16:30), (15:46), (14:60), (13:63), (3:37), (4:41), 
+  Process 54 is under service, its reference page (virtual_page:physical_page) is: (0:9), (2:14), (7:23), (8:34), (9:54), (30:61), (25:66), (24:6), (29:39), 
+  Process 55 is under service, its reference page (virtual_page:physical_page) is: (0:7), (16:18), (15:27), (14:43), (1:47), (2:10), (11:16), (3:38), 
+  Process 56 is under service, its reference page (virtual_page:physical_page) is: (0:11), (16:21), (3:29), (7:31), (6:36), (4:49), (11:50), 
+  Process 57 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:24), 
+
+= Memory Map: =
+52 50 50 51 52 51 54 55 53 54 55 56 53 57 54 51 55 51 55 52 53 56 51 54 57 50 51 55 52 56 53 56 50 52 54 50 56 53 55 54 50 53 51 55 52 50 53 55 52 56 56 . . . 54 . . . 50 . 53 54 . 53 . 52 54 . 51 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:28 - Process Name: 58 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:28 - Process Name: 59 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+= Time Stamp 0:28 - Process Name: 60 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:28
+  Process 50's virtual page 0 will be evicted if needed.
+  Process 50 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:25), (7:32), (1:45), (10:58), (9:1), (2:35), (4:40), (3:57), 
+  Process 51 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:17), (2:26), (11:68), (16:5), (7:15), (6:22), (9:42), (10:51), (12:77), (15:87), 
+  Process 52 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:19), (2:28), (16:33), (15:65), (6:44), (7:0), (8:48), (14:70), (13:78), (12:81), 
+  Process 53 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:12), (1:20), (16:30), (15:46), (14:60), (13:63), (3:37), (4:41), (6:88), 
+  Process 54 is under service, its reference page (virtual_page:physical_page) is: (0:9), (2:14), (7:23), (8:34), (9:54), (30:61), (25:66), (24:6), (29:39), (28:59), (21:74), (5:79), 
+  Process 55 is under service, its reference page (virtual_page:physical_page) is: (0:7), (16:18), (15:27), (14:43), (1:47), (2:10), (11:16), (3:38), 
+  Process 56 is under service, its reference page (virtual_page:physical_page) is: (0:11), (16:21), (3:29), (7:31), (6:36), (4:49), (11:50), (15:71), (14:83), 
+  Process 57 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:24), (2:52), (28:62), (14:72), (15:75), (7:80), (6:85), 
+  Process 58 is under service, its reference page (virtual_page:physical_page) is: (0:53), (1:64), (2:82), 
+  Process 59 is under service, its reference page (virtual_page:physical_page) is: (0:55), (1:67), (2:73), (15:86), (16:89), 
+  Process 60 is under service, its reference page (virtual_page:physical_page) is: (0:56), (11:69), (1:76), (14:84), (30:90), 
+
+= Memory Map: =
+52 50 50 51 52 51 54 55 53 54 55 56 53 57 54 51 55 51 55 52 53 56 51 54 57 50 51 55 52 56 53 56 50 52 54 50 56 53 55 54 50 53 51 55 52 50 53 55 52 56 56 51 57 58 54 59 60 50 50 54 53 54 57 53 58 52 54 59 51 60 52 56 57 59 54 57 60 51 52 54 57 52 58 56 60 57 59 51 53 59 60 . . . . . . . . . 
+= Time Stamp 0:29 - Process Name: 51 - Exit - Size in Pages: 17 - Service Duration: 4 = 
+
+= Time Stamp 0:29 - Process Name: 55 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:29 - Process Name: 58 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:29 - Process Name: 59 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:29 - Process Name: 61 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:29 - Process Name: 62 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:29
+  Process 50's virtual page 0 will be evicted if needed.
+  Process 50 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:25), (7:32), (1:45), (10:58), (9:1), (2:35), (4:40), (3:57), (6:18), 
+  Process 52 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:19), (2:28), (16:33), (15:65), (6:44), (7:0), (8:48), (14:70), (13:78), (12:81), 
+  Process 53 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:12), (1:20), (16:30), (15:46), (14:60), (13:63), (3:37), (4:41), (6:88), (7:3), (8:82), 
+  Process 54 is under service, its reference page (virtual_page:physical_page) is: (0:9), (2:14), (7:23), (8:34), (9:54), (30:61), (25:66), (24:6), (29:39), (28:59), (21:74), (5:79), (6:27), (1:43), 
+  Process 56 is under service, its reference page (virtual_page:physical_page) is: (0:11), (16:21), (3:29), (7:31), (6:36), (4:49), (11:50), (15:71), (14:83), (13:5), (9:47), (10:64), 
+  Process 57 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:24), (2:52), (28:62), (14:72), (15:75), (7:80), (6:85), (5:16), (9:38), 
+  Process 60 is under service, its reference page (virtual_page:physical_page) is: (0:56), (11:69), (1:76), (14:84), (30:90), (29:7), (3:51), (4:67), 
+  Process 61 is under service, its reference page (virtual_page:physical_page) is: (0:10), (18:17), (21:22), (3:42), (30:53), (29:73), 
+  Process 62 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:26), (15:55), (16:68), (9:77), (10:86), 
+
+= Memory Map: =
+52 50 50 53 52 56 54 60 53 54 61 56 53 57 54 62 57 61 50 52 53 56 61 54 57 50 62 54 52 56 53 56 50 52 54 50 56 53 57 54 50 53 61 54 52 50 53 56 52 56 56 60 57 61 54 62 60 50 50 54 53 54 57 53 56 52 54 60 62 60 52 56 57 61 54 57 60 62 52 54 57 52 53 56 60 57 62 . 53 . 60 . . . . . . . . . 
+= Time Stamp 0:30 - Process Name: 50 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:30 - Process Name: 52 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:30 - Process Name: 53 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:30 - Process Name: 54 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:30 - Process Name: 56 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:30 - Process Name: 61 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:30 - Process Name: 63 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:30
+  Process 57's virtual page 0 will be evicted if needed.
+  Process 57 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:24), (2:52), (28:62), (14:72), (15:75), (7:80), (6:85), (5:16), (9:38), 
+  Process 60 is under service, its reference page (virtual_page:physical_page) is: (0:56), (11:69), (1:76), (14:84), (30:90), (29:7), (3:51), (4:67), (2:0), 
+  Process 62 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:26), (15:55), (16:68), (9:77), (10:86), 
+  Process 63 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:2), 
+
+= Memory Map: =
+60 63 63 . . . . 60 . . . . . 57 . 62 57 . . . . . . . 57 . 62 . . . . . . . . . . . 57 . . . . . . . . . . . . 60 57 . . 62 60 . . . . . 57 . . . . 60 62 60 . . 57 . . 57 60 62 . . 57 . . . 60 57 62 . . . 60 . . . . . . . . . 
+= Time Stamp 0:31 - Process Name: 60 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:31 - Process Name: 64 - Enter - Size in Pages: 17 - Service Duration: 4 = 
+
+= Time Stamp 0:31
+  Process 57's virtual page 0 will be evicted if needed.
+  Process 57 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:24), (2:52), (28:62), (14:72), (15:75), (7:80), (6:85), (5:16), (9:38), (17:9), (18:12), (19:17), (30:20), (29:22), 
+  Process 62 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:26), (15:55), (16:68), (9:77), (10:86), (3:0), (4:5), (27:18), (28:21), (30:23), 
+  Process 63 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:2), (9:3), (12:6), (11:10), (10:14), (14:25), 
+  Process 64 is under service, its reference page (virtual_page:physical_page) is: (0:4), (9:7), (8:8), (12:11), (13:19), (11:27), (16:28), 
+
+= Memory Map: =
+62 63 63 63 64 62 63 64 64 57 63 64 57 57 63 62 57 57 62 64 57 62 57 62 57 63 62 64 64 . . . . . . . . . 57 . . . . . . . . . . . . . 57 . . 62 . . . . . . 57 . . . . . 62 . . . 57 . . 57 . 62 . . 57 . . . . 57 62 . . . . . . . . . . . . . 
+= Time Stamp 0:32 - Process Name: 57 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:32 - Process Name: 65 - Enter - Size in Pages: 31 - Service Duration: 4 = 
+= Time Stamp 0:32 - Process Name: 66 - Enter - Size in Pages: 5 - Service Duration: 4 = 
+= Time Stamp 0:32 - Process Name: 67 - Enter - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:32
+  Process 62's virtual page 0 will be evicted if needed.
+  Process 62 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:26), (15:55), (16:68), (9:77), (10:86), (3:0), (4:5), (27:18), (28:21), (30:23), (29:33), 
+  Process 63 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:2), (9:3), (12:6), (11:10), (10:14), (14:25), (4:29), 
+  Process 64 is under service, its reference page (virtual_page:physical_page) is: (0:4), (9:7), (8:8), (12:11), (13:19), (11:27), (16:28), (15:9), (6:17), (1:30), 
+  Process 65 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:20), (17:31), (18:34), (30:35), (29:38), 
+  Process 66 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:22), (2:32), 
+  Process 67 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (3:36), (7:37), (8:39), 
+
+= Memory Map: =
+62 63 63 63 64 62 63 64 64 64 63 64 65 66 63 62 67 64 62 64 65 62 66 62 67 63 62 64 64 63 64 65 66 62 65 65 67 67 65 67 . . . . . . . . . . . . . . . 62 . . . . . . . . . . . . 62 . . . . . . . . 62 . . . . . . . . 62 . . . . . . . . . . . . . 
+= Time Stamp 0:33 - Process Name: 63 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:33 - Process Name: 68 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+= Time Stamp 0:33 - Process Name: 69 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:33 - Process Name: 70 - Enter - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:33
+  Process 62's virtual page 0 will be evicted if needed.
+  Process 62 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:26), (15:55), (16:68), (9:77), (10:86), (3:0), (4:5), (27:18), (28:21), (30:23), (29:33), 
+  Process 64 is under service, its reference page (virtual_page:physical_page) is: (0:4), (9:7), (8:8), (12:11), (13:19), (11:27), (16:28), (15:9), (6:17), (1:30), (2:41), (3:44), 
+  Process 65 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:20), (17:31), (18:34), (30:35), (29:38), (27:25), (28:42), (24:48), (23:51), (7:57), 
+  Process 66 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:22), (2:32), 
+  Process 67 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (3:36), (7:37), (8:39), (9:1), (10:10), (2:46), 
+  Process 68 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:14), (5:29), (4:45), (3:47), (2:49), (10:52), (9:56), 
+  Process 69 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:40), (2:50), (3:53), 
+  Process 70 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:43), (2:54), 
+
+= Memory Map: =
+62 67 68 69 64 62 70 64 64 64 67 64 65 66 68 62 67 64 62 64 65 62 66 62 67 65 62 64 64 68 64 65 66 62 65 65 67 67 65 67 69 64 65 70 64 68 67 68 65 68 69 65 68 69 70 62 68 65 . . . . . . . . . . 62 . . . . . . . . 62 . . . . . . . . 62 . . . . . . . . . . . . . 
+= Time Stamp 0:34 - Process Name: 62 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:34 - Process Name: 67 - Exit - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:34 - Process Name: 69 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:34 - Process Name: 71 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:34 - Process Name: 72 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:34 - Process Name: 73 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:34 - Process Name: 74 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+= Time Stamp 0:34 - Process Name: 75 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:34
+  Process 64's virtual page 0 will be evicted if needed.
+  Process 64 is under service, its reference page (virtual_page:physical_page) is: (0:4), (9:7), (8:8), (12:11), (13:19), (11:27), (16:28), (15:9), (6:17), (1:30), (2:41), (3:44), (7:26), 
+  Process 65 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:20), (17:31), (18:34), (30:35), (29:38), (27:25), (28:42), (24:48), (23:51), (7:57), (6:0), (2:55), 
+  Process 66 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:22), (2:32), (4:33), (3:46), 
+  Process 68 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:14), (5:29), (4:45), (3:47), (2:49), (10:52), (9:56), (7:1), (6:63), 
+  Process 70 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:43), (2:54), 
+  Process 71 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:18), (3:50), (7:58), (8:61), 
+  Process 72 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:21), (3:59), 
+  Process 73 is under service, its reference page (virtual_page:physical_page) is: (0:10), (3:23), (4:36), 
+  Process 74 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:39), (2:62), 
+  Process 75 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (10:37), (14:40), (15:53), (16:60), 
+
+= Memory Map: =
+65 68 68 71 64 72 70 64 64 64 73 64 65 66 68 74 75 64 71 64 65 72 66 73 75 65 64 64 64 68 64 65 66 66 65 65 73 75 65 74 75 64 65 70 64 68 66 68 65 68 71 65 68 75 70 65 68 65 71 72 75 71 74 68 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:35 - Process Name: 64 - Exit - Size in Pages: 17 - Service Duration: 4 = 
+
+= Time Stamp 0:35 - Process Name: 76 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+= Time Stamp 0:35 - Process Name: 77 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:35 - Process Name: 78 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:35 - Process Name: 79 - Enter - Size in Pages: 31 - Service Duration: 4 = 
+
+= Time Stamp 0:35
+  Process 65's virtual page 0 will be evicted if needed.
+  Process 65 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:20), (17:31), (18:34), (30:35), (29:38), (27:25), (28:42), (24:48), (23:51), (7:57), (6:0), (2:55), (8:66), (9:70), (10:80), 
+  Process 66 is under service, its reference page (virtual_page:physical_page) is: (0:13), (1:22), (2:32), (4:33), (3:46), 
+  Process 68 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:14), (5:29), (4:45), (3:47), (2:49), (10:52), (9:56), (7:1), (6:63), 
+  Process 70 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:43), (2:54), (7:4), (6:19), (10:44), (9:71), (8:75), 
+  Process 71 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:18), (3:50), (7:58), (8:61), (9:26), (6:72), 
+  Process 72 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:21), (3:59), (1:7), (4:78), 
+  Process 73 is under service, its reference page (virtual_page:physical_page) is: (0:10), (3:23), (4:36), 
+  Process 74 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:39), (2:62), (3:67), (4:79), 
+  Process 75 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (10:37), (14:40), (15:53), (16:60), (13:76), 
+  Process 76 is under service, its reference page (virtual_page:physical_page) is: (0:8), (1:27), (12:64), (16:68), (15:73), 
+  Process 77 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:28), (1:30), (3:77), 
+  Process 78 is under service, its reference page (virtual_page:physical_page) is: (0:11), (2:41), (3:69), (4:74), (1:81), 
+  Process 79 is under service, its reference page (virtual_page:physical_page) is: (0:17), (1:65), 
+
+= Memory Map: =
+65 68 68 71 70 72 70 72 76 77 73 78 65 66 68 74 75 79 71 70 65 72 66 73 75 65 71 76 77 68 77 65 66 66 65 65 73 75 65 74 75 78 65 70 70 68 66 68 65 68 71 65 68 75 70 65 68 65 71 72 75 71 74 68 76 79 65 74 76 78 65 70 71 76 78 70 75 77 72 74 65 78 . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:36 - Process Name: 65 - Exit - Size in Pages: 31 - Service Duration: 4 = 
+
+= Time Stamp 0:36 - Process Name: 66 - Exit - Size in Pages: 5 - Service Duration: 4 = 
+
+
+= Time Stamp 0:36
+  Process 68's virtual page 0 will be evicted if needed.
+  Process 68 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:14), (5:29), (4:45), (3:47), (2:49), (10:52), (9:56), (7:1), (6:63), (1:20), 
+  Process 70 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:43), (2:54), (7:4), (6:19), (10:44), (9:71), (8:75), 
+  Process 71 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:18), (3:50), (7:58), (8:61), (9:26), (6:72), (2:0), (10:35), (11:42), (16:46), 
+  Process 72 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:21), (3:59), (1:7), (4:78), 
+  Process 73 is under service, its reference page (virtual_page:physical_page) is: (0:10), (3:23), (4:36), (1:31), 
+  Process 74 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:39), (2:62), (3:67), (4:79), (5:12), 
+  Process 75 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (10:37), (14:40), (15:53), (16:60), (13:76), (5:34), (4:38), 
+  Process 76 is under service, its reference page (virtual_page:physical_page) is: (0:8), (1:27), (12:64), (16:68), (15:73), (14:22), (6:32), 
+  Process 77 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:28), (1:30), (3:77), (2:13), 
+  Process 78 is under service, its reference page (virtual_page:physical_page) is: (0:11), (2:41), (3:69), (4:74), (1:81), 
+  Process 79 is under service, its reference page (virtual_page:physical_page) is: (0:17), (1:65), (28:25), (13:33), 
+
+= Memory Map: =
+71 68 68 71 70 72 70 72 76 77 73 78 74 77 68 74 75 79 71 70 68 72 76 73 75 79 71 76 77 68 77 73 76 79 75 71 73 75 75 74 75 78 71 70 70 68 71 68 . 68 71 . 68 75 70 . 68 . 71 72 75 71 74 68 76 79 . 74 76 78 . 70 71 76 78 70 75 77 72 74 . 78 . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:37 - Process Name: 70 - Exit - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:37 - Process Name: 72 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:37 - Process Name: 73 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:37 - Process Name: 76 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:37 - Process Name: 80 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:37 - Process Name: 81 - Enter - Size in Pages: 31 - Service Duration: 2 = 
+= Time Stamp 0:37 - Process Name: 82 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:37
+  Process 68's virtual page 0 will be evicted if needed.
+  Process 68 is under service, its reference page (virtual_page:physical_page) is: (0:2), (8:14), (5:29), (4:45), (3:47), (2:49), (10:52), (9:56), (7:1), (6:63), (1:20), 
+  Process 71 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:18), (3:50), (7:58), (8:61), (9:26), (6:72), (2:0), (10:35), (11:42), (16:46), (15:19), (14:27), (4:59), 
+  Process 74 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:39), (2:62), (3:67), (4:79), (5:12), (12:43), (30:51), 
+  Process 75 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (10:37), (14:40), (15:53), (16:60), (13:76), (5:34), (4:38), (3:7), (8:21), (7:36), 
+  Process 77 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:28), (1:30), (3:77), (2:13), 
+  Process 78 is under service, its reference page (virtual_page:physical_page) is: (0:11), (2:41), (3:69), (4:74), (1:81), 
+  Process 79 is under service, its reference page (virtual_page:physical_page) is: (0:17), (1:65), (28:25), (13:33), (14:31), (15:44), (30:55), (24:64), 
+  Process 80 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:22), 
+  Process 81 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:8), (27:48), (28:54), (22:57), (23:66), 
+  Process 82 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:10), (4:23), (3:32), 
+
+= Memory Map: =
+71 68 68 71 80 81 82 75 81 77 82 78 74 77 68 74 75 79 71 71 68 75 80 82 75 79 71 71 77 68 77 79 82 79 75 71 75 75 75 74 75 78 71 74 79 68 71 68 81 68 71 74 68 75 81 79 68 81 71 71 75 71 74 68 79 79 81 74 . 78 . . 71 . 78 . 75 77 . 74 . 78 . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:38 - Process Name: 68 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:38 - Process Name: 77 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:38 - Process Name: 80 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:38 - Process Name: 82 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:38 - Process Name: 83 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+= Time Stamp 0:38 - Process Name: 84 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+= Time Stamp 0:38 - Process Name: 85 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+= Time Stamp 0:38 - Process Name: 86 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:38 - Process Name: 87 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:38
+  Process 71's virtual page 0 will be evicted if needed.
+  Process 71 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:18), (3:50), (7:58), (8:61), (9:26), (6:72), (2:0), (10:35), (11:42), (16:46), (15:19), (14:27), (4:59), (5:73), 
+  Process 74 is under service, its reference page (virtual_page:physical_page) is: (0:15), (1:39), (2:62), (3:67), (4:79), (5:12), (12:43), (30:51), 
+  Process 75 is under service, its reference page (virtual_page:physical_page) is: (0:16), (1:24), (10:37), (14:40), (15:53), (16:60), (13:76), (5:34), (4:38), (3:7), (8:21), (7:36), (2:30), 
+  Process 78 is under service, its reference page (virtual_page:physical_page) is: (0:11), (2:41), (3:69), (4:74), (1:81), 
+  Process 79 is under service, its reference page (virtual_page:physical_page) is: (0:17), (1:65), (28:25), (13:33), (14:31), (15:44), (30:55), (24:64), (23:1), (4:13), (3:22), (2:63), 
+  Process 81 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:8), (27:48), (28:54), (22:57), (23:66), (5:23), (9:68), (7:75), (8:80), 
+  Process 83 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:28), 
+  Process 84 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:32), (2:49), (3:70), 
+  Process 85 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:45), (2:52), (21:77), (22:78), (3:82), 
+  Process 86 is under service, its reference page (virtual_page:physical_page) is: (0:9), (1:14), (4:47), (5:71), (2:83), 
+  Process 87 is under service, its reference page (virtual_page:physical_page) is: (0:10), (4:20), (3:29), (1:56), 
+
+= Memory Map: =
+71 79 83 71 84 81 85 75 81 86 87 78 74 79 86 74 75 79 71 71 87 75 79 81 75 79 71 71 83 87 75 79 84 79 75 71 75 75 75 74 75 78 71 74 79 85 71 86 81 84 71 74 85 75 81 79 87 81 71 71 75 71 74 79 79 79 81 74 81 78 84 86 71 71 78 81 75 85 85 74 81 78 85 86 . . . . . . . . . . . . . . . . 
+= Time Stamp 0:39 - Process Name: 71 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:39 - Process Name: 74 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:39 - Process Name: 75 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:39 - Process Name: 79 - Exit - Size in Pages: 31 - Service Duration: 4 = 
+
+= Time Stamp 0:39 - Process Name: 81 - Exit - Size in Pages: 31 - Service Duration: 2 = 
+
+= Time Stamp 0:39 - Process Name: 84 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:39 - Process Name: 88 - Enter - Size in Pages: 5 - Service Duration: 4 = 
+= Time Stamp 0:39 - Process Name: 89 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:39
+  Process 78's virtual page 0 will be evicted if needed.
+  Process 78 is under service, its reference page (virtual_page:physical_page) is: (0:11), (2:41), (3:69), (4:74), (1:81), 
+  Process 83 is under service, its reference page (virtual_page:physical_page) is: (0:2), (1:28), 
+  Process 85 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:45), (2:52), (21:77), (22:78), (3:82), 
+  Process 86 is under service, its reference page (virtual_page:physical_page) is: (0:9), (1:14), (4:47), (5:71), (2:83), (10:3), (9:15), 
+  Process 87 is under service, its reference page (virtual_page:physical_page) is: (0:10), (4:20), (3:29), (1:56), 
+  Process 88 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:4), (3:7), (4:12), (2:13), 
+  Process 89 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:5), (2:8), (15:16), 
+
+= Memory Map: =
+88 89 83 86 88 89 85 88 89 86 87 78 88 88 86 86 89 . . . 87 . . . . . . . 83 87 . . . . . . . . . . . 78 . . . 85 . 86 . . . . 85 . . . 87 . . . . . . . . . . . . 78 . 86 . . 78 . . 85 85 . . 78 85 86 . . . . . . . . . . . . . . . . 
+= Time Stamp 0:40 - Process Name: 78 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:40 - Process Name: 83 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:40 - Process Name: 90 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:40 - Process Name: 91 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:40 - Process Name: 92 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:40 - Process Name: 93 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:40 - Process Name: 94 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+= Time Stamp 0:40 - Process Name: 95 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:40
+  Process 85's virtual page 0 will be evicted if needed.
+  Process 85 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:45), (2:52), (21:77), (22:78), (3:82), (11:35), (12:39), (30:44), 
+  Process 86 is under service, its reference page (virtual_page:physical_page) is: (0:9), (1:14), (4:47), (5:71), (2:83), (10:3), (9:15), (8:2), 
+  Process 87 is under service, its reference page (virtual_page:physical_page) is: (0:10), (4:20), (3:29), (1:56), 
+  Process 88 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:4), (3:7), (4:12), (2:13), 
+  Process 89 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:5), (2:8), (15:16), (9:11), (16:24), 
+  Process 90 is under service, its reference page (virtual_page:physical_page) is: (0:17), (2:25), (10:36), (9:40), 
+  Process 91 is under service, its reference page (virtual_page:physical_page) is: (0:18), (3:26), (2:31), (4:32), (1:41), 
+  Process 92 is under service, its reference page (virtual_page:physical_page) is: (0:19), (11:27), (10:37), (1:46), (2:48), (16:49), 
+  Process 93 is under service, its reference page (virtual_page:physical_page) is: (0:21), (2:28), (1:33), 
+  Process 94 is under service, its reference page (virtual_page:physical_page) is: (0:22), (1:30), (2:43), (17:50), 
+  Process 95 is under service, its reference page (virtual_page:physical_page) is: (0:23), (1:34), (2:38), (4:42), 
+
+= Memory Map: =
+88 89 86 86 88 89 85 88 89 86 87 89 88 88 86 86 89 90 91 92 87 93 94 95 89 90 91 92 93 87 94 91 91 93 95 85 90 92 95 85 90 91 95 94 85 85 92 86 92 92 94 . 85 . . . 87 . . . . . . . . . . . . . . 86 . . . . . 85 85 . . . 85 86 . . . . . . . . . . . . . . . . 
+= Time Stamp 0:41 - Process Name: 85 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:41 - Process Name: 86 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:41 - Process Name: 89 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:41 - Process Name: 95 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:41 - Process Name: 96 - Enter - Size in Pages: 11 - Service Duration: 4 = 
+= Time Stamp 0:41 - Process Name: 97 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+= Time Stamp 0:41 - Process Name: 98 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:41
+  Process 87's virtual page 0 will be evicted if needed.
+  Process 87 is under service, its reference page (virtual_page:physical_page) is: (0:10), (4:20), (3:29), (1:56), (2:42), 
+  Process 88 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:4), (3:7), (4:12), (2:13), 
+  Process 90 is under service, its reference page (virtual_page:physical_page) is: (0:17), (2:25), (10:36), (9:40), (8:8), (1:16), (3:51), 
+  Process 91 is under service, its reference page (virtual_page:physical_page) is: (0:18), (3:26), (2:31), (4:32), (1:41), 
+  Process 92 is under service, its reference page (virtual_page:physical_page) is: (0:19), (11:27), (10:37), (1:46), (2:48), (16:49), (15:1), (14:23), (9:52), (8:53), 
+  Process 93 is under service, its reference page (virtual_page:physical_page) is: (0:21), (2:28), (1:33), 
+  Process 94 is under service, its reference page (virtual_page:physical_page) is: (0:22), (1:30), (2:43), (17:50), (30:2), (29:9), (4:54), 
+  Process 96 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:14), (8:45), (9:55), 
+  Process 97 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:11), (4:15), (3:24), (1:38), 
+  Process 98 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:34), (2:35), (3:39), (10:44), (9:47), (4:57), 
+
+= Memory Map: =
+88 92 94 96 88 97 98 88 90 94 87 97 88 88 96 97 90 90 91 92 87 93 94 92 97 90 91 92 93 87 94 91 91 93 98 98 90 92 97 98 90 91 87 94 98 96 92 98 92 92 94 90 92 92 94 96 87 98 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:42 - Process Name: 99 - Enter - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:42
+  Process 87's virtual page 0 will be evicted if needed.
+  Process 87 is under service, its reference page (virtual_page:physical_page) is: (0:10), (4:20), (3:29), (1:56), (2:42), 
+  Process 88 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:4), (3:7), (4:12), (2:13), 
+  Process 90 is under service, its reference page (virtual_page:physical_page) is: (0:17), (2:25), (10:36), (9:40), (8:8), (1:16), (3:51), (7:72), 
+  Process 91 is under service, its reference page (virtual_page:physical_page) is: (0:18), (3:26), (2:31), (4:32), (1:41), 
+  Process 92 is under service, its reference page (virtual_page:physical_page) is: (0:19), (11:27), (10:37), (1:46), (2:48), (16:49), (15:1), (14:23), (9:52), (8:53), 
+  Process 93 is under service, its reference page (virtual_page:physical_page) is: (0:21), (2:28), (1:33), (3:73), 
+  Process 94 is under service, its reference page (virtual_page:physical_page) is: (0:22), (1:30), (2:43), (17:50), (30:2), (29:9), (4:54), (12:66), (13:70), (19:74), 
+  Process 96 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:14), (8:45), (9:55), (3:62), (4:63), (2:75), 
+  Process 97 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:11), (4:15), (3:24), (1:38), 
+  Process 98 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:34), (2:35), (3:39), (10:44), (9:47), (4:57), (5:58), (6:60), (8:64), (7:67), 
+  Process 99 is under service, its reference page (virtual_page:physical_page) is: (0:59), (9:61), (8:65), (7:68), (5:69), (6:71), 
+
+= Memory Map: =
+88 92 94 96 88 97 98 88 90 94 87 97 88 88 96 97 90 90 91 92 87 93 94 92 97 90 91 92 93 87 94 91 91 93 98 98 90 92 97 98 90 91 87 94 98 96 92 98 92 92 94 90 92 92 94 96 87 98 98 99 98 99 96 96 98 99 94 98 99 99 94 99 90 93 94 96 . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:43 - Process Name: 87 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:43 - Process Name: 88 - Exit - Size in Pages: 5 - Service Duration: 4 = 
+
+= Time Stamp 0:43 - Process Name: 90 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:43 - Process Name: 92 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:43 - Process Name: 94 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:43 - Process Name: 97 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:43 - Process Name: 100 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+= Time Stamp 0:43 - Process Name: 101 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+= Time Stamp 0:43 - Process Name: 102 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:43
+  Process 91's virtual page 0 will be evicted if needed.
+  Process 91 is under service, its reference page (virtual_page:physical_page) is: (0:18), (3:26), (2:31), (4:32), (1:41), 
+  Process 93 is under service, its reference page (virtual_page:physical_page) is: (0:21), (2:28), (1:33), (3:73), (4:11), 
+  Process 96 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:14), (8:45), (9:55), (3:62), (4:63), (2:75), (10:7), 
+  Process 98 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:34), (2:35), (3:39), (10:44), (9:47), (4:57), (5:58), (6:60), (8:64), (7:67), 
+  Process 99 is under service, its reference page (virtual_page:physical_page) is: (0:59), (9:61), (8:65), (7:68), (5:69), (6:71), (1:4), 
+  Process 100 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:5), (2:8), (3:12), (17:23), 
+  Process 101 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:9), (8:13), (7:16), (3:17), (16:19), (4:22), (2:24), 
+  Process 102 is under service, its reference page (virtual_page:physical_page) is: (0:2), (10:10), (9:15), (3:20), (1:25), 
+
+= Memory Map: =
+100 101 102 96 99 100 98 96 100 101 102 93 100 101 96 102 101 101 91 101 102 93 101 100 101 102 91 . 93 . . 91 91 93 98 98 . . . 98 . 91 . . 98 96 . 98 . . . . . . . 96 . 98 98 99 98 99 96 96 98 99 . 98 99 99 . 99 . 93 . 96 . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:44 - Process Name: 103 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:44 - Process Name: 104 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+= Time Stamp 0:44 - Process Name: 105 - Enter - Size in Pages: 11 - Service Duration: 1 = 
+= Time Stamp 0:44 - Process Name: 106 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+= Time Stamp 0:44 - Process Name: 107 - Enter - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:44
+  Process 91's virtual page 0 will be evicted if needed.
+  Process 91 is under service, its reference page (virtual_page:physical_page) is: (0:18), (3:26), (2:31), (4:32), (1:41), 
+  Process 93 is under service, its reference page (virtual_page:physical_page) is: (0:21), (2:28), (1:33), (3:73), (4:11), 
+  Process 96 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:14), (8:45), (9:55), (3:62), (4:63), (2:75), (10:7), 
+  Process 98 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:34), (2:35), (3:39), (10:44), (9:47), (4:57), (5:58), (6:60), (8:64), (7:67), 
+  Process 99 is under service, its reference page (virtual_page:physical_page) is: (0:59), (9:61), (8:65), (7:68), (5:69), (6:71), (1:4), (2:27), (3:42), (10:53), 
+  Process 100 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:5), (2:8), (3:12), (17:23), (6:29), (5:43), (4:49), (16:54), (30:72), (29:77), 
+  Process 101 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:9), (8:13), (7:16), (3:17), (16:19), (4:22), (2:24), (9:78), (10:82), (5:86), 
+  Process 102 is under service, its reference page (virtual_page:physical_page) is: (0:2), (10:10), (9:15), (3:20), (1:25), (7:50), (6:56), 
+  Process 103 is under service, its reference page (virtual_page:physical_page) is: (0:30), (1:74), 
+  Process 104 is under service, its reference page (virtual_page:physical_page) is: (0:36), (1:76), (16:79), (15:83), (14:87), (13:89), 
+  Process 105 is under service, its reference page (virtual_page:physical_page) is: (0:37), (1:51), (2:84), (3:88), 
+  Process 106 is under service, its reference page (virtual_page:physical_page) is: (0:38), (9:46), (10:66), (7:80), 
+  Process 107 is under service, its reference page (virtual_page:physical_page) is: (0:40), (5:48), (6:52), (7:70), (9:81), (3:85), (1:90), 
+
+= Memory Map: =
+100 101 102 96 99 100 98 96 100 101 102 93 100 101 96 102 101 101 91 101 102 93 101 100 101 102 91 99 93 100 103 91 91 93 98 98 104 105 106 98 107 91 99 100 98 96 106 98 107 100 102 105 107 99 100 96 102 98 98 99 98 99 96 96 98 99 106 98 99 99 107 99 100 93 103 96 104 100 101 104 106 107 101 104 105 107 101 104 105 104 107 . . . . . . . . . 
+= Time Stamp 0:45 - Process Name: 91 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:45 - Process Name: 93 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:45 - Process Name: 96 - Exit - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:45 - Process Name: 101 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:45 - Process Name: 105 - Exit - Size in Pages: 11 - Service Duration: 1 = 
+
+= Time Stamp 0:45 - Process Name: 108 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+= Time Stamp 0:45 - Process Name: 109 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:45
+  Process 98's virtual page 0 will be evicted if needed.
+  Process 98 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:34), (2:35), (3:39), (10:44), (9:47), (4:57), (5:58), (6:60), (8:64), (7:67), 
+  Process 99 is under service, its reference page (virtual_page:physical_page) is: (0:59), (9:61), (8:65), (7:68), (5:69), (6:71), (1:4), (2:27), (3:42), (10:53), 
+  Process 100 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:5), (2:8), (3:12), (17:23), (6:29), (5:43), (4:49), (16:54), (30:72), (29:77), (28:18), (18:33), 
+  Process 102 is under service, its reference page (virtual_page:physical_page) is: (0:2), (10:10), (9:15), (3:20), (1:25), (7:50), (6:56), (2:7), (4:19), 
+  Process 103 is under service, its reference page (virtual_page:physical_page) is: (0:30), (1:74), (11:9), (12:13), (10:21), (9:28), 
+  Process 104 is under service, its reference page (virtual_page:physical_page) is: (0:36), (1:76), (16:79), (15:83), (14:87), (13:89), 
+  Process 106 is under service, its reference page (virtual_page:physical_page) is: (0:38), (9:46), (10:66), (7:80), (1:11), (5:22), (3:31), (2:37), (4:41), 
+  Process 107 is under service, its reference page (virtual_page:physical_page) is: (0:40), (5:48), (6:52), (7:70), (9:81), (3:85), (1:90), (10:24), (8:32), 
+  Process 108 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:16), (4:26), 
+  Process 109 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:14), (2:17), 
+
+= Memory Map: =
+100 108 102 109 99 100 98 102 100 103 102 106 100 103 109 102 108 109 100 102 102 103 106 100 107 102 108 99 103 100 103 106 107 100 98 98 104 106 106 98 107 106 99 100 98 . 106 98 107 100 102 . 107 99 100 . 102 98 98 99 98 99 . . 98 99 106 98 99 99 107 99 100 . 103 . 104 100 . 104 106 107 . 104 . 107 . 104 . 104 107 . . . . . . . . . 
+= Time Stamp 0:46 - Process Name: 98 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:46 - Process Name: 99 - Exit - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:46 - Process Name: 100 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:46 - Process Name: 102 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:46 - Process Name: 104 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:46 - Process Name: 109 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:46 - Process Name: 110 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+= Time Stamp 0:46 - Process Name: 111 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:46 - Process Name: 112 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:46 - Process Name: 113 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:46 - Process Name: 114 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:46
+  Process 103's virtual page 0 will be evicted if needed.
+  Process 103 is under service, its reference page (virtual_page:physical_page) is: (0:30), (1:74), (11:9), (12:13), (10:21), (9:28), (16:15), (6:19), (7:25), 
+  Process 106 is under service, its reference page (virtual_page:physical_page) is: (0:38), (9:46), (10:66), (7:80), (1:11), (5:22), (3:31), (2:37), (4:41), 
+  Process 107 is under service, its reference page (virtual_page:physical_page) is: (0:40), (5:48), (6:52), (7:70), (9:81), (3:85), (1:90), (10:24), (8:32), 
+  Process 108 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:16), (4:26), (2:27), (1:29), 
+  Process 110 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:6), (3:8), (1:17), 
+  Process 111 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:10), (14:33), (13:34), 
+  Process 112 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:12), 
+  Process 113 is under service, its reference page (virtual_page:physical_page) is: (0:4), (28:14), (1:20), (9:35), 
+  Process 114 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:18), (2:23), (3:36), (4:39), 
+
+= Memory Map: =
+110 108 111 112 113 114 110 111 110 103 111 106 112 103 113 103 108 110 114 103 113 103 106 114 107 103 108 108 103 108 103 106 107 111 111 113 114 106 106 114 107 106 . . . . 106 . 107 . . . 107 . . . . . . . . . . . . . 106 . . . 107 . . . 103 . . . . . 106 107 . . . 107 . . . . 107 . . . . . . . . . 
+= Time Stamp 0:47 - Process Name: 113 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:47 - Process Name: 114 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:47 - Process Name: 115 - Enter - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:47
+  Process 103's virtual page 0 will be evicted if needed.
+  Process 103 is under service, its reference page (virtual_page:physical_page) is: (0:30), (1:74), (11:9), (12:13), (10:21), (9:28), (16:15), (6:19), (7:25), (5:42), (4:47), 
+  Process 106 is under service, its reference page (virtual_page:physical_page) is: (0:38), (9:46), (10:66), (7:80), (1:11), (5:22), (3:31), (2:37), (4:41), 
+  Process 107 is under service, its reference page (virtual_page:physical_page) is: (0:40), (5:48), (6:52), (7:70), (9:81), (3:85), (1:90), (10:24), (8:32), (2:14), (4:44), 
+  Process 108 is under service, its reference page (virtual_page:physical_page) is: (0:1), (3:16), (4:26), (2:27), (1:29), 
+  Process 110 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:6), (3:8), (1:17), 
+  Process 111 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:10), (14:33), (13:34), (7:5), (6:18), (5:23), (4:35), (1:43), (8:45), 
+  Process 112 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:12), (2:36), 
+  Process 115 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:20), (2:39), 
+
+= Memory Map: =
+110 108 111 112 115 111 110 111 110 103 111 106 112 103 107 103 108 110 111 103 115 103 106 111 107 103 108 108 103 108 103 106 107 111 111 111 112 106 106 115 107 106 103 111 107 111 106 103 107 . . . 107 . . . . . . . . . . . . . 106 . . . 107 . . . 103 . . . . . 106 107 . . . 107 . . . . 107 . . . . . . . . . 
+= Time Stamp 0:48 - Process Name: 107 - Exit - Size in Pages: 11 - Service Duration: 4 = 
+
+= Time Stamp 0:48 - Process Name: 108 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:48 - Process Name: 116 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:48 - Process Name: 117 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:48
+  Process 103's virtual page 0 will be evicted if needed.
+  Process 103 is under service, its reference page (virtual_page:physical_page) is: (0:30), (1:74), (11:9), (12:13), (10:21), (9:28), (16:15), (6:19), (7:25), (5:42), (4:47), (8:1), (3:27), (15:63), (14:65), 
+  Process 106 is under service, its reference page (virtual_page:physical_page) is: (0:38), (9:46), (10:66), (7:80), (1:11), (5:22), (3:31), (2:37), (4:41), (6:14), 
+  Process 110 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:6), (3:8), (1:17), (4:49), (5:53), (6:55), (10:67), 
+  Process 111 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:10), (14:33), (13:34), (7:5), (6:18), (5:23), (4:35), (1:43), (8:45), (9:16), (10:29), (2:56), 
+  Process 112 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:12), (2:36), (15:32), (13:50), (16:58), 
+  Process 115 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:20), (2:39), (6:40), (10:54), (9:57), (5:61), 
+  Process 116 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:44), (2:51), (7:59), (8:64), (3:68), 
+  Process 117 is under service, its reference page (virtual_page:physical_page) is: (0:26), (1:48), (2:52), (3:60), (4:62), 
+
+= Memory Map: =
+110 103 111 112 115 111 110 111 110 103 111 106 112 103 106 103 111 110 111 103 115 103 106 111 116 103 117 103 103 111 103 106 112 111 111 111 112 106 106 115 115 106 103 111 116 111 106 103 117 110 112 116 117 110 115 110 111 115 112 116 117 115 117 103 116 103 106 110 116 . . . . . 103 . . . . . 106 . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:49 - Process Name: 103 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:49 - Process Name: 106 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:49 - Process Name: 115 - Exit - Size in Pages: 11 - Service Duration: 2 = 
+
+= Time Stamp 0:49 - Process Name: 118 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:49 - Process Name: 119 - Enter - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:49
+  Process 110's virtual page 0 will be evicted if needed.
+  Process 110 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:6), (3:8), (1:17), (4:49), (5:53), (6:55), (10:67), (8:28), (7:37), 
+  Process 111 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:10), (14:33), (13:34), (7:5), (6:18), (5:23), (4:35), (1:43), (8:45), (9:16), (10:29), (2:56), 
+  Process 112 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:12), (2:36), (15:32), (13:50), (16:58), (9:11), (12:25), 
+  Process 116 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:44), (2:51), (7:59), (8:64), (3:68), (16:1), (15:13), (5:30), (6:38), 
+  Process 117 is under service, its reference page (virtual_page:physical_page) is: (0:26), (1:48), (2:52), (3:60), (4:62), 
+  Process 118 is under service, its reference page (virtual_page:physical_page) is: (0:4), (2:15), (3:19), (27:22), (28:27), (29:31), 
+  Process 119 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:14), (3:20), (2:21), 
+
+= Memory Map: =
+110 116 111 112 118 111 110 111 110 119 111 112 112 116 119 118 111 110 111 118 119 119 118 111 116 112 117 118 110 111 116 118 112 111 111 111 112 110 116 . . . . 111 116 111 . . 117 110 112 116 117 110 . 110 111 . 112 116 117 . 117 . 116 . . 110 116 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:50 - Process Name: 117 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:50 - Process Name: 118 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:50 - Process Name: 120 - Enter - Size in Pages: 5 - Service Duration: 2 = 
+= Time Stamp 0:50 - Process Name: 121 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+= Time Stamp 0:50 - Process Name: 122 - Enter - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:50
+  Process 110's virtual page 0 will be evicted if needed.
+  Process 110 is under service, its reference page (virtual_page:physical_page) is: (0:0), (2:6), (3:8), (1:17), (4:49), (5:53), (6:55), (10:67), (8:28), (7:37), 
+  Process 111 is under service, its reference page (virtual_page:physical_page) is: (0:2), (16:7), (15:10), (14:33), (13:34), (7:5), (6:18), (5:23), (4:35), (1:43), (8:45), (9:16), (10:29), (2:56), 
+  Process 112 is under service, its reference page (virtual_page:physical_page) is: (0:3), (1:12), (2:36), (15:32), (13:50), (16:58), (9:11), (12:25), 
+  Process 116 is under service, its reference page (virtual_page:physical_page) is: (0:24), (1:44), (2:51), (7:59), (8:64), (3:68), (16:1), (15:13), (5:30), (6:38), 
+  Process 119 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:14), (3:20), (2:21), (1:27), 
+  Process 120 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:39), (3:42), (4:47), 
+  Process 121 is under service, its reference page (virtual_page:physical_page) is: (0:15), (2:22), (1:40), (12:41), (18:54), (17:60), 
+  Process 122 is under service, its reference page (virtual_page:physical_page) is: (0:19), (15:26), (16:31), (17:46), (18:48), (19:52), (30:57), (29:61), 
+
+= Memory Map: =
+110 116 111 112 120 111 110 111 110 119 111 112 112 116 119 121 111 110 111 122 119 119 121 111 116 112 122 119 110 111 116 122 112 111 111 111 112 110 116 120 121 121 120 111 116 111 122 120 122 110 112 116 122 110 121 110 111 122 112 116 121 122 . . 116 . . 110 116 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:51 - Process Name: 110 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:51 - Process Name: 111 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:51 - Process Name: 112 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:51 - Process Name: 116 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:51 - Process Name: 123 - Enter - Size in Pages: 5 - Service Duration: 1 = 
+= Time Stamp 0:51 - Process Name: 124 - Enter - Size in Pages: 17 - Service Duration: 5 = 
+= Time Stamp 0:51 - Process Name: 125 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:51 - Process Name: 126 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:51 - Process Name: 127 - Enter - Size in Pages: 31 - Service Duration: 2 = 
+
+= Time Stamp 0:51
+  Process 119's virtual page 0 will be evicted if needed.
+  Process 119 is under service, its reference page (virtual_page:physical_page) is: (0:9), (4:14), (3:20), (2:21), (1:27), 
+  Process 120 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:39), (3:42), (4:47), (2:7), 
+  Process 121 is under service, its reference page (virtual_page:physical_page) is: (0:15), (2:22), (1:40), (12:41), (18:54), (17:60), (16:0), 
+  Process 122 is under service, its reference page (virtual_page:physical_page) is: (0:19), (15:26), (16:31), (17:46), (18:48), (19:52), (30:57), (29:61), (12:8), (25:17), (24:28), (23:37), (2:51), 
+  Process 123 is under service, its reference page (virtual_page:physical_page) is: (0:1), (1:10), (2:18), (4:36), 
+  Process 124 is under service, its reference page (virtual_page:physical_page) is: (0:2), (5:11), (4:23), (1:32), (2:34), (15:38), (16:45), 
+  Process 125 is under service, its reference page (virtual_page:physical_page) is: (0:3), (2:12), (16:29), (15:33), (14:43), (13:49), 
+  Process 126 is under service, its reference page (virtual_page:physical_page) is: (0:5), (9:13), (10:24), 
+  Process 127 is under service, its reference page (virtual_page:physical_page) is: (0:6), (9:16), (25:25), (24:30), (26:35), (27:44), (30:50), (4:53), 
+
+= Memory Map: =
+121 123 124 125 120 126 127 120 122 119 123 124 125 126 119 121 127 122 123 122 119 119 121 124 126 127 122 119 122 125 127 122 124 125 124 127 123 122 124 120 121 121 120 125 127 124 122 120 122 125 127 122 122 127 121 . . 122 . . 121 122 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:52 - Process Name: 119 - Exit - Size in Pages: 5 - Service Duration: 3 = 
+
+= Time Stamp 0:52 - Process Name: 120 - Exit - Size in Pages: 5 - Service Duration: 2 = 
+
+= Time Stamp 0:52 - Process Name: 123 - Exit - Size in Pages: 5 - Service Duration: 1 = 
+
+= Time Stamp 0:52 - Process Name: 128 - Enter - Size in Pages: 17 - Service Duration: 2 = 
+= Time Stamp 0:52 - Process Name: 129 - Enter - Size in Pages: 31 - Service Duration: 1 = 
+= Time Stamp 0:52 - Process Name: 130 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:52
+  Process 121's virtual page 0 will be evicted if needed.
+  Process 121 is under service, its reference page (virtual_page:physical_page) is: (0:15), (2:22), (1:40), (12:41), (18:54), (17:60), (16:0), (10:20), (11:36), (20:59), (19:69), (4:76), 
+  Process 122 is under service, its reference page (virtual_page:physical_page) is: (0:19), (15:26), (16:31), (17:46), (18:48), (19:52), (30:57), (29:61), (12:8), (25:17), (24:28), (23:37), (2:51), (3:39), (4:62), (26:70), (27:80), 
+  Process 124 is under service, its reference page (virtual_page:physical_page) is: (0:2), (5:11), (4:23), (1:32), (2:34), (15:38), (16:45), (7:10), (8:42), 
+  Process 125 is under service, its reference page (virtual_page:physical_page) is: (0:3), (2:12), (16:29), (15:33), (14:43), (13:49), (8:47), 
+  Process 126 is under service, its reference page (virtual_page:physical_page) is: (0:5), (9:13), (10:24), (7:71), (2:77), 
+  Process 127 is under service, its reference page (virtual_page:physical_page) is: (0:6), (9:16), (25:25), (24:30), (26:35), (27:44), (30:50), (4:53), (5:1), (1:55), (10:63), (11:66), (12:78), 
+  Process 128 is under service, its reference page (virtual_page:physical_page) is: (0:4), (16:14), (5:21), (15:64), (6:73), 
+  Process 129 is under service, its reference page (virtual_page:physical_page) is: (0:7), (13:18), (12:56), (4:65), (2:67), (27:74), (28:79), (29:81), 
+  Process 130 is under service, its reference page (virtual_page:physical_page) is: (0:9), (1:27), (8:58), (9:68), (16:72), (15:75), 
+
+= Memory Map: =
+121 127 124 125 128 126 127 129 122 130 124 124 125 126 128 121 127 122 129 122 121 128 121 124 126 127 122 130 122 125 127 122 124 125 124 127 121 122 124 122 121 121 124 125 127 124 122 125 122 125 127 122 122 127 121 127 129 122 130 121 121 122 122 127 128 129 127 129 130 121 122 126 130 128 129 130 121 126 127 129 122 129 . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:53 - Process Name: 122 - Exit - Size in Pages: 31 - Service Duration: 3 = 
+
+= Time Stamp 0:53 - Process Name: 127 - Exit - Size in Pages: 31 - Service Duration: 2 = 
+
+= Time Stamp 0:53 - Process Name: 129 - Exit - Size in Pages: 31 - Service Duration: 1 = 
+
+= Time Stamp 0:53 - Process Name: 130 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:53 - Process Name: 131 - Enter - Size in Pages: 11 - Service Duration: 5 = 
+= Time Stamp 0:53 - Process Name: 132 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:53 - Process Name: 133 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:53
+  Process 121's virtual page 0 will be evicted if needed.
+  Process 121 is under service, its reference page (virtual_page:physical_page) is: (0:15), (2:22), (1:40), (12:41), (18:54), (17:60), (16:0), (10:20), (11:36), (20:59), (19:69), (4:76), (9:9), 
+  Process 124 is under service, its reference page (virtual_page:physical_page) is: (0:2), (5:11), (4:23), (1:32), (2:34), (15:38), (16:45), (7:10), (8:42), 
+  Process 125 is under service, its reference page (virtual_page:physical_page) is: (0:3), (2:12), (16:29), (15:33), (14:43), (13:49), (8:47), 
+  Process 126 is under service, its reference page (virtual_page:physical_page) is: (0:5), (9:13), (10:24), (7:71), (2:77), (3:1), (4:16), 
+  Process 128 is under service, its reference page (virtual_page:physical_page) is: (0:4), (16:14), (5:21), (15:64), (6:73), 
+  Process 131 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:17), (2:19), (6:27), (7:30), (8:31), (10:37), 
+  Process 132 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (9:25), (10:28), 
+  Process 133 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:26), (3:35), (4:39), (5:44), (6:46), 
+
+= Memory Map: =
+121 126 124 125 128 126 131 132 133 121 124 124 125 126 128 121 126 131 132 131 121 128 121 124 126 132 133 131 132 125 131 131 124 125 124 133 121 131 124 133 121 121 124 125 133 124 133 125 . 125 . . . . 121 . . . . 121 121 . . . 128 . . . . 121 . 126 . 128 . . 121 126 . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:54 - Process Name: 125 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:54 - Process Name: 126 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:54 - Process Name: 128 - Exit - Size in Pages: 17 - Service Duration: 2 = 
+
+= Time Stamp 0:54 - Process Name: 134 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:54 - Process Name: 135 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+= Time Stamp 0:54 - Process Name: 136 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+= Time Stamp 0:54 - Process Name: 137 - Enter - Size in Pages: 11 - Service Duration: 1 = 
+
+= Time Stamp 0:54
+  Process 121's virtual page 0 will be evicted if needed.
+  Process 121 is under service, its reference page (virtual_page:physical_page) is: (0:15), (2:22), (1:40), (12:41), (18:54), (17:60), (16:0), (10:20), (11:36), (20:59), (19:69), (4:76), (9:9), 
+  Process 124 is under service, its reference page (virtual_page:physical_page) is: (0:2), (5:11), (4:23), (1:32), (2:34), (15:38), (16:45), (7:10), (8:42), (14:29), (12:53), 
+  Process 131 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:17), (2:19), (6:27), (7:30), (8:31), (10:37), (9:1), 
+  Process 132 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (9:25), (10:28), (7:51), (8:55), (6:56), 
+  Process 133 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:26), (3:35), (4:39), (5:44), (6:46), (7:3), (8:14), (9:33), (10:43), 
+  Process 134 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:16), (4:48), (2:52), 
+  Process 135 is under service, its reference page (virtual_page:physical_page) is: (0:5), (1:21), 
+  Process 136 is under service, its reference page (virtual_page:physical_page) is: (0:12), (1:47), (2:49), 
+  Process 137 is under service, its reference page (virtual_page:physical_page) is: (0:13), (3:24), (1:50), (2:57), 
+
+= Memory Map: =
+121 131 124 133 134 135 131 132 133 121 124 124 136 137 133 121 134 131 132 131 121 135 121 124 137 132 133 131 132 124 131 131 124 133 124 133 121 131 124 133 121 121 124 133 133 124 133 136 134 136 137 132 134 124 121 132 132 137 . 121 121 . . . . . . . . 121 . . . . . . 121 . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:55 - Process Name: 121 - Exit - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:55 - Process Name: 135 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:55 - Process Name: 136 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:55 - Process Name: 137 - Exit - Size in Pages: 11 - Service Duration: 1 = 
+
+= Time Stamp 0:55 - Process Name: 138 - Enter - Size in Pages: 17 - Service Duration: 4 = 
+= Time Stamp 0:55 - Process Name: 139 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:55
+  Process 124's virtual page 0 will be evicted if needed.
+  Process 124 is under service, its reference page (virtual_page:physical_page) is: (0:2), (5:11), (4:23), (1:32), (2:34), (15:38), (16:45), (7:10), (8:42), (14:29), (12:53), 
+  Process 131 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:17), (2:19), (6:27), (7:30), (8:31), (10:37), (9:1), (5:36), (4:40), 
+  Process 132 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (9:25), (10:28), (7:51), (8:55), (6:56), 
+  Process 133 is under service, its reference page (virtual_page:physical_page) is: (0:8), (2:26), (3:35), (4:39), (5:44), (6:46), (7:3), (8:14), (9:33), (10:43), 
+  Process 134 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:16), (4:48), (2:52), 
+  Process 138 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:9), (4:13), (3:20), (2:24), (14:41), 
+  Process 139 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:12), (22:15), (30:21), (29:22), 
+
+= Memory Map: =
+138 131 124 133 134 139 131 132 133 138 124 124 139 138 133 139 134 131 132 131 138 139 139 124 138 132 133 131 132 124 131 131 124 133 124 133 131 131 124 133 131 138 124 133 133 124 133 . 134 . . 132 134 124 . 132 132 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:56 - Process Name: 124 - Exit - Size in Pages: 17 - Service Duration: 5 = 
+
+= Time Stamp 0:56 - Process Name: 132 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:56 - Process Name: 133 - Exit - Size in Pages: 11 - Service Duration: 3 = 
+
+= Time Stamp 0:56 - Process Name: 140 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+= Time Stamp 0:56 - Process Name: 141 - Enter - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:56
+  Process 131's virtual page 0 will be evicted if needed.
+  Process 131 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:17), (2:19), (6:27), (7:30), (8:31), (10:37), (9:1), (5:36), (4:40), 
+  Process 134 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:16), (4:48), (2:52), (3:2), 
+  Process 138 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:9), (4:13), (3:20), (2:24), (14:41), (16:8), (15:11), (11:29), (8:34), 
+  Process 139 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:12), (22:15), (30:21), (29:22), 
+  Process 140 is under service, its reference page (virtual_page:physical_page) is: (0:3), (12:10), (13:14), (9:25), (10:26), (11:32), 
+  Process 141 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (8:23), (10:28), (16:33), 
+
+= Memory Map: =
+138 131 134 140 134 139 131 141 138 138 140 138 139 138 140 139 134 131 141 131 138 139 139 141 138 140 140 131 141 138 131 131 140 141 138 . 131 131 . . 131 138 . . . . . . 134 . . . 134 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:57 - Process Name: 142 - Enter - Size in Pages: 31 - Service Duration: 4 = 
+= Time Stamp 0:57 - Process Name: 143 - Enter - Size in Pages: 5 - Service Duration: 4 = 
+= Time Stamp 0:57 - Process Name: 144 - Enter - Size in Pages: 17 - Service Duration: 4 = 
+
+= Time Stamp 0:57
+  Process 131's virtual page 0 will be evicted if needed.
+  Process 131 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:17), (2:19), (6:27), (7:30), (8:31), (10:37), (9:1), (5:36), (4:40), 
+  Process 134 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:16), (4:48), (2:52), (3:2), 
+  Process 138 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:9), (4:13), (3:20), (2:24), (14:41), (16:8), (15:11), (11:29), (8:34), (9:35), (7:64), 
+  Process 139 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:12), (22:15), (30:21), (29:22), (28:44), (5:55), (4:59), (8:63), 
+  Process 140 is under service, its reference page (virtual_page:physical_page) is: (0:3), (12:10), (13:14), (9:25), (10:26), (11:32), (1:57), (2:60), 
+  Process 141 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (8:23), (10:28), (16:33), (13:38), (14:47), (12:53), 
+  Process 142 is under service, its reference page (virtual_page:physical_page) is: (0:39), (1:45), (8:49), (2:58), 
+  Process 143 is under service, its reference page (virtual_page:physical_page) is: (0:42), (1:50), (2:61), 
+  Process 144 is under service, its reference page (virtual_page:physical_page) is: (0:43), (3:46), (4:51), (10:54), (9:56), (1:62), 
+
+= Memory Map: =
+138 131 134 140 134 139 131 141 138 138 140 138 139 138 140 139 134 131 141 131 138 139 139 141 138 140 140 131 141 138 131 131 140 141 138 138 131 131 141 142 131 138 143 144 139 142 144 141 134 142 143 144 134 141 144 139 144 140 142 139 140 143 144 139 138 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+= Time Stamp 0:58 - Process Name: 131 - Exit - Size in Pages: 11 - Service Duration: 5 = 
+
+= Time Stamp 0:58 - Process Name: 145 - Enter - Size in Pages: 17 - Service Duration: 1 = 
+= Time Stamp 0:58 - Process Name: 146 - Enter - Size in Pages: 11 - Service Duration: 3 = 
+= Time Stamp 0:58 - Process Name: 147 - Enter - Size in Pages: 31 - Service Duration: 2 = 
+= Time Stamp 0:58 - Process Name: 148 - Enter - Size in Pages: 11 - Service Duration: 1 = 
+
+= Time Stamp 0:58
+  Process 134's virtual page 0 will be evicted if needed.
+  Process 134 is under service, its reference page (virtual_page:physical_page) is: (0:4), (1:16), (4:48), (2:52), (3:2), 
+  Process 138 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:9), (4:13), (3:20), (2:24), (14:41), (16:8), (15:11), (11:29), (8:34), (9:35), (7:64), (6:37), (5:89), 
+  Process 139 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:12), (22:15), (30:21), (29:22), (28:44), (5:55), (4:59), (8:63), (12:40), (15:92), (14:95), 
+  Process 140 is under service, its reference page (virtual_page:physical_page) is: (0:3), (12:10), (13:14), (9:25), (10:26), (11:32), (1:57), (2:60), (5:70), (15:75), (4:84), (6:96), 
+  Process 141 is under service, its reference page (virtual_page:physical_page) is: (0:7), (1:18), (8:23), (10:28), (16:33), (13:38), (14:47), (12:53), (2:78), (3:85), 
+  Process 142 is under service, its reference page (virtual_page:physical_page) is: (0:39), (1:45), (8:49), (2:58), (9:27), (5:71), (13:79), 
+  Process 143 is under service, its reference page (virtual_page:physical_page) is: (0:42), (1:50), (2:61), (4:65), (3:72), 
+  Process 144 is under service, its reference page (virtual_page:physical_page) is: (0:43), (3:46), (4:51), (10:54), (9:56), (1:62), (6:80), (2:86), 
+  Process 145 is under service, its reference page (virtual_page:physical_page) is: (0:1), (4:30), (5:66), (1:81), (2:90), 
+  Process 146 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:67), (2:82), (3:87), 
+  Process 147 is under service, its reference page (virtual_page:physical_page) is: (0:17), (26:31), (27:68), (28:73), (23:76), (22:83), (30:93), 
+  Process 148 is under service, its reference page (virtual_page:physical_page) is: (0:19), (1:36), (2:69), (3:74), (4:77), (10:88), (9:91), (8:94), 
+
+= Memory Map: =
+138 145 134 140 134 139 146 141 138 138 140 138 139 138 140 139 134 147 141 148 138 139 139 141 138 140 140 142 141 138 145 147 140 141 138 138 148 138 141 142 139 138 143 144 139 142 144 141 134 142 143 144 134 141 144 139 144 140 142 139 140 143 144 139 138 143 145 146 147 148 140 142 143 147 148 140 147 148 141 142 144 145 146 147 140 141 144 146 148 138 145 148 139 147 148 139 140 . . . 
+= Time Stamp 0:59 - Process Name: 134 - Exit - Size in Pages: 5 - Service Duration: 5 = 
+
+= Time Stamp 0:59 - Process Name: 138 - Exit - Size in Pages: 17 - Service Duration: 4 = 
+
+= Time Stamp 0:59 - Process Name: 140 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:59 - Process Name: 141 - Exit - Size in Pages: 17 - Service Duration: 3 = 
+
+= Time Stamp 0:59 - Process Name: 145 - Exit - Size in Pages: 17 - Service Duration: 1 = 
+
+= Time Stamp 0:59 - Process Name: 148 - Exit - Size in Pages: 11 - Service Duration: 1 = 
+
+= Time Stamp 0:59 - Process Name: 149 - Enter - Size in Pages: 5 - Service Duration: 5 = 
+= Time Stamp 0:59 - Process Name: 150 - Enter - Size in Pages: 31 - Service Duration: 5 = 
+
+= Time Stamp 0:59
+  Process 139's virtual page 0 will be evicted if needed.
+  Process 139 is under service, its reference page (virtual_page:physical_page) is: (0:5), (2:12), (22:15), (30:21), (29:22), (28:44), (5:55), (4:59), (8:63), (12:40), (15:92), (14:95), (1:11), 
+  Process 142 is under service, its reference page (virtual_page:physical_page) is: (0:39), (1:45), (8:49), (2:58), (9:27), (5:71), (13:79), (27:8), (30:19), (25:23), (26:26), (11:35), (12:41), 
+  Process 143 is under service, its reference page (virtual_page:physical_page) is: (0:42), (1:50), (2:61), (4:65), (3:72), 
+  Process 144 is under service, its reference page (virtual_page:physical_page) is: (0:43), (3:46), (4:51), (10:54), (9:56), (1:62), (6:80), (2:86), (14:2), (15:13), (8:20), (7:36), 
+  Process 146 is under service, its reference page (virtual_page:physical_page) is: (0:6), (1:67), (2:82), (3:87), (5:24), (9:28), (10:32), (7:47), 
+  Process 147 is under service, its reference page (virtual_page:physical_page) is: (0:17), (26:31), (27:68), (28:73), (23:76), (22:83), (30:93), (29:3), (1:14), (4:29), (12:33), (13:37), 
+  Process 149 is under service, its reference page (virtual_page:physical_page) is: (0:0), (1:4), (3:9), (4:16), 
+  Process 150 is under service, its reference page (virtual_page:physical_page) is: (0:1), (20:7), (7:10), (26:18), (17:25), (16:30), (15:34), (11:38), (10:48), 
+
+= Memory Map: =
+149 150 144 147 149 139 146 150 142 149 150 139 139 144 147 139 149 147 150 142 144 139 139 142 146 150 142 142 146 147 150 147 146 147 150 142 144 147 150 142 139 142 143 144 139 142 144 146 150 142 143 144 . . 144 139 144 . 142 139 . 143 144 139 . 143 . 146 147 . . 142 143 147 . . 147 . . 142 144 . 146 147 . . 144 146 . . . . 139 147 . 139 . . . . 
+
+page hit:3252, pge miss/relacement: 1248, page hit ratio: 0.722667
+Program ended with exit code: 0

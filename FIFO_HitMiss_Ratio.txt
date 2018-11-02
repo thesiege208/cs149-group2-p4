@@ -1,0 +1,11 @@
+FIFO PAGE REPLACEMENT 
+
+5 SIMULATION:
+
+1. page hit:3252, pge miss/relacement: 1248, page hit ratio: 0.722667
+2. page hit:2940, pge miss/relacement: 1170, page hit ratio: 0.715328
+3. page hit:3071, pge miss/relacement: 1229, page hit ratio: 0.714186
+4. page hit:3226, pge miss/relacement: 1284, page hit ratio: 0.715299
+5. page hit:3412, pge miss/relacement: 1238, page hit ratio: 0.733763
+
+THE AVERAGE OF RATIO = 0.7202485
