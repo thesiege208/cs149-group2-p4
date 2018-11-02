@@ -27,7 +27,7 @@ typedef struct Prcoess {
     int missingCount;
 } process;
 
-int TotalTime = 60000;
+int TotalTime = 60;
 int CurrentTime = 0;
 list <page> memoryFreePage;
 list <process> JobList;
@@ -68,7 +68,7 @@ bool sortArrTime(const process &m1, const process &m2) {
 }
 
 void initVariable() {
-     TotalTime = 60000;
+     TotalTime = 60;
      CurrentTime = 0;
      JobList.clear();
      DoneJob.clear();
@@ -132,7 +132,7 @@ void AssignPage(process *prc, int number) {
     prc->pageList[number] = *pag;
 
     ofile.open("run.txt", ios::app);
-    ofile << setfill('0') << setw(2) << CurrentTime / 1000
+    ofile << setfill('0') << setw(2) << CurrentTime
           << "s: Process " << prc->name << " referenced page " << number
           << ". Page not in memory.\n";
     ofile << "--------------------------------------------\n";
@@ -145,12 +145,16 @@ int locality(int i, int totalPages) {
     int delta, j = 0;
     int r = rand() % 10;
     if (r < 7) {
-        delta = rand() % 3 - 1;
+      int r2=rand()%2;
+         if (r2==0){
+            return totalPages-1;
+       }else{
+            return totalPages+1;
+         }
     } else {
-        delta = rand() % (totalPages - 2) + 2;
+        int r3=rand()%9;
+        return r3+totalPages;
     }
-    j = (i + delta) % totalPages;
-    return j;
 
 }
 
@@ -178,7 +182,7 @@ void RandomRepalce(process *prc, int pageNumber) {
     prc->pageList[pageNumber] = *pag;
 
     ofile.open("run.txt", ios::app);
-    ofile << setfill('0') << setw(2) << CurrentTime / 1000
+    ofile << setfill('0') << setw(2) << CurrentTime
           << "s: Process " << prc->name << " referenced page " << pageNumber
           << ". Page not in memory. Process " << prc->pageList[pageNumber].pageNumber << ", page "
           << oldKey << " evicted.\n";
@@ -195,7 +199,7 @@ static void *Run(void *arg) {
         int currentReferenceNumber = 0;
         process job = JobList.front();
         ofile.open("run.txt", ios::app);
-        ofile << setfill('0') << setw(2) << CurrentTime / 1000
+        ofile << setfill('0') << setw(2) << CurrentTime
               << "s: Process " << job.name << " referenced page "
               << currentReferenceNumber << ". Page not in memory.\n " << endl;
         ofile << "--------------------------------------------\n";
@@ -204,8 +208,8 @@ static void *Run(void *arg) {
 
         if (memoryFreePage.size() > 4) {
             AssignPage(&job, currentReferenceNumber);
-            auto CurrentTime = 100;
-            usleep(100);
+            auto CurrentTime = 1;
+            sleep(1);
         }
         auto localTime = CurrentTime;
 
@@ -214,7 +218,7 @@ static void *Run(void *arg) {
             if (job.pageList[nextReferenceNumber].bindProcessName != "") {
 
                 ofile.open("run.txt", ios::app);
-                ofile << setfill('0') << setw(2) << CurrentTime / 1000
+                ofile << setfill('0') << setw(2) << CurrentTime
                       << "s: Process " << job.name << " referenced page "
                       << nextReferenceNumber << ". Page in memory. No page evicted.\n"
                       << endl;
@@ -230,8 +234,8 @@ static void *Run(void *arg) {
                 }
             }
 
-            CurrentTime += 100;
-            usleep(10000);
+            CurrentTime += 1;
+            sleep(1);
         }
 
         map<int, page>::iterator it;
@@ -251,7 +255,7 @@ static void *Run(void *arg) {
 
 
         ofile.open("run.txt", ios::app);
-        ofile << setfill('0') << setw(2) << CurrentTime / 1000
+        ofile << setfill('0') << setw(2) << CurrentTime
               << "s: Process " << job.name << " completed. Total size "
               << job.size << "MB. Duration " << job.serviceTime << "s.\n";
         ofile << "--------------------------------------------\n";
